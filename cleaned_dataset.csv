@@ -1,0 +1,731 @@
+Order_ID,Order_Priority,Order_Quantity,Sales,Profit,Region,Product_Category,Product_Name,result
+643,High,21,2781.82,695.26,Nunavut,Office Supplies,"SAFCO Commercial Wire Shelving, Black",0
+8995,High,35,3389.93,737.94,Northwest Territories,Furniture,Luxo Professional Combination Clamp-On Lamps,1
+9127,Not Specified,7,2039.56,329.49,Northwest Territories,Office Supplies,"Tennsco Snap-Together Open Shelving Units, Starter Sets and Add-On Units",0
+26272,Low,6,905.94,4.19,Northwest Territories,Furniture,Hon Olson Stacker Stools,0
+36646,Medium,24,1168.15,743.96,Northwest Territories,Office Supplies,Tennsco Industrial Shelving,0
+41696,Not Specified,45,237.28,2088.68,Northwest Territories,Office Supplies,Hoover Portapower™ Portable Vacuum,0
+43267,Critical,17,1368.14,171.26,Northwest Territories,Office Supplies,Honeywell Enviracaire® Portable Air Cleaner for up to 8 x 10 Room,0
+29319,Low,21,4429.69,983.55,Atlantic,Technology,Canon PC-428 Personal Copier,1
+5988,Not Specified,40,19109.61,379.29,West,Technology,Sharp AL-1530CS Digital Copier,0
+51073,Not Specified,17,2475.08,958.8,West,Furniture,"3M Polarizing Task Lamp with Clamp Arm, Light Gray",1
+29185,High,48,446.53,261.45,West,Furniture,Westinghouse Clip-On Gooseneck Lamps,0
+32582,Not Specified,27,2780.88,595.38,West,Furniture,Deflect-o DuraMat Antistatic Studded Beveled Mat for Medium Pile Carpeting,1
+39332,Critical,4,198.72,34.43,West,Furniture,Dana Halogen Swing-Arm Architect Lamp,0
+49088,Critical,15,4012.58,425.14,Atlantic,Office Supplies,"Tennsco Snap-Together Open Shelving Units, Starter Sets and Add-On Units",0
+29318,Not Specified,21,2954.14,522.94,Ontario,Office Supplies,"SAFCO Commercial Wire Shelving, Black",0
+50533,Not Specified,32,1974.66,929.68,Ontario,Office Supplies,Space Solutions Commercial Steel Shelving,0
+21383,Low,31,16066.85,7416.43,Northwest Territories,Technology,Polycom ViaVideo™ Desktop Video Communications Unit,1
+48197,Not Specified,32,1282.49,154.74,West,Furniture,Dana Halogen Swing-Arm Architect Lamp,0
+25031,High,24,4636.62,318.45,West,Furniture,Hon 2111 Invitation™ Series Corner Table,0
+38758,Not Specified,7,497.2,219.61,West,Office Supplies,Euro Pro Shark Stick Mini Vacuum,0
+41895,Critical,8,27663.92,391.92,West,Technology,Canon imageCLASS 2200 Advanced Copier,0
+53894,Critical,37,2756.17,1561.72,Atlantic,Furniture,"Lesro Sheffield Collection Coffee Table, End Table, Center Table, Corner Table",0
+11969,Not Specified,16,1684.96,553.06,Atlantic,Office Supplies,"Carina Mini System Audio Rack, Model AR050B",0
+22368,Medium,34,2788.04,849.18,Atlantic,Office Supplies,"Carina 42""Hx23 3/4""W Media Storage Unit",0
+4612,Medium,9,89.55,375.64,Nunavut,Office Supplies,Hoover Portapower™ Portable Vacuum,0
+7110,Low,22,6396.2,1902.24,Nunavut,Furniture,SAFCO Arco Folding Chair,1
+9927,High,44,10087.6,3387.35,Northwest Territories,Furniture,"Lifetime Advantage™ Folding Chairs, 4/Carton",1
+11456,Low,15,1519.9,399.37,Northwest Territories,Furniture,Deflect-o DuraMat Antistatic Studded Beveled Mat for Medium Pile Carpeting,1
+24743,Low,26,3758.77,753.61,Northwest Territories,Furniture,Hon Olson Stacker Stools,1
+30658,Medium,35,17387.65,6907.61,Northwest Territories,Technology,Sharp AL-1530CS Digital Copier,1
+30658,Medium,44,6040.22,942.5,Northwest Territories,Office Supplies,"SAFCO Commercial Wire Shelving, Black",0
+31393,Critical,4,97.57,27.31,Northwest Territories,Furniture,Luxo Economy Swing Arm Lamp,0
+34631,Not Specified,19,12616.2,2808.22,Northwest Territories,Technology,Canon PC1060 Personal Laser Copier,1
+39683,High,41,8387.1,2113.95,Northwest Territories,Furniture,"Lifetime Advantage™ Folding Chairs, 4/Carton",1
+42209,High,31,8901.78,2795.36,Northwest Territories,Furniture,SAFCO Arco Folding Chair,1
+52964,Critical,44,5735.79,828.27,Northwest Territories,Furniture,"3M Polarizing Task Lamp with Clamp Arm, Light Gray",1
+4007,High,1,305.82,232.24,Atlantic,Office Supplies,"Tennsco Snap-Together Open Shelving Units, Starter Sets and Add-On Units",0
+11362,Low,9,6420.87,690.21,Atlantic,Technology,Canon PC1060 Personal Laser Copier,0
+18788,Not Specified,27,566.12,19.33,Atlantic,Furniture,Telescoping Adjustable Floor Lamp,0
+20033,Critical,5,2543.95,1011.32,Atlantic,Technology,Sharp AL-1530CS Digital Copier,0
+22469,High,24,1482.81,678.63,Atlantic,Office Supplies,Euro Pro Shark Stick Mini Vacuum,0
+22469,High,23,6693.28,40.32,Atlantic,Furniture,Hon 5100 Series Wood Tables,0
+30243,Critical,21,4242.76,340.88,Atlantic,Technology,Canon PC-428 Personal Copier,1
+32199,High,1,3672.89,3061.82,Atlantic,Technology,Canon imageCLASS 2200 Advanced Copier,0
+33763,Not Specified,23,10791.38,234.79,Atlantic,Technology,Sharp AL-1530CS Digital Copier,0
+36677,Low,38,23255.61,734.33,Atlantic,Technology,Canon Image Class D660 Copier,0
+38310,High,4,62.45,141.76,Atlantic,Office Supplies,Hoover® Commercial Lightweight Upright Vacuum,0
+47846,High,5,66.43,9.45,Atlantic,Furniture,Dana Swing-Arm Lamps,0
+50404,High,10,1961.68,367.0,Prarie,Furniture,"Lesro Round Back Collection Coffee Table, End Table",0
+51461,Not Specified,43,858.53,97.54,Prarie,Furniture,Telescoping Adjustable Floor Lamp,0
+54501,Critical,38,783.96,1195.29,Prarie,Office Supplies,Tennsco Commercial Shelving,0
+55138,High,22,1132.54,628.38,Prarie,Office Supplies,Tennsco Industrial Shelving,0
+44320,Medium,49,7002.08,1640.51,West,Furniture,Laminate Occasional Tables,0
+1925,Critical,7,1874.37,67.84,West,Furniture,SAFCO Arco Folding Chair,0
+24070,High,3,431.29,164.59,West,Furniture,Hon Olson Stacker Stools,0
+52035,High,29,20872.16,4437.91,West,Technology,Canon PC1060 Personal Laser Copier,0
+4261,Critical,32,9235.97,2848.17,West,Office Supplies,Honeywell Enviracaire Portable HEPA Air Cleaner for 17' x 22' Room,1
+8992,High,3,441.43,154.45,West,Furniture,Hon Olson Stacker Stools,0
+20961,Not Specified,34,6607.92,1462.72,West,Technology,Canon PC-428 Personal Copier,1
+47750,Low,1,195.04,149.41,Atlantic,Office Supplies,Office Impressions Heavy Duty Welded Shelving & Multimedia Storage Drawers,0
+48230,Not Specified,31,2645.8,684.78,Prarie,Office Supplies,"Carina 42""Hx23 3/4""W Media Storage Unit",0
+36449,Not Specified,6,90.75,26.39,Ontario,Furniture,"Tensor ""Hersey Kiss"" Styled Floor Lamp",0
+53152,Medium,9,196.41,27.91,Ontario,Furniture,Telescoping Adjustable Floor Lamp,0
+15907,High,36,3722.29,950.68,Northwest Territories,Furniture,"Tenex 46"" x 60"" Computer Anti-Static Chairmat, Rectangular Shaped",1
+49952,High,12,1323.67,630.28,Northwest Territories,Furniture,"Tenex Contemporary Contur Chairmats for Low and Medium Pile Carpet, Computer, 39"" x 49""",1
+5153,Critical,37,4896.93,1467.82,Atlantic,Furniture,SAFCO Folding Chair Trolley,1
+25315,Low,36,7783.36,3506.24,Atlantic,Office Supplies,Holmes Harmony HEPA Air Purifier for 17 x 20 Room,1
+31941,Medium,32,2564.45,650.73,West,Office Supplies,Honeywell Quietcare HEPA Air Cleaner,1
+2848,Critical,35,1476.39,303.62,West,Furniture,Eldon Advantage® Chair Mats for Low to Medium Pile Carpets,0
+8801,Low,32,2593.08,673.31,West,Furniture,Eldon Cleatmat Plus™ Chair Mats for High Pile Carpets,0
+18432,High,15,217.66,24.91,Atlantic,Office Supplies,Holmes Odor Grabber,0
+49441,Medium,49,1981.26,100.8,Prarie,Furniture,"Deflect-o EconoMat Studded, No Bevel Mat for Low Pile Carpeting",1
+16165,Not Specified,24,1452.48,376.52,Prarie,Furniture,Deflect-o Glass Clear Studded Chair Mats,1
+515,Not Specified,19,394.27,30.94,Nunavut,Office Supplies,Holmes HEPA Air Purifier,0
+7906,Medium,37,1003.06,271.78,Nunavut,Office Supplies,3M Office Air Cleaner,1
+50754,Not Specified,9,64.0305,58.34,Northwest Territories,Technology,Bell Sonecor JB700 Caller ID,0
+21223,Not Specified,8,435.29,122.41,Atlantic,Furniture,"Deflect-o EconoMat Nonstudded, No Bevel Mat",0
+53508,High,25,342.85,32.42,Prarie,Technology,Sharp EL500L Fraction Calculator,0
+15621,Critical,39,1105.66,136.2,West,Office Supplies,Eldon Portable Mobile Manager,0
+22980,Not Specified,17,224.09,27.92,West,Office Supplies,Eldon Simplefile® Box Office®,0
+59584,Medium,7,1120.27,16.81,West,Technology,Canon MP41DH Printing Calculator,0
+47108,Not Specified,7,131.55,43.74,Atlantic,Technology,Canon P1-DHIII Palm Printing Calculator,0
+51494,Critical,42,493.56,12.73,Atlantic,Technology,TI 30X Scientific Calculator,0
+6116,Medium,6,9620.82,1759.58,Nunavut,Office Supplies,High Speed Automatic Electric Letter Opener,0
+12289,Low,25,3019.41,1269.05,Northwest Territories,Technology,Canon BP1200DH 12-Digit Bubble Jet Printing Calculator,1
+12419,Critical,12,22079.47,5322.14,Northwest Territories,Technology,Polycom ViewStation™ Adapter H323 Videoconferencing Unit,1
+18144,Critical,8,234.28,65.42,Northwest Territories,Office Supplies,Eldon Portable Mobile Manager,0
+19686,Medium,2,42.31,53.08,Northwest Territories,Technology,Canon P1-DHIII Palm Printing Calculator,0
+22469,High,44,275.91,162.37,Northwest Territories,Technology,Bell Sonecor JB700 Caller ID,0
+27392,Low,37,5753.85,2509.52,Northwest Territories,Technology,Canon MP41DH Printing Calculator,1
+27553,Medium,16,2631.107,297.11,Northwest Territories,Technology,VTech VT20-2481 2.4GHz Two-Line Phone System w/Answering Machine,1
+28135,Critical,37,1601.24,520.69,Northwest Territories,Office Supplies,Bionaire Personal Warm Mist Humidifier/Vaporizer,1
+32229,High,8,1219.19,44.37,Northwest Territories,Technology,Canon MP41DH Printing Calculator,0
+37860,Medium,1,104.85,98.31,Northwest Territories,Furniture,Eldon Cleatmat® Chair Mats for Medium Pile Carpets,0
+39364,High,29,2754.93,1.33,Northwest Territories,Furniture,"Deflect-o RollaMat Studded, Beveled Mat for Medium Pile Carpeting",0
+43236,Not Specified,20,205.33,10.68,Northwest Territories,Furniture,DAX Solid Wood Frames,0
+54274,Not Specified,20,1583.06,328.0,Northwest Territories,Office Supplies,Honeywell Quietcare HEPA Air Cleaner,1
+57344,High,47,1060.0605,71.03,Northwest Territories,Technology,SouthWestern Bell FA970 Digital Answering Machine with Time/Day Stamp,0
+11362,Low,32,3245.73,569.57,Atlantic,Furniture,"Rubbermaid ClusterMat Chairmats, Mat Size- 66"" x 60"", Lip 20"" x 11"" -90 Degree Angle",1
+13604,Not Specified,42,3609.88,1396.22,Atlantic,Furniture,Eldon ClusterMat Chair Mat with Cordless Antistatic Protection,0
+19617,Low,38,952.47,270.69,Atlantic,Technology,TI 36X Solar Scientific Calculator,1
+32869,Medium,49,2470.84,25.04,Atlantic,Furniture,"Deflect-o EconoMat Nonstudded, No Bevel Mat",0
+35300,Medium,35,1445.6,126.03,Atlantic,Furniture,"Deflect-o EconoMat Studded, No Bevel Mat for Low Pile Carpeting",0
+42918,High,46,410.43,54.58,Atlantic,Technology,"Sharp EL501VB Scientific Calculator, Battery Operated, 10-Digit Display, Hard Case",0
+47846,High,25,2674.18,631.99,Atlantic,Furniture,"Rubbermaid ClusterMat Chairmats, Mat Size- 66"" x 60"", Lip 20"" x 11"" -90 Degree Angle",1
+47846,High,50,5513.82,1581.93,Atlantic,Furniture,"Tenex 46"" x 60"" Computer Anti-Static Chairmat, Rectangular Shaped",1
+54501,Critical,16,225.46,33.03,Prarie,Technology,Sharp EL500L Fraction Calculator,0
+11782,Low,27,1541.781,14.35,West,Technology,"Panasonic All Digital Answering System with Caller ID*, KX-TM150B",0
+24576,Not Specified,29,531.063,24.56,West,Technology,1726 Digital Answering Machine,0
+37281,Medium,25,453.2455,3.31,West,Technology,1726 Digital Answering Machine,0
+49761,Not Specified,45,1090.6,300.91,West,Technology,TI 36X Solar Scientific Calculator,1
+19044,Low,32,4800.44,1912.92,West,Technology,Canon MP41DH Printing Calculator,1
+38690,Low,28,697.5,169.89,West,Technology,TI 36X Solar Scientific Calculator,0
+50338,Not Specified,36,551.44,28.7,Atlantic,Technology,Sharp EL500L Fraction Calculator,0
+14406,Medium,37,5610.84,2366.51,Atlantic,Technology,Canon MP41DH Printing Calculator,1
+27396,Critical,14,138.31,31.16,West,Furniture,DAX Solid Wood Frames,0
+41059,Medium,45,12571.63,5455.96,Ontario,Technology,Polycom VoiceStation 100,1
+47174,Critical,42,642.1,41.56,Ontario,Technology,Sharp EL500L Fraction Calculator,0
+57153,Critical,9,106.05,14.52,Ontario,Office Supplies,"Holmes Replacement Filter for HEPA Air Cleaner, Medium Room",0
+59878,High,6,112.4,46.75,Ontario,Technology,Canon P1-DHIII Palm Printing Calculator,0
+1218,Not Specified,3,46.46,25.13,Ontario,Office Supplies,Holmes Odor Grabber,0
+13410,Not Specified,29,701.94,158.91,Ontario,Technology,TI 36X Solar Scientific Calculator,0
+15808,Critical,3,58.14,96.25,Ontario,Technology,1726 Digital Answering Machine,0
+56101,Not Specified,1,21.45,7.22,Ontario,Office Supplies,Holmes Odor Grabber,0
+1412,Not Specified,13,59.03,26.92,Nunavut,Office Supplies,Avery 52,0
+4676,High,3,49.59,8.38,Nunavut,Office Supplies,Xerox 1881,0
+6182,Low,18,130.32,67.28,Nunavut,Office Supplies,Xerox 213,0
+6916,Low,40,436.17,141.27,Nunavut,Office Supplies,Crate-A-Files™,0
+8419,Critical,19,368.04,70.39,Nunavut,Office Supplies,Xerox 1936,0
+8995,High,5,24.16,8.05,Nunavut,Office Supplies,Staples® General Use 3-Ring Binders,0
+8995,High,41,270.84,78.02,Northwest Territories,Office Supplies,Xerox 1904,0
+9509,Not Specified,5,101.21,2.13,Northwest Territories,Office Supplies,Xerox 1887,0
+9927,High,34,1608.08,82.16,Northwest Territories,Technology,Microsoft Natural Multimedia Keyboard,0
+13795,Not Specified,23,275.16,43.35,Northwest Territories,Office Supplies,Xerox 188,0
+16706,High,49,6175.777,1881.58,Northwest Territories,Technology,T39m,1
+19138,Low,30,387.0,31.45,Northwest Territories,Office Supplies,Recycled Eldon Regeneration Jumbo File,0
+22501,High,2,30.83,7.27,Northwest Territories,Office Supplies,"#10- 4 1/8"" x 9 1/2"" Security-Tint Envelopes",0
+25318,Critical,22,440.92,65.18,Northwest Territories,Furniture,12-1/2 Diameter Round Wall Clock,0
+25634,Not Specified,26,626.07,185.32,Northwest Territories,Office Supplies,"Recycled Interoffice Envelopes with String and Button Closure, 10 x 13",0
+26370,Not Specified,20,660.27,63.83,Northwest Territories,Office Supplies,Home/Office Personal File Carts,0
+31492,Critical,34,971.95,21.1,Northwest Territories,Office Supplies,Acco Perma® 2700 Stacking Storage Drawers,0
+31684,Critical,28,456.91,328.18,Northwest Territories,Office Supplies,"Tenex File Box, Personal Filing Tote with Lid, Black",0
+32193,Low,4,40.72,10.25,Northwest Territories,Office Supplies,HP Office Paper (20Lb. and 87 Bright),0
+33703,Not Specified,4,63.52,8.47,Northwest Territories,Office Supplies,Portable Personal File Box,0
+33894,Critical,13,438.93,119.02,Northwest Territories,Technology,PC Concepts 116 Key Quantum 3000 Keyboard,0
+37541,Medium,10,550.61,98.32,Northwest Territories,Office Supplies,Xerox 1882,0
+42561,Low,15,1062.959,298.48,Northwest Territories,Technology,Accessory12,0
+43781,Not Specified,21,917.39,393.41,Northwest Territories,Office Supplies,"Avery Trapezoid Ring Binder, 3"" Capacity, Black, 1040 sheets",0
+44839,Critical,27,899.97,246.3,Northwest Territories,Furniture,"Linden® 12"" Wall Clock With Oak Frame",0
+52193,Not Specified,1,17.89,10.51,Northwest Territories,Office Supplies,Avery 492,0
+52929,High,43,701.46,90.14,Northwest Territories,Technology,"AT&T Black Trimline Phone, Model 210",0
+55715,Critical,28,168.57,16.65,Northwest Territories,Office Supplies,"Wilson Jones 1"" Hanging DublLock® Ring Binders",0
+57509,Low,39,199.39,101.13,Northwest Territories,Office Supplies,Avery 493,0
+58368,High,5,325.43,76.11,Atlantic,Office Supplies,Fellowes Bankers Box™ Staxonsteel® Drawer File/Stacking System,0
+59395,Critical,20,963.3,367.12,Atlantic,Office Supplies,Xerox 1885,0
+11269,Low,39,2083.0525,354.96,Atlantic,Technology,i1000,1
+13927,Low,26,188.05,21.41,Atlantic,Office Supplies,Xerox 1985,0
+15463,Low,48,293.3,193.48,Atlantic,Office Supplies,Xerox 1920,0
+22656,Not Specified,10,309.3,77.89,Atlantic,Technology,Belkin ErgoBoard™ Keyboard,0
+24038,High,15,896.1805,82.04,Atlantic,Technology,8860,0
+24067,High,46,2640.6865,751.38,Atlantic,Technology,252,1
+24965,Low,6,2528.49,580.15,Atlantic,Office Supplies,GBC DocuBind 200 Manual Binding Machine,1
+29382,High,34,684.66,35.09,Atlantic,Furniture,12-1/2 Diameter Round Wall Clock,0
+36293,Medium,25,165.36,94.79,Atlantic,Office Supplies,Xerox 220,0
+40480,Critical,19,7608.88,3049.45,Atlantic,Office Supplies,GBC DocuBind 200 Manual Binding Machine,1
+48067,Low,31,3229.66,695.06,Atlantic,Technology,270c,1
+48067,Low,24,4010.9375,630.7,Atlantic,Technology,T28 WORLD,1
+49029,High,49,8223.07,2549.4,Atlantic,Technology,CF 888,1
+49216,High,29,374.67,30.63,Prarie,Office Supplies,Staples Premium Bright 1-Part Blank Computer Paper,0
+52482,Critical,21,848.2,163.78,Prarie,Office Supplies,Belkin 8 Outlet Surge Protector,0
+5318,High,29,5010.7415,1196.37,West,Technology,2160i,1
+9123,Critical,27,384.9,108.28,West,Office Supplies,Project Tote Personal File,0
+11553,Medium,28,1350.34,517.17,West,Office Supplies,"Gould Plastics 9-Pocket Panel Bin, 18-3/8w x 5-1/4d x 20-1/2h, Black",0
+20448,Critical,23,104.82,6.84,West,Office Supplies,Colored Envelopes,0
+28802,High,36,336.25,25.95,West,Office Supplies,Southworth 25% Cotton Antique Laid Paper & Envelopes,0
+37315,Low,31,4726.595,1176.48,West,Technology,5165,1
+38565,Critical,20,234.09,11.69,West,Furniture,"Eldon Expressions Punched Metal & Wood Desk Accessories, Pewter & Cherry",0
+53863,High,46,7807.45,1660.15,West,Office Supplies,Fellowes Super Stor/Drawer® Files,1
+57959,Medium,48,1269.79,65.33,West,Technology,"Micro Innovations Micro 3000 Keyboard, Black",0
+928,Low,21,1222.68,300.97,West,Office Supplies,Belkin 8 Outlet SurgeMaster II Gold Surge Protector,0
+928,Low,26,390.2,45.0,West,Furniture,DAX Clear Channel Poster Frame,0
+5504,High,6,49.55,20.33,West,Office Supplies,HP Office Recycled Paper (20Lb. and 87 Bright),0
+14852,Medium,9,3800.4,1234.57,West,Office Supplies,GBC DocuBind 200 Manual Binding Machine,1
+26978,Medium,47,695.99,157.44,West,Office Supplies,Eldon Jumbo ProFile™ Portable File Boxes Graphite/Black,0
+32871,High,42,939.77,9.72,West,Technology,Microsoft Internet Keyboard,0
+39301,Medium,16,2232.66,521.09,West,Technology,Adesso Programmable 142-Key Keyboard,0
+50310,Medium,42,1811.3,520.41,West,Office Supplies,Belkin F9M820V08 8 Outlet Surge,1
+52737,Not Specified,14,125.54,15.74,West,Office Supplies,GBC VeloBinder Strips,0
+54560,Critical,45,2404.599,496.89,West,Technology,MicroTAC 650,1
+55777,Not Specified,1,65.7475,252.48,West,Technology,StarTAC 7760,0
+56001,Low,17,118.36,60.65,West,Office Supplies,Xerox 210,0
+2720,Critical,36,2051.016,483.97,West,Technology,StarTAC 7760,1
+4642,Critical,21,309.62,80.2,West,Office Supplies,Project Tote Personal File,0
+8801,Low,25,2529.396,371.21,West,Technology,270c,1
+11332,Low,23,1223.3795,83.57,West,Technology,i500plus,0
+17702,High,9,264.63,66.78,West,Technology,Belkin MediaBoard 104- Keyboard,0
+17831,Critical,38,260.41,45.75,West,Office Supplies,Xerox 1947,0
+20389,High,30,201.35,107.37,West,Office Supplies,Xerox 1920,0
+22657,High,36,9544.18,3392.88,West,Technology,Hayes Optima 56K V.90 Internal Voice Modem,1
+25635,Critical,14,633.08,145.48,West,Office Supplies,Belkin F9M820V08 8 Outlet Surge,0
+29185,High,5,217.85,25.31,West,Office Supplies,Xerox 1893,0
+29985,Critical,22,196.75,0.13,West,Furniture,Staples Plastic Wall Frames,0
+31872,Low,34,2833.19,1409.87,West,Office Supplies,Ames Color-File® Green Diamond Border X-ray Mailers,1
+32611,Medium,18,986.24,68.9,West,Technology,Nu-Form 106-Key Ergonomic Keyboard w/ Touchpad,0
+36803,Not Specified,2,19.02,10.73,West,Furniture,Eldon® Wave Desk Accessories,0
+36805,Medium,28,1546.3965,226.72,West,Technology,g520,1
+44451,Critical,4,103.9,19.26,Atlantic,Furniture,"Seth Thomas 12"" Clock w/ Goldtone Case",0
+45059,Not Specified,39,3401.8,508.87,Atlantic,Office Supplies,Fellowes Stor/Drawer® Steel Plus™ Storage Drawers,0
+45731,Critical,19,146.63,30.06,Atlantic,Office Supplies,Xerox 1894,0
+47108,Not Specified,26,258.11,9.95,Atlantic,Office Supplies,Xerox 1896,0
+47108,Not Specified,9,1288.515,382.57,Atlantic,Technology,2180,0
+50208,Medium,4,38.76,12.13,Atlantic,Office Supplies,Avery Hole Reinforcements,0
+51525,Critical,18,360.24,36.24,Atlantic,Technology,Belkin 105-Key Black Keyboard,0
+52933,Low,44,210.46,50.04,Atlantic,Office Supplies,Avery Non-Stick Binders,0
+53894,Critical,29,5159.3725,1252.48,Atlantic,Technology,5125,1
+56610,Medium,20,857.95,51.85,Atlantic,Technology,"Fellowes Mobile Numeric Keypad, Graphite",0
+3393,High,7,127.74,5.57,Atlantic,Technology,Logitech Access Keyboard,0
+7015,Not Specified,42,7143.927,2374.73,Atlantic,Technology,T65,1
+9925,Critical,43,1751.68,771.83,Atlantic,Office Supplies,"Avery Trapezoid Extra Heavy Duty 4"" Binders",1
+20455,Critical,7,381.1995,233.56,Atlantic,Technology,V 3600 Series,0
+38625,Not Specified,28,2752.0,336.47,West,Technology,US Robotics 56K V.92 External Faxmodem,1
+41217,High,23,1314.64,575.38,West,Office Supplies,"Eaton Premium Continuous-Feed Paper, 25% Cotton, Letter Size, White, 1000 Shts/Box",1
+41927,Not Specified,46,2332.23,1085.93,West,Office Supplies,Xerox 1885,1
+48230,Not Specified,39,1140.26,387.2,Prarie,Furniture,"Deflect-o SuperTray™ Unbreakable Stackable Tray, Letter, Black",1
+53600,Medium,8,55.59,17.95,Prarie,Office Supplies,Wilson Jones Impact Binders,0
+54150,Critical,12,2011.6355,53.69,Prarie,Technology,CF 888,0
+2147,Not Specified,15,605.1,92.81,Prarie,Office Supplies,Belkin 8 Outlet Surge Protector,0
+14503,Not Specified,14,438.47,157.89,Prarie,Office Supplies,Surelock™ Post Binders,0
+16165,Not Specified,4,136.68,125.16,Prarie,Technology,Fellowes 17-key keypad for PS/2 interface,0
+16165,Not Specified,19,3555.29,183.28,Prarie,Office Supplies,Fellowes Staxonsteel® Drawer Files,1
+24386,High,15,76.94,29.67,Prarie,Office Supplies,Avery 491,0
+26016,High,44,1642.642,314.84,Prarie,Technology,KF 788,1
+28130,Low,23,404.24,76.99,Ontario,Office Supplies,"GBC Pre-Punched Binding Paper, Plastic, White, 8-1/2"" x 11""",0
+28130,Low,32,1381.88,598.2,Ontario,Furniture,"Howard Miller 13"" Diameter Goldtone Round Wall Clock",1
+28290,Low,43,1307.35,154.24,Ontario,Technology,"Fellowes Internet Keyboard, Platinum",0
+28290,Low,3,523.58,179.36,Ontario,Office Supplies,Fellowes Super Stor/Drawer® Files,0
+31238,Medium,21,7512.03,2017.64,Ontario,Office Supplies,Hoover WindTunnel™ Plus Canister Vacuum,1
+41059,Medium,26,363.16,3.92,Ontario,Office Supplies,"GBC Laser Imprintable Binding System Covers, Desert Sand",0
+43424,Not Specified,34,772.56,143.87,Ontario,Office Supplies,Belkin F5C206VTEL 6 Outlet Surge,0
+46243,Low,31,614.35,78.89,Ontario,Office Supplies,Computer Printout Paper with Letter-Trim Perforations,0
+51361,Low,14,76.06,35.99,Ontario,Office Supplies,Xerox 199,0
+51780,Low,42,372.69,177.03,Ontario,Office Supplies,"Fellowes Twister Kit, Gray/Clear, 3/pkg",0
+59909,Low,46,411.56,188.02,Ontario,Office Supplies,Staples File Caddy,0
+15808,Critical,42,906.64,148.93,Ontario,Office Supplies,"Avery Flip-Chart Easel Binder, Black",0
+21091,High,32,270.73,54.57,Ontario,Office Supplies,GBC Instant Index™ System for Binding Systems,0
+28420,Low,2,45.64,0.11,Ontario,Office Supplies,Park Ridge™ Embossed Executive Business Envelopes,0
+33255,Critical,19,108.21,50.02,Ontario,Office Supplies,Xerox 4200 Series MultiUse Premium Copy Paper (20Lb. and 84 Bright),0
+35584,Medium,15,150.33,98.23,Ontario,Office Supplies,Filing/Storage Totes and Swivel Casters,0
+35908,Not Specified,45,529.28,30.27,Ontario,Office Supplies,Portable Personal File Box,0
+293,High,27,244.57,46.71,Nunavut,Office Supplies,"Cardinal Slant-D® Ring Binder, Heavy Gauge Vinyl",0
+1792,Low,28,370.48,5.45,Nunavut,Office Supplies,"Tenex Personal Project File with Scoop Front Design, Black",0
+6980,Not Specified,18,136.29,77.28,Nunavut,Office Supplies,"Angle-D Binders with Locking Rings, Label Holders",0
+8995,High,42,266.36,191.28,Northwest Territories,Office Supplies,Xerox 217,0
+10945,Medium,14,1170.025,4.22,Northwest Territories,Technology,600 Series Flip,0
+11911,Critical,25,397.84,14.75,Northwest Territories,Office Supplies,"GBC Twin Loop™ Wire Binding Elements, 9/16"" Spine, Black",0
+14726,Low,15,310.87,21.48,Northwest Territories,Technology,"Fellowes Basic 104-Key Keyboard, Platinum",0
+16932,Critical,25,144.84,120.99,Northwest Territories,Office Supplies,Xerox 1924,0
+21889,Low,21,1049.79,135.79,Northwest Territories,Furniture,"Howard Miller 13-3/4"" Diameter Brushed Chrome Round Wall Clock",0
+21889,Low,16,817.18,103.38,Northwest Territories,Office Supplies,Recycled Steel Personal File for Standard File Folders,0
+22532,Critical,13,121.66,11.8,Northwest Territories,Office Supplies,GBC Standard Plastic Binding Systems Combs,0
+27109,Critical,48,538.22,154.66,Northwest Territories,Technology,Micro Innovations 104 Keyboard,0
+28675,Critical,15,822.8425,4.39,Northwest Territories,Technology,252,0
+29287,High,50,281.39,106.4,Northwest Territories,Office Supplies,Binder Posts,0
+38884,High,47,256.0,119.84,Northwest Territories,Office Supplies,Xerox 4200 Series MultiUse Premium Copy Paper (20Lb. and 84 Bright),0
+40160,Critical,23,1404.22,202.87,Northwest Territories,Furniture,"Howard Miller 16"" Diameter Gallery Wall Clock",0
+45217,Not Specified,40,6789.9275,1864.66,Northwest Territories,Technology,2160i,1
+55363,High,14,2232.06,542.16,Northwest Territories,Office Supplies,"Dual Level, Single-Width Filing Carts",1
+57127,Low,13,735.54,171.82,Northwest Territories,Office Supplies,Xerox 194,0
+58055,Critical,26,208.6,56.45,Atlantic,Furniture,"Eldon® Expressions™ Wood Desk Accessories, Oak",0
+59202,Medium,7,83.81,21.92,Atlantic,Office Supplies,Avery 485,0
+59585,High,45,712.04,110.93,Atlantic,Technology,"AT&T Black Trimline Phone, Model 210",0
+645,High,42,557.85,89.45,Atlantic,Office Supplies,GBC Binding covers,0
+13120,Low,46,590.43,82.59,Atlantic,Office Supplies,GBC Binding covers,0
+13120,Low,8,216.33,17.37,Atlantic,Office Supplies,GBC Standard Therm-A-Bind Covers,0
+15618,Medium,9,50.93,34.98,Atlantic,Office Supplies,Xerox 1928,0
+15618,Medium,44,792.8,26.27,Atlantic,Office Supplies,Xerox 1939,0
+15618,Medium,14,782.4505,11.4,Atlantic,Technology,StarTAC 7760,0
+16419,Not Specified,43,241.19,103.65,Atlantic,Office Supplies,Xerox 1978,0
+30499,High,16,92.06,5.66,Atlantic,Office Supplies,Wausau Papers Astrobrights® Colored Envelopes,0
+34978,High,49,165.51,269.91,Atlantic,Office Supplies,Self-Adhesive Ring Binder Labels,0
+35558,Critical,2,34.88,22.12,Atlantic,Furniture,9-3/4 Diameter Round Wall Clock,0
+41570,Not Specified,24,2289.92,1037.55,Atlantic,Office Supplies,Xerox 1941,1
+46119,Critical,23,93.05,15.27,Atlantic,Office Supplies,Durable Pressboard Binders,0
+52130,Low,13,63.33,39.96,Prarie,Office Supplies,ACCOHIDE® Binder by Acco,0
+52130,Low,36,1436.55,4.01,Prarie,Furniture,Eldon Executive Woodline II Cherry Finish Desk Accessories,0
+53508,High,13,1072.22,149.64,Prarie,Technology,Logitech Cordless Navigator Duo,0
+450,Not Specified,35,543.72,211.13,West,Office Supplies,Hanging Personal Folder File,0
+1028,High,11,2021.147,60.39,West,Technology,3285,0
+2883,Low,34,2154.34,177.66,West,Office Supplies,Fellowes Bankers Box™ Staxonsteel® Drawer File/Stacking System,1
+5318,High,8,1042.25,195.16,West,Office Supplies,Kensington 7 Outlet MasterPiece® HOMEOFFICE Power Control Center,0
+6115,Medium,25,409.08,78.86,West,Furniture,"Seth Thomas 13 1/2"" Wall Clock",0
+9792,Low,14,84.09,73.14,West,Office Supplies,3M Organizer Strips,0
+14275,Low,20,42.22,7.73,West,Office Supplies,Economy Binders,0
+14535,Not Specified,22,245.96,33.82,West,Office Supplies,X-Rack™ File for Hanging Folders,0
+17926,Critical,37,608.33,70.04,West,Office Supplies,Eldon Jumbo ProFile™ Portable File Boxes Graphite/Black,0
+49634,Not Specified,45,132.31,10.91,West,Office Supplies,Avery Durable Binders,0
+53825,Low,36,1646.05,649.8,West,Office Supplies,Xerox 1885,1
+21509,High,13,47.93,15.82,West,Office Supplies,Avery 487,0
+52326,Low,41,152.28,154.81,West,Office Supplies,"Acco Pressboard Covers with Storage Hooks, 14 7/8"" x 11"", Dark Blue",0
+54947,Not Specified,42,1498.46,565.37,West,Furniture,Hand-Finished Solid Wood Document Frame,1
+4257,Medium,45,253.89,83.66,West,Office Supplies,Staples Brown Kraft Recycled Clasp Envelopes,0
+5698,Medium,15,297.05,16.89,West,Office Supplies,Kensington 6 Outlet Guardian Standard Surge Protector,0
+5698,Medium,7,108.26,25.51,West,Office Supplies,"#10 White Business Envelopes,4 1/8 x 9 1/2",0
+11301,Medium,29,1194.96,107.45,West,Technology,Microsoft Natural Keyboard Elite,0
+16161,Medium,49,2692.6895,768.32,West,Technology,6162i,1
+20038,Low,42,173.44,172.4,West,Furniture,Eldon Image Series Black Desk Accessories,0
+20422,High,5,15.38,1.61,West,Office Supplies,Avery 498,0
+24450,Critical,37,443.35,21.73,West,Office Supplies,Staples 6 Outlet Surge,0
+24450,Critical,4,30.85,12.88,West,Office Supplies,Xerox 1903,0
+25031,High,20,100.11,41.7,West,Office Supplies,Staples Copy Paper (20Lb. and 84 Bright),0
+25830,Low,5,25.34,21.29,West,Office Supplies,Eureka Disposable Bags for Sanitaire® Vibra Groomer I® Upright Vac,0
+25830,Low,11,178.57,37.39,West,Office Supplies,Recycled Premium Regency Composition Covers,0
+30147,Not Specified,37,740.14,29.73,West,Furniture,12-1/2 Diameter Round Wall Clock,0
+30310,Medium,21,2024.0285,4.9,West,Technology,StarTAC 6500,0
+35649,Medium,9,43.26,3.9,West,Office Supplies,Tuff Stuff™ Recycled Round Ring Binders,0
+35649,Medium,25,174.03,42.37,West,Office Supplies,Xerox 1994,0
+41412,Not Specified,47,263.81,237.54,West,Office Supplies,3M Organizer Strips,0
+42339,Critical,31,206.54,178.82,West,Office Supplies,Xerox 1993,0
+43111,High,27,4722.83,1749.78,West,Office Supplies,GBC DocuBind P100 Manual Binding Machine,1
+47520,Not Specified,36,277.88,64.41,Atlantic,Office Supplies,GBC VeloBinder Strips,0
+47520,Not Specified,47,925.3,257.31,Atlantic,Office Supplies,Xerox Blank Computer Paper,1
+49088,Critical,31,1295.54,214.23,Atlantic,Office Supplies,Xerox 1893,1
+49634,Not Specified,39,403.73,44.13,Atlantic,Office Supplies,Belkin 6 Outlet Metallic Surge Strip,0
+53025,Critical,32,195.57,132.93,Atlantic,Office Supplies,Xerox 1920,0
+54304,High,11,558.62,118.32,Atlantic,Office Supplies,Belkin Premiere Surge Master II 8-outlet surge protector,0
+56321,Critical,24,135.88,75.39,Atlantic,Office Supplies,Wilson Jones “Snap” Scratch Pad Binder Tool for Ring Binders,0
+57671,Not Specified,6,22.78,3.96,Atlantic,Office Supplies,Avery 510,0
+58978,Low,13,75.89,31.01,Atlantic,Office Supplies,Xerox 193,0
+5092,Low,25,978.77,220.91,Atlantic,Office Supplies,Xerox 1892,0
+8257,Low,18,881.32,373.67,Atlantic,Office Supplies,Xerox 1910,0
+9285,Critical,3,124.81,11.94,Atlantic,Office Supplies,"Avery Trapezoid Ring Binder, 3"" Capacity, Black, 1040 sheets",0
+20642,High,32,135.2,59.4,Atlantic,Office Supplies,Avery 506,0
+30467,Critical,5,2019.65,289.88,West,Office Supplies,GBC DocuBind 200 Manual Binding Machine,0
+33893,Not Specified,6,232.21,14.03,West,Office Supplies,Jet-Pak Recycled Peel 'N' Seal Padded Mailers,0
+38656,Low,13,64.46,25.16,West,Office Supplies,Avery 478,0
+44610,High,31,127.9,54.21,West,Office Supplies,Avery 506,0
+53667,Medium,33,112.36,159.74,Prarie,Office Supplies,Cardinal Poly Pocket Divider Pockets for Ring Binders,0
+53667,Medium,16,481.049,46.51,Prarie,Technology,Accessory35,0
+55429,High,43,260.59,157.76,Prarie,Office Supplies,Xerox 214,0
+3463,Critical,43,264.75,212.51,Prarie,Office Supplies,Xerox 212,0
+5538,Critical,43,1281.28,415.85,Prarie,Office Supplies,Binding Machine Supplies,1
+5538,Critical,4,430.848,492.77,Prarie,Technology,8290,0
+9155,Critical,17,518.8,54.63,Prarie,Office Supplies,GBC Linen Binding Covers,0
+12292,Not Specified,32,824.24,127.23,Prarie,Technology,"Micro Innovations Micro 3000 Keyboard, Black",0
+23713,Not Specified,38,3701.5205,894.06,Prarie,Technology,8890,1
+26016,High,2,154.94,358.43,Prarie,Technology,Micro Innovations Media Access Pro Keyboard,0
+32452,Medium,3,8.6,2.03,Ontario,Office Supplies,Avery 507,0
+33378,High,25,945.36,219.85,Ontario,Office Supplies,"Blue String-Tie & Button Interoffice Envelopes, 10 x 13",0
+38240,High,4,41.53,15.53,Ontario,Office Supplies,Avery Printable Repositionable Plastic Tabs,0
+38917,Low,11,618.1965,132.53,Ontario,Technology,6120,0
+50336,Not Specified,9,58.98,17.79,Ontario,Office Supplies,Avery Binding System Hidden Tab™ Executive Style Index Sets,0
+52071,Not Specified,14,136.85,4.43,Ontario,Office Supplies,GBC Standard Plastic Binding Systems Combs,0
+52071,Not Specified,1,12.74,11.39,Ontario,Furniture,Staples Plastic Wall Frames,0
+26759,Not Specified,30,251.11,10.04,Ontario,Office Supplies,XtraLife® ClearVue™ Slant-D® Ring Binders by Cardinal,0
+483,High,30,4965.7595,1198.97,Nunavut,Technology,R380,1
+613,High,12,93.54,54.04,Nunavut,Office Supplies,"Angle-D Binders with Locking Rings, Label Holders",0
+613,High,22,905.08,127.7,Nunavut,Office Supplies,"SAFCO Mobile Desk Side File, Wire Frame",0
+1344,Low,15,834.904,11.68,Nunavut,Technology,g520,0
+1344,Low,18,2480.9205,313.58,Nunavut,Technology,LX 788,1
+1539,Low,33,511.83,172.88,Nunavut,Office Supplies,"GBC Pre-Punched Binding Paper, Plastic, White, 8-1/2"" x 11""",0
+2532,High,39,282.07,140.01,Nunavut,Office Supplies,Self-Adhesive Address Labels for Typewriters by Universal,0
+2791,High,47,191.67,236.27,Nunavut,Office Supplies,Avery Binder Labels,0
+2791,High,18,507.64,118.94,Nunavut,Office Supplies,"IBM Multi-Purpose Copy Paper, 8 1/2 x 11"", Case",0
+3908,Medium,8,820.284,180.2,Nunavut,Technology,6160,0
+4132,Not Specified,5,14.76,1.32,Nunavut,Office Supplies,Avery 49,0
+5569,Not Specified,12,118.97,0.06,Nunavut,Furniture,"Eldon Expressions™ Desk Accessory, Wood Pencil Holder, Oak",0
+5894,High,7,384.33,87.68,Nunavut,Office Supplies,Avery Arch Ring Binders,0
+5894,High,3,239.03,68.22,Nunavut,Office Supplies,APC 7 Outlet Network SurgeArrest Surge Protector,0
+6182,Low,40,255.48,116.79,Nunavut,Office Supplies,Xerox 1966,0
+6982,Not Specified,41,844.09,52.56,Nunavut,Furniture,12-1/2 Diameter Round Wall Clock,0
+7430,Medium,50,751.77,353.2,Nunavut,Office Supplies,"#10 White Business Envelopes,4 1/8 x 9 1/2",1
+9126,Medium,47,2799.7,884.08,Northwest Territories,Office Supplies,"Acco Smartsocket™ Table Surge Protector, 6 Color-Coded Adapter Outlets",1
+9763,Medium,44,176.26,75.13,Northwest Territories,Office Supplies,Avery 506,0
+10437,Critical,50,820.52,191.22,Northwest Territories,Office Supplies,"GBC Pre-Punched Binding Paper, Plastic, White, 8-1/2"" x 11""",0
+10535,Low,25,854.88,44.14,Northwest Territories,Furniture,"Linden® 12"" Wall Clock With Oak Frame",0
+11202,Medium,8,339.81,79.59,Northwest Territories,Office Supplies,Satellite Sectional Post Binders,0
+11941,Critical,4,73.07,41.01,Northwest Territories,Office Supplies,Hanging Personal Folder File,0
+12352,Medium,5,36.86,32.82,Northwest Territories,Office Supplies,Fellowes Black Plastic Comb Bindings,0
+12544,Low,34,74.3,129.01,Northwest Territories,Furniture,Eldon® Wave Desk Accessories,0
+13346,Low,44,268.34,240.83,Northwest Territories,Office Supplies,Xerox 224,0
+16193,Not Specified,8,300.2,6.41,Northwest Territories,Office Supplies,"Multi-Use Personal File Cart and Caster Set, Three Stacking Bins",0
+16423,Medium,19,128.21,55.13,Northwest Territories,Office Supplies,Xerox 20,0
+16451,Not Specified,9,252.79,58.23,Northwest Territories,Office Supplies,Surelock™ Post Binders,0
+18144,Critical,48,207.08,131.82,Northwest Territories,Office Supplies,Xerox 1971,0
+18308,Not Specified,30,114.12,15.73,Northwest Territories,Office Supplies,Durable Pressboard Binders,0
+18308,Not Specified,15,436.05,92.58,Northwest Territories,Technology,Fellowes 17-key keypad for PS/2 interface,0
+18308,Not Specified,49,5247.4835,1465.87,Northwest Territories,Technology,StarTAC ST7762,1
+19078,Critical,21,256.12,18.19,Northwest Territories,Office Supplies,Staples 6 Outlet Surge,0
+19686,Medium,11,152.67,12.76,Northwest Territories,Office Supplies,GBC Binding covers,0
+22151,High,49,465.83,79.72,Northwest Territories,Furniture,"Eldon Expressions™ Desk Accessory, Wood Pencil Holder, Oak",0
+23264,Critical,16,108.42,50.82,Northwest Territories,Office Supplies,Xerox 1930,0
+23264,Critical,27,78.47,17.99,Northwest Territories,Office Supplies,Avery 474,0
+24128,High,43,6583.913,1459.79,Northwest Territories,Technology,CF 888,1
+25634,Not Specified,29,593.32,28.99,Northwest Territories,Technology,"Fellowes Basic 104-Key Keyboard, Platinum",0
+25767,High,15,593.73,108.01,Northwest Territories,Office Supplies,Xerox 1892,0
+26499,Medium,11,32.4,8.78,Northwest Territories,Office Supplies,Avery 507,0
+26531,Medium,26,4688.9485,1215.44,Northwest Territories,Technology,i470,1
+26567,Critical,8,50.7,44.07,Northwest Territories,Office Supplies,3M Organizer Strips,0
+26567,Critical,48,6109.817,1374.95,Northwest Territories,Technology,300 Series Non-Flip,1
+27778,Critical,1,232.67,105.14,Northwest Territories,Office Supplies,GBC DocuBind TL200 Manual Binding Machine,0
+27909,Critical,1,62.26,23.24,Northwest Territories,Office Supplies,Xerox 1940,0
+28003,Critical,31,157.79,95.92,Northwest Territories,Office Supplies,Xerox 1897,0
+28165,Not Specified,2,24.96,12.8,Northwest Territories,Office Supplies,Heavy-Duty E-Z-D® Binders,0
+28289,High,31,166.76,46.03,Northwest Territories,Office Supplies,Hammermill CopyPlus Copy Paper (20Lb. and 84 Bright),0
+28486,High,2,811.13,517.47,Northwest Territories,Office Supplies,Deluxe Rollaway Locking File with Drawer,0
+28870,High,35,3310.9455,822.4,Northwest Territories,Technology,6160,1
+30947,Low,17,691.59,261.24,Northwest Territories,Office Supplies,"Avery Trapezoid Extra Heavy Duty 4"" Binders",0
+30947,Low,45,345.2,183.53,Northwest Territories,Office Supplies,Self-Adhesive Address Labels for Typewriters by Universal,0
+31270,Medium,5,165.04,112.44,Northwest Territories,Technology,"Fellowes Internet Keyboard, Platinum",0
+31364,Not Specified,2,789.01,539.59,Northwest Territories,Office Supplies,Deluxe Rollaway Locking File with Drawer,0
+31618,Critical,14,403.17,147.45,Northwest Territories,Office Supplies,Lock-Up Easel 'Spel-Binder',0
+31781,Medium,46,249.02,282.61,Northwest Territories,Office Supplies,Fellowes Black Plastic Comb Bindings,0
+32743,Critical,19,3548.67,1280.19,Northwest Territories,Office Supplies,Kensington 7 Outlet MasterPiece Power Center,1
+33186,Low,24,1350.531,221.18,Northwest Territories,Technology,8860,0
+33444,Medium,8,127.8,30.48,Northwest Territories,Office Supplies,Pizazz® Global Quick File™,0
+33703,Not Specified,25,802.19,56.26,Northwest Territories,Office Supplies,Acco Perma® 2700 Stacking Storage Drawers,0
+34177,High,13,34.42,9.47,Northwest Territories,Office Supplies,Avery 494,0
+34177,High,26,172.76,73.18,Northwest Territories,Office Supplies,Self-Adhesive Address Labels for Typewriters by Universal,0
+34631,Not Specified,5,22.06,22.28,Northwest Territories,Office Supplies,Cardinal Poly Pocket Divider Pockets for Ring Binders,0
+36134,Low,6,826.9735,413.33,Northwest Territories,Technology,R280,0
+36644,High,24,2298.32,218.72,Northwest Territories,Technology,U.S. Robotics 56K Internet Call Modem,1
+37634,Medium,32,368.18,36.78,Northwest Territories,Office Supplies,Portable Personal File Box,0
+39364,High,15,19417.55,8417.57,Northwest Territories,Office Supplies,Fellowes PB500 Electric Punch Plastic Comb Binding Machine with Manual Bind,1
+39683,High,31,615.58,168.0,Northwest Territories,Office Supplies,Poly Designer Cover & Back,0
+40067,Low,38,2157.3085,519.25,Northwest Territories,Technology,3390,1
+40132,Low,16,347.47,86.2,Northwest Territories,Office Supplies,"Avery Flip-Chart Easel Binder, Black",0
+41153,Medium,29,862.2,45.1,Northwest Territories,Technology,Fellowes 17-key keypad for PS/2 interface,0
+41409,Not Specified,1,18.92,18.25,Northwest Territories,Office Supplies,Ibico Covers for Plastic or Wire Binding Elements,0
+42209,High,5,324.55,12.82,Northwest Territories,Office Supplies,Fellowes Command Center 5-outlet power strip,0
+43109,Critical,19,281.84,21.85,Northwest Territories,Office Supplies,"GBC Prepunched Paper, 19-Hole, for Binding Systems, 24-lb",0
+43109,Critical,25,509.52,145.78,Northwest Territories,Technology,Microsoft Internet Keyboard,0
+43329,Medium,42,2475.83,752.37,Northwest Territories,Office Supplies,Belkin 8 Outlet SurgeMaster II Gold Surge Protector,1
+43364,High,21,524.2,158.98,Northwest Territories,Office Supplies,"Recycled Interoffice Envelopes with String and Button Closure, 10 x 13",0
+44071,Not Specified,19,110.67,43.75,Northwest Territories,Office Supplies,"DXL™ Angle-View Binders with Locking Rings, Black",0
+44071,Not Specified,20,1163.123,83.84,Northwest Territories,Technology,8260,0
+44519,High,48,224.58,144.76,Northwest Territories,Office Supplies,Newell® 3-Hole Punched Plastic Slotted Magazine Holders for Binders,0
+44519,High,34,365.77,155.69,Northwest Territories,Office Supplies,Laser & Ink Jet Business Envelopes,0
+46980,Critical,34,216.3,103.16,Northwest Territories,Office Supplies,Avery 51,0
+47462,High,43,154.18,166.92,Northwest Territories,Office Supplies,Avery Poly Binder Pockets,0
+47873,Critical,8,52.39,17.38,Northwest Territories,Furniture,Eldon Wave Desk Accessories,0
+48839,Critical,1,97.13,37.06,Northwest Territories,Office Supplies,"Dot Matrix Printer Tape Reel Labels, White, 5000/Box",0
+50278,High,2,51.21,27.53,Northwest Territories,Office Supplies,Premium Transparent Presentation Covers by GBC,0
+50565,High,43,683.46,138.82,Northwest Territories,Office Supplies,Brown Kraft Recycled Envelopes,0
+50914,Critical,49,8551.544,2763.13,Northwest Territories,Technology,A1228,1
+51938,Low,5,503.3275,488.31,Northwest Territories,Technology,8290,0
+53156,Not Specified,47,186.93,56.44,Northwest Territories,Office Supplies,Avery 491,0
+53990,Not Specified,44,4263.9315,1411.03,Northwest Territories,Technology,T18,1
+55366,Critical,7,387.17,204.65,Northwest Territories,Technology,"Fellowes Smart Design 104-Key Enhanced Keyboard, PS/2 Adapter, Platinum",0
+58150,Critical,24,60.36,119.62,Atlantic,Office Supplies,Peel & Stick Add-On Corner Pockets,0
+58340,Medium,36,1936.3,278.12,Atlantic,Office Supplies,Eureka The Boss® Cordless Rechargeable Stick Vac,1
+58368,High,4,14.23,4.43,Atlantic,Furniture,Eldon® Wave Desk Accessories,0
+58368,High,39,272.07,206.46,Atlantic,Office Supplies,Xerox 1905,0
+59047,Not Specified,26,113.85,93.93,Atlantic,Furniture,Eldon Image Series Black Desk Accessories,0
+59234,Low,32,5686.25,2109.21,Atlantic,Office Supplies,Kensington 7 Outlet MasterPiece Power Center,1
+59651,Critical,36,283.21,196.06,Atlantic,Office Supplies,"Fellowes Twister Kit, Gray/Clear, 3/pkg",0
+1187,Medium,14,222.91,20.21,Atlantic,Technology,Logitech Access Keyboard,0
+4007,High,18,1038.4,112.36,Atlantic,Office Supplies,"Conquest™ 14 Commercial Heavy-Duty Upright Vacuum, Collection System, Accessory Kit",0
+4416,Low,46,7441.29,2665.4,Atlantic,Office Supplies,GBC DocuBind P100 Manual Binding Machine,1
+4454,Low,17,55.45,21.42,Atlantic,Office Supplies,Avery 497,0
+5446,Low,42,433.68,44.1,Atlantic,Office Supplies,"Manila Recycled Extra-Heavyweight Clasp Envelopes, 6"" x 9""",0
+8994,Low,36,1423.35,580.32,Atlantic,Technology,Keytronic Designer 104- Key Black Keyboard,0
+9574,Medium,40,434.62,68.98,Atlantic,Office Supplies,Ibico Covers for Plastic or Wire Binding Elements,0
+11362,Low,25,2407.693,424.14,Atlantic,Technology,LX 677,1
+12773,Low,6,17.0,4.61,Atlantic,Office Supplies,Acco Suede Grain Vinyl Round Ring Binder,0
+12773,Low,15,67.41,49.6,Atlantic,Furniture,Eldon Image Series Black Desk Accessories,0
+12773,Low,19,130.67,77.18,Atlantic,Office Supplies,Xerox 213,0
+12934,Not Specified,45,440.39,186.64,Atlantic,Office Supplies,"Staples #10 Laser & Inkjet Envelopes, 4 1/8"" x 9 1/2"", 100/Box",0
+13604,Not Specified,38,3152.75,1166.4,Atlantic,Technology,"Micro Innovations Micro Digital Wireless Keyboard and Mouse, Gray",1
+15044,Low,42,1681.6,167.37,Atlantic,Technology,Zoom V.92 V.44 PCI Internal Controllerless FaxModem,1
+18273,Low,18,925.03,3.68,Atlantic,Technology,Zoom V.92 USB External Faxmodem,0
+19042,Critical,8,327.61,54.9,Atlantic,Office Supplies,"Wilson Jones Ledger-Size, Piano-Hinge Binder, 2"", Blue",0
+19073,Not Specified,16,178.4,20.08,Atlantic,Furniture,"Eldon Expressions Punched Metal & Wood Desk Accessories, Pewter & Cherry",0
+19617,Low,3,171.9635,296.37,Atlantic,Technology,V 3600 Series,0
+21378,Medium,34,937.04,391.6,Atlantic,Office Supplies,Lock-Up Easel 'Spel-Binder',1
+21378,Medium,17,1616.64,26.94,Atlantic,Technology,U.S. Robotics 56K Internet Call Modem,0
+24067,High,19,120.56,79.35,Atlantic,Office Supplies,Xerox 1920,0
+24965,Low,42,1146.11,330.63,Atlantic,Furniture,"Deflect-o SuperTray™ Unbreakable Stackable Tray, Letter, Black",1
+25376,Critical,12,76.61,31.83,Atlantic,Furniture,"Eldon® 200 Class™ Desk Accessories, Burgundy",0
+28836,High,50,8221.2935,2342.21,Atlantic,Technology,688,1
+28836,High,7,1158.26,170.08,Atlantic,Office Supplies,Ibico EB-19 Dual Function Manual Binding System,0
+28995,High,9,298.52,73.19,Atlantic,Office Supplies,"IBM Multi-Purpose Copy Paper, 8 1/2 x 11"", Case",0
+28995,High,34,667.35,80.92,Atlantic,Office Supplies,Southworth 25% Cotton Premium Laser Paper and Envelopes,0
+29121,Medium,31,3206.965,575.33,Atlantic,Technology,Timeport L7089,1
+30243,Critical,44,2435.32,650.56,Atlantic,Office Supplies,"Fellowes Smart Surge Ten-Outlet Protector, Platinum",1
+32199,High,40,196.5,99.76,Atlantic,Office Supplies,"Pressboard Covers with Storage Hooks, 9 1/2"" x 11"", Light Blue",0
+32835,Medium,15,572.4325,19.44,Atlantic,Technology,KF 788,0
+32869,Medium,39,5250.6625,930.99,Atlantic,Technology,2180,1
+35300,Medium,10,28.81,7.15,Atlantic,Office Supplies,*Staples* Packaging Labels,0
+37888,Critical,31,639.19,274.9,Atlantic,Office Supplies,Avery Legal 4-Ring Binder,0
+40327,Medium,42,152.55,20.27,Atlantic,Office Supplies,Colored Envelopes,0
+40327,Medium,36,152.96,123.87,Atlantic,Office Supplies,Xerox 1953,0
+40800,Not Specified,18,101.34,26.11,Atlantic,Office Supplies,Staples Standard Envelopes,0
+40871,Not Specified,32,294.04,5.53,Atlantic,Office Supplies,GBC Standard Plastic Binding Systems Combs,0
+41991,Low,35,543.22,68.44,Atlantic,Furniture,DAX Clear Channel Poster Frame,0
+42754,Critical,31,341.71,32.19,Atlantic,Office Supplies,GBC Imprintable Covers,0
+42918,High,46,648.26,30.48,Atlantic,Office Supplies,"GBC Laser Imprintable Binding System Covers, Desert Sand",0
+44387,Low,20,173.09,6.71,Atlantic,Office Supplies,Southworth 25% Cotton Antique Laid Paper & Envelopes,0
+45601,High,47,945.03,267.64,Atlantic,Office Supplies,Xerox 1936,1
+46756,Medium,3,33.64,22.45,Atlantic,Office Supplies,"Array® Parchment Paper, Assorted Colors",0
+47714,Medium,30,176.15,125.36,Atlantic,Office Supplies,Avery Durable Poly Binders,0
+47846,High,37,241.14,120.08,Atlantic,Office Supplies,HP Office Paper (20Lb. and 87 Bright),0
+48199,Not Specified,47,672.46,279.74,Atlantic,Office Supplies,"#10-4 1/8"" x 9 1/2"" Premium Diagonal Seam Envelopes",1
+50404,High,18,3780.43,905.57,Prarie,Office Supplies,"24 Capacity Maxi Data Binder Racks, Pearl",1
+50784,High,20,638.72,130.88,Prarie,Technology,PC Concepts 116 Key Quantum 3000 Keyboard,0
+51558,Not Specified,34,245.4,87.27,Prarie,Office Supplies,Xerox 1898,0
+53410,Critical,44,642.8,253.11,Prarie,Office Supplies,"Holmes Replacement Filter for HEPA Air Cleaner, Large Room",0
+53477,High,28,4479.16,610.9,Prarie,Office Supplies,Fellowes Super Stor/Drawer® Files,1
+53703,Not Specified,14,1966.26,34.79,Prarie,Office Supplies,"Fellowes Strictly Business® Drawer File, Letter/Legal Size",0
+54115,Low,24,114.17,80.05,Prarie,Office Supplies,"Eureka Sanitaire ® Multi-Pro Heavy-Duty Upright, Disposable Bags",0
+54115,Low,39,197.11,89.42,Prarie,Office Supplies,Cardinal Holdit Business Card Pockets,0
+54501,Critical,36,2039.082,481.7,Prarie,Technology,T193,1
+54753,Medium,36,4711.244,1380.32,Prarie,Technology,T39m,1
+57159,Critical,42,460.2,214.39,Prarie,Office Supplies,Hammermill Color Copier Paper (28Lb. and 96 Bright),0
+57507,Critical,10,155.45,19.68,Prarie,Office Supplies,"GBC Prepunched Paper, 19-Hole, for Binding Systems, 24-lb",0
+58788,Low,31,983.78,43.72,Prarie,Technology,Belkin ErgoBoard™ Keyboard,0
+59750,Low,34,223.59,66.05,West,Office Supplies,Xerox 1994,0
+35,Not Specified,14,1892.848,48.99,West,Technology,CF 688,0
+2279,Medium,39,845.9,52.53,West,Office Supplies,Acco Perma® 3000 Stacking Storage Drawers,0
+2530,Medium,9,23.46,4.58,West,Office Supplies,Avery 479,0
+10692,Low,48,8101.9875,2369.84,West,Technology,2160i,1
+10692,Low,8,1313.811,457.16,West,Technology,A1228,0
+11782,Low,46,247.21,63.72,West,Office Supplies,Hammermill CopyPlus Copy Paper (20Lb. and 84 Bright),0
+12199,Low,2,19.0,10.73,West,Office Supplies,Wilson Jones® Four-Pocket Poly Binders,0
+12199,Low,50,8289.51,3051.62,West,Office Supplies,"Dual Level, Single-Width Filing Carts",1
+18471,Not Specified,29,185.61,47.12,West,Office Supplies,Xerox 1983,0
+21892,High,6,34.88,18.34,West,Office Supplies,"Pressboard Covers with Storage Hooks, 9 1/2"" x 11"", Light Blue",0
+23907,Not Specified,7,384.2,164.46,West,Technology,6190,0
+24132,Low,4,31.01,4.49,West,Office Supplies,Wilson Jones DublLock® D-Ring Binders,0
+24132,Low,46,331.83,101.25,West,Office Supplies,"Wilson Jones Hanging View Binder, White, 1""",0
+24132,Low,22,446.46,1.88,West,Technology,"Fellowes Basic 104-Key Keyboard, Platinum",0
+24132,Low,31,1252.89,339.75,West,Office Supplies,Ibico Recycled Linen-Style Covers,1
+24132,Low,12,47.79,57.75,West,Office Supplies,Self-Adhesive Ring Binder Labels,0
+24132,Low,3,63.84,47.97,West,Office Supplies,"Tenex File Box, Personal Filing Tote with Lid, Black",0
+24576,Not Specified,10,152.84,38.02,West,Furniture,DAX Clear Channel Poster Frame,0
+28068,Low,23,631.99,43.96,West,Technology,Belkin MediaBoard 104- Keyboard,0
+34816,Not Specified,29,1158.45,267.16,West,Office Supplies,Fellowes 8 Outlet Superior Workstation Surge Protector,1
+34816,Not Specified,43,2568.71,590.77,West,Office Supplies,"Tyvek Interoffice Envelopes, 9 1/2"" x 12 1/2"", 100/Box",1
+37315,Low,43,170.81,133.68,West,Office Supplies,Xerox 1971,0
+37925,Medium,31,1784.048,394.45,West,Technology,StarTAC 7760,1
+38021,Medium,46,1482.01,709.33,West,Office Supplies,"Premier Elliptical Ring Binder, Black",1
+38336,Critical,14,91.75,2.82,West,Office Supplies,Wilson Jones DublLock® D-Ring Binders,0
+38336,Critical,31,346.57,116.45,West,Technology,Micro Innovations 104 Keyboard,0
+39783,Not Specified,19,82.43,94.76,West,Office Supplies,Eureka Disposable Bags for Sanitaire® Vibra Groomer I® Upright Vac,0
+39783,Not Specified,31,295.97,5.02,West,Office Supplies,GBC Standard Plastic Binding Systems Combs,0
+39783,Not Specified,29,94.5,39.9,West,Office Supplies,Avery 520,0
+44256,Low,17,114.28,38.72,West,Office Supplies,Xerox 226,0
+47367,Medium,7,27.99,0.17,West,Office Supplies,Durable Pressboard Binders,0
+47367,Medium,6,21.07,2.28,West,Office Supplies,Avery 52,0
+47750,Low,37,102.46,36.64,West,Office Supplies,Avery 492,0
+48388,High,3,21.64,13.33,West,Office Supplies,Binder Posts,0
+51879,Not Specified,26,1382.31,372.26,West,Furniture,"Howard Miller 11-1/2"" Diameter Ridgewood Wall Clock",1
+51879,Not Specified,46,991.36,212.06,West,Office Supplies,Southworth 25% Cotton Premium Laser Paper and Envelopes,1
+53572,Medium,17,184.09,4.79,West,Office Supplies,#10 Self-Seal White Envelopes,0
+54119,Medium,4,127.56,41.75,West,Office Supplies,Acco Perma® 2700 Stacking Storage Drawers,0
+9892,Medium,50,1406.64,424.36,West,Office Supplies,"Tyvek ® Top-Opening Peel & Seel Envelopes, Plain White",1
+10048,Not Specified,46,3197.45,97.16,West,Technology,Keytronic 105-Key Spanish Keyboard,1
+10432,Low,13,2323.36,220.39,West,Technology,Motorola SB4200 Cable Modem,0
+13158,Critical,26,187.16,29.33,West,Office Supplies,Wilson Jones DublLock® D-Ring Binders,0
+14375,Medium,7,44.05,21.77,West,Office Supplies,Xerox 1978,0
+16230,Low,2,13.3,7.86,West,Office Supplies,Self-Adhesive Address Labels for Typewriters by Universal,0
+16230,Low,15,687.52,223.76,West,Office Supplies,Xerox 1891,0
+16230,Low,40,4538.66,506.86,West,Office Supplies,Fellowes Recycled Storage Drawers,1
+21856,Not Specified,47,168.55,71.77,West,Office Supplies,Avery 487,0
+22119,Low,20,939.39,122.77,West,Office Supplies,"Eureka Hand Vacuum, Bagless",0
+22534,Medium,3,279.33,44.18,West,Office Supplies,Airmail Envelopes,0
+24070,High,36,170.42,98.31,West,Office Supplies,"Pressboard Covers with Storage Hooks, 9 1/2"" x 11"", Light Blue",0
+27174,Critical,17,477.5045,245.56,West,Technology,Accessory27,0
+33600,Low,42,187.28,94.36,West,Office Supplies,Xerox 1962,0
+35364,Critical,16,72.08,54.75,West,Office Supplies,Xerox 199,0
+35364,Critical,8,1265.293,554.44,West,Technology,T28 WORLD,0
+38272,Critical,39,71.04,20.65,West,Office Supplies,Staples® General Use 3-Ring Binders,0
+45763,High,25,67.45,24.28,West,Office Supplies,Avery 494,0
+50310,Medium,22,482.37,34.03,West,Technology,"Fellowes Basic 104-Key Keyboard, Platinum",0
+51648,Low,45,2354.8,332.97,West,Technology,Zoom V.92 USB External Faxmodem,1
+53216,High,36,228.01,185.54,West,Office Supplies,Xerox 227,0
+55777,Not Specified,6,323.53,136.32,West,Furniture,"Howard Miller 13-3/4"" Diameter Brushed Chrome Round Wall Clock",0
+56640,High,2,29.31,12.78,West,Office Supplies,Personal Creations™ Ink Jet Cards and Labels,0
+56640,High,11,80.26,22.55,West,Office Supplies,Xerox 1923,0
+322,Critical,20,2634.8555,257.76,West,Technology,I888 World Phone,1
+322,Critical,46,281.0,291.59,West,Office Supplies,Xerox 1997,0
+1221,Not Specified,1,14.68,13.78,West,Office Supplies,Avery Printable Repositionable Plastic Tabs,0
+1221,Not Specified,11,10145.14,3724.57,West,Office Supplies,GBC DocuBind TL300 Electric Binding System,1
+1221,Not Specified,16,68.45,57.88,West,Office Supplies,Storex DuraTech Recycled Plastic Frosted Binders,0
+1445,Medium,3,1326.09,20.55,West,Office Supplies,GBC DocuBind 200 Manual Binding Machine,0
+4067,High,16,118.38,42.46,West,Office Supplies,"Wilson Jones Hanging View Binder, White, 1""",0
+4261,Critical,33,195.98,71.47,West,Office Supplies,Xerox 1947,0
+4261,Critical,48,274.38,94.82,West,Office Supplies,Xerox 1950,0
+4864,Low,16,4901.99,1724.68,West,Office Supplies,GBC ProClick™ 150 Presentation Binding System,1
+4996,Medium,30,4305.79,1020.32,West,Office Supplies,Letter Size Cart,1
+6144,Critical,24,67.35,22.63,West,Office Supplies,Avery 492,0
+7169,Medium,22,446.72,39.0,West,Furniture,"Career Cubicle Clock, 8 1/4"", Black",0
+7169,Medium,30,1580.6005,303.53,West,Technology,V8162,1
+7427,Not Specified,47,16002.29,4604.79,West,Office Supplies,Hoover WindTunnel™ Plus Canister Vacuum,1
+7427,Not Specified,9,182.26,60.61,West,Office Supplies,Flexible Leather- Look Classic Collection Ring Binder,0
+8992,High,14,2145.6975,176.79,West,Technology,688,0
+8992,High,18,1341.963,180.78,West,Technology,6340,0
+10306,Low,20,310.31,51.5,West,Furniture,DAX Clear Channel Poster Frame,0
+10470,Critical,35,246.98,94.78,West,Furniture,"Eldon® Expressions™ Wood Desk Accessories, Oak",0
+11392,Low,28,128.69,28.29,West,Office Supplies,Presstex Flexible Ring Binders,0
+14240,High,24,68.88,1.31,West,Office Supplies,Acco Suede Grain Vinyl Round Ring Binder,0
+14471,Not Specified,42,286.73,141.51,West,Office Supplies,Xerox 220,0
+17344,Critical,40,2405.4575,571.54,West,Technology,5190,1
+17507,Medium,27,399.76,48.13,West,Office Supplies,Acco 6 Outlet Guardian Premium Surge Suppressor,0
+18179,Not Specified,24,73.37,16.1,West,Office Supplies,Avery 481,0
+19044,Low,29,271.33,191.09,West,Office Supplies,Filing/Storage Totes and Swivel Casters,0
+20676,Low,22,43.97,9.05,West,Office Supplies,Staples® General Use 3-Ring Binders,0
+20960,Low,19,195.96,104.82,West,Technology,Micro Innovations 104 Keyboard,0
+21350,Medium,30,278.94,143.7,West,Office Supplies,Southworth 25% Cotton Linen-Finish Paper & Envelopes,0
+23207,Critical,11,336.91,42.5,West,Office Supplies,Xerox 1979,0
+26368,Medium,25,1809.0125,795.05,West,Technology,Accessory12,1
+28225,Critical,9,206.04,49.81,West,Furniture,"Career Cubicle Clock, 8 1/4"", Black",0
+28898,Low,44,246.0,207.36,West,Office Supplies,Xerox 196,0
+29185,High,8,468.49,6.37,West,Office Supplies,"Conquest™ 14 Commercial Heavy-Duty Upright Vacuum, Collection System, Accessory Kit",0
+29986,Critical,40,1477.39,641.4,West,Office Supplies,Vinyl Sectional Post Binders,1
+30149,Medium,8,16.47,6.82,West,Office Supplies,Round Ring Binders,0
+30149,Medium,50,690.97,16.94,West,Furniture,9-3/4 Diameter Round Wall Clock,0
+32611,Medium,16,33.76,7.15,West,Office Supplies,Economy Binders,0
+32611,Medium,15,81.66,31.99,West,Office Supplies,Xerox 1989,0
+32901,Critical,13,49.74,17.7,West,Office Supplies,Avery 496,0
+33732,Not Specified,33,332.95,28.16,West,Furniture,"Eldon Expressions™ Desk Accessory, Wood Pencil Holder, Oak",0
+34852,Low,26,53.93,10.95,West,Office Supplies,Round Ring Binders,0
+36480,Medium,44,1190.8,502.49,West,Office Supplies,Lock-Up Easel 'Spel-Binder',1
+36803,Not Specified,42,121.65,30.76,West,Office Supplies,Avery 514,0
+36803,Not Specified,2,103.105,316.32,West,Technology,V8160,0
+36805,Medium,7,263.8,165.33,West,Furniture,Hand-Finished Solid Wood Document Frame,0
+37729,Not Specified,48,447.89,26.78,West,Office Supplies,Avery Printable Repositionable Plastic Tabs,0
+40164,Not Specified,8,184.07,75.63,West,Furniture,"Seth Thomas 12"" Clock w/ Goldtone Case",0
+40608,Not Specified,29,573.97,55.82,West,Office Supplies,Xerox 1939,0
+40608,Not Specified,39,223.79,89.88,West,Office Supplies,Xerox 4200 Series MultiUse Premium Copy Paper (20Lb. and 84 Bright),0
+40801,Not Specified,20,129.16,56.15,West,Office Supplies,Xerox 1894,0
+40965,Medium,29,843.55,168.76,West,Office Supplies,Xerox 1979,0
+42112,Not Specified,16,2744.361,201.03,West,Technology,T28 WORLD,1
+42342,Not Specified,25,318.14,49.67,West,Office Supplies,Xerox 1907,0
+45155,Low,44,181.61,150.26,Atlantic,Office Supplies,ACCOHIDE® Binder by Acco,0
+48452,High,19,1781.11,51.44,Atlantic,Technology,U.S. Robotics 56K Internet Call Modem,0
+48452,High,44,185.32,192.56,Atlantic,Furniture,"Eldon® Image Series Desk Accessories, Burgundy",0
+48452,High,15,73.41,44.79,Atlantic,Office Supplies,"Pressboard Covers with Storage Hooks, 9 1/2"" x 11"", Light Blue",0
+49223,Medium,24,238.25,83.55,Atlantic,Office Supplies,Staples File Caddy,0
+58407,High,29,1669.88,548.92,Atlantic,Office Supplies,Xerox 194,1
+58884,Low,29,87.68,23.14,Atlantic,Office Supplies,Avery 474,0
+58913,Medium,23,144.55,60.17,Atlantic,Office Supplies,"Eureka Recycled Copy Paper 8 1/2"" x 11"", Ream",0
+1699,Critical,40,430.88,39.0,Atlantic,Office Supplies,#10 Self-Seal White Envelopes,0
+3361,Not Specified,49,213.71,208.02,Atlantic,Office Supplies,Xerox 1927,0
+5511,Critical,32,1829.387,482.45,Atlantic,Technology,StarTAC Series,1
+8007,Low,5,820.5645,800.25,Atlantic,Technology,StarTAC 8000,0
+9923,High,27,63.71,96.03,Atlantic,Furniture,Eldon® Wave Desk Accessories,0
+9925,Critical,17,86.47,9.35,Atlantic,Office Supplies,"Wilson Jones 1"" Hanging DublLock® Ring Binders",0
+12228,Not Specified,30,5015.051,1090.43,Atlantic,Technology,2160i,1
+12355,Not Specified,45,168.66,167.06,Atlantic,Office Supplies,"Hoover Replacement Belts For Soft Guard™ & Commercial Ltweight Upright Vacs, 2/Pk",0
+12389,Medium,34,2560.59,670.96,Atlantic,Technology,Logitech Cordless Navigator Duo,1
+12389,Medium,16,189.04,74.77,Atlantic,Office Supplies,"SimpliFile™ Personal File, Black Granite, 15w x 6-15/16d x 11-1/4h",0
+15878,High,36,275.06,237.87,Atlantic,Office Supplies,"Array® Parchment Paper, Assorted Colors",0
+16967,Low,5,397.55,152.47,Atlantic,Technology,"Micro Innovations Micro Digital Wireless Keyboard and Mouse, Gray",0
+16967,Low,34,676.26,181.98,Atlantic,Office Supplies,Xerox Blank Computer Paper,0
+18432,High,42,451.32,1.16,Atlantic,Furniture,"Eldon Expressions Punched Metal & Wood Desk Accessories, Pewter & Cherry",0
+22053,Critical,32,563.08,112.97,Atlantic,Office Supplies,Poly Designer Cover & Back,0
+25347,Low,28,967.27,309.31,Atlantic,Office Supplies,Xerox 1906,1
+26304,Medium,43,7452.137,2028.36,Atlantic,Technology,3285,1
+31297,Low,39,679.95,93.3,West,Office Supplies,Model L Table or Wall-Mount Pencil Sharpener,0
+31297,Low,44,1579.56,699.64,West,Office Supplies,Staples Colored Bar Computer Paper,1
+31553,Critical,32,4906.85,1907.94,West,Office Supplies,Multimedia Mailers,1
+33570,Not Specified,46,265.88,90.9,West,Office Supplies,Binder Posts,0
+33570,Not Specified,19,3093.864,286.4,West,Technology,i470,1
+36359,High,2,68.66,29.6,West,Office Supplies,"IBM Multi-Purpose Copy Paper, 8 1/2 x 11"", Case",0
+36901,Critical,30,201.09,56.22,West,Office Supplies,Xerox 1923,0
+38625,Not Specified,12,72.82,5.03,West,Office Supplies,Wausau Papers Astrobrights® Colored Envelopes,0
+44450,Critical,24,1326.51,58.17,West,Technology,StarTAC Analog,0
+45025,High,26,73.82,2.01,Prarie,Office Supplies,Avery Durable Binders,0
+45248,Medium,38,154.85,136.55,Prarie,Office Supplies,"Hoover Replacement Belts For Soft Guard™ & Commercial Ltweight Upright Vacs, 2/Pk",0
+45248,Medium,32,4941.7725,704.89,Prarie,Technology,T28 WORLD,1
+45570,Critical,19,77.57,67.49,Prarie,Office Supplies,Avery Poly Binder Pockets,0
+46885,Low,32,1997.13,720.45,Prarie,Furniture,"Howard Miller 16"" Diameter Gallery Wall Clock",1
+46948,Low,10,64.13,28.97,Prarie,Office Supplies,Wilson Jones® Four-Pocket Poly Binders,0
+47267,Medium,24,492.71,67.01,Prarie,Office Supplies,Southworth 25% Cotton Premium Laser Paper and Envelopes,0
+48167,Critical,45,282.98,237.47,Prarie,Office Supplies,Xerox 224,0
+48614,Critical,46,7965.9025,2311.96,Prarie,Technology,T28 WORLD,1
+48931,Low,33,750.66,120.05,Prarie,Technology,"Fellowes Basic 104-Key Keyboard, Platinum",0
+48931,Low,8,254.32,117.39,Prarie,Technology,Logitech Internet Navigator Keyboard,0
+48931,Low,42,2149.37,217.87,Prarie,Furniture,"Howard Miller 13-3/4"" Diameter Brushed Chrome Round Wall Clock",1
+49763,Critical,8,49.04,9.29,Prarie,Office Supplies,Staples Standard Envelopes,0
+51333,Not Specified,25,237.36,117.86,Prarie,Office Supplies,Southworth 25% Cotton Linen-Finish Paper & Envelopes,0
+51365,High,35,195.23,72.46,Prarie,Furniture,Eldon Wave Desk Accessories,0
+52225,Critical,33,1817.9,700.31,Prarie,Office Supplies,Xerox 1940,1
+52487,Critical,17,124.06,15.74,Prarie,Office Supplies,Staples #10 Colored Envelopes,0
+55749,Critical,42,364.8,149.45,Prarie,Office Supplies,"#10- 4 1/8"" x 9 1/2"" Recycled Envelopes",0
+56708,Not Specified,36,407.17,12.82,Prarie,Office Supplies,"Peel & Seel® Recycled Catalog Envelopes, Brown",0
+58725,Not Specified,39,335.35,134.97,Prarie,Office Supplies,"#10- 4 1/8"" x 9 1/2"" Recycled Envelopes",0
+902,Not Specified,10,1925.83,359.83,Prarie,Office Supplies,Kensington 7 Outlet MasterPiece Power Center with Fax/Phone Line Protection,0
+2306,High,15,113.5,46.35,Prarie,Office Supplies,"Acco Four Pocket Poly Ring Binder with Label Holder, Smoke, 1""",0
+4037,High,27,188.07,101.85,Prarie,Office Supplies,Xerox 213,0
+5863,Medium,40,933.21,207.18,Prarie,Furniture,"Seth Thomas 12"" Clock w/ Goldtone Case",0
+7364,High,15,260.39,48.57,Prarie,Office Supplies,Brown Kraft Recycled Envelopes,0
+8551,Critical,25,185.64,69.87,Prarie,Office Supplies,"Acco Four Pocket Poly Ring Binder with Label Holder, Smoke, 1""",0
+8551,Critical,34,225.98,135.74,Prarie,Office Supplies,Xerox 213,0
+15142,Not Specified,21,330.22,51.72,Prarie,Office Supplies,Recycled Premium Regency Composition Covers,0
+15872,Not Specified,23,188.53,27.49,Prarie,Office Supplies,"1/4 Fold Party Design Invitations & White Envelopes, 24 8-1/2"" X 11"" Cards, 25 Env./Pack",0
+15872,Not Specified,19,718.41,23.94,Prarie,Office Supplies,Xerox 1893,0
+24386,High,41,4256.51,1653.96,Prarie,Technology,Gyration Ultra Cordless Optical Suite,1
+24386,High,12,503.08,102.74,Prarie,Technology,Targus USB Numeric Keypad,0
+25473,High,20,794.32,67.61,Prarie,Office Supplies,Xerox 1893,0
+26691,Not Specified,37,270.43,83.16,Ontario,Office Supplies,GBC VeloBinder Strips,0
+29927,High,19,257.97,33.18,Ontario,Office Supplies,GBC Binding covers,0
+33250,Not Specified,40,7381.19,2998.88,Ontario,Office Supplies,Kensington 7 Outlet MasterPiece Power Center,1
+37862,Not Specified,27,1603.27,452.49,Ontario,Office Supplies,Belkin 8 Outlet SurgeMaster II Gold Surge Protector,1
+39015,Medium,11,74.02,28.45,Ontario,Office Supplies,Xerox 1994,0
+40962,Critical,28,1553.66,547.48,Ontario,Office Supplies,Belkin 5 Outlet SurgeMaster™ Power Centers,1
+40962,Critical,30,3276.9965,653.06,Ontario,Technology,M70,1
+50949,Medium,46,4804.0385,1077.92,Ontario,Technology,StarTAC 6500,1
+53152,Medium,5,185.79,159.68,Ontario,Technology,Fellowes EZ Multi-Media Keyboard,0
+53152,Medium,9,186.67,2.06,Ontario,Office Supplies,Southworth 25% Cotton Premium Laser Paper and Envelopes,0
+55526,High,23,445.17,38.11,Ontario,Office Supplies,Computer Printout Paper with Letter-Trim Perforations,0
+57153,Critical,45,698.1,336.25,Ontario,Office Supplies,"#10 White Business Envelopes,4 1/8 x 9 1/2",1
+59878,High,23,249.64,91.65,Ontario,Office Supplies,Crate-A-Files™,0
+1600,Medium,32,303.59,45.99,Ontario,Furniture,"Eldon Expressions™ Desk Accessory, Wood Pencil Holder, Oak",0
+1600,Medium,36,191.6,150.74,Ontario,Office Supplies,Xerox 1922,0
+2373,Not Specified,36,317.59,46.12,Ontario,Office Supplies,Avery Printable Repositionable Plastic Tabs,0
+3109,Low,37,6477.7395,1653.97,Ontario,Technology,Talkabout T8097,1
+12452,Medium,1,356.95,228.24,Ontario,Office Supplies,Fellowes PB300 Plastic Comb Binding Machine,0
+12452,Medium,38,2063.42,989.95,Ontario,Office Supplies,Xerox 1934,1
+15808,Critical,45,882.96,11.65,Ontario,Technology,Belkin 105-Key Black Keyboard,0
+29318,Not Specified,34,3375.3075,562.13,Ontario,Technology,StarTAC ST7762,1
+30016,Critical,15,85.56,41.58,Ontario,Office Supplies,Xerox 4200 Series MultiUse Premium Copy Paper (20Lb. and 84 Bright),0
+30016,Critical,8,754.6555,212.55,Ontario,Technology,T18,0
+40961,Medium,7,23.84,5.88,Ontario,Office Supplies,Avery 520,0
+41543,Low,24,1318.8685,172.33,Ontario,Technology,StarTAC 7760,0
+56101,Not Specified,44,5347.13,1886.41,Ontario,Office Supplies,GBC Therma-A-Bind 250T Electric Binding System,1
+1059,Critical,22,127.33,5.3,Ontario,Office Supplies,Wilson Jones 14 Line Acrylic Coated Pressboard Data Binders,0
+1059,Critical,24,990.1,310.22,Ontario,Office Supplies,"Wilson Jones Ledger-Size, Piano-Hinge Binder, 2"", Blue",0
+1826,Not Specified,5,28.32,14.35,Ontario,Office Supplies,Hammermill CopyPlus Copy Paper (20Lb. and 84 Bright),0
+20003,Medium,39,796.08,30.29,Ontario,Technology,Belkin 105-Key Black Keyboard,0

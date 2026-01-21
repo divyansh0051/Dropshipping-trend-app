@@ -1,0 +1,171 @@
+Order_ID,Order_Priority,Order_Quantity,Sales,Profit,Region,Product_Category,Product_Name,result
+29319,Low,21,4429.69,983.55,Atlantic,Technology,Canon PC-428 Personal Copier,1
+49088,Critical,15,4012.58,425.14,Atlantic,Office Supplies,"Tennsco Snap-Together Open Shelving Units, Starter Sets and Add-On Units",0
+53894,Critical,37,2756.17,1561.72,Atlantic,Furniture,"Lesro Sheffield Collection Coffee Table, End Table, Center Table, Corner Table",0
+11969,Not Specified,16,1684.96,553.06,Atlantic,Office Supplies,"Carina Mini System Audio Rack, Model AR050B",0
+22368,Medium,34,2788.04,849.18,Atlantic,Office Supplies,"Carina 42""Hx23 3/4""W Media Storage Unit",0
+4007,High,1,305.82,232.24,Atlantic,Office Supplies,"Tennsco Snap-Together Open Shelving Units, Starter Sets and Add-On Units",0
+11362,Low,9,6420.87,690.21,Atlantic,Technology,Canon PC1060 Personal Laser Copier,0
+18788,Not Specified,27,566.12,19.33,Atlantic,Furniture,Telescoping Adjustable Floor Lamp,0
+20033,Critical,5,2543.95,1011.32,Atlantic,Technology,Sharp AL-1530CS Digital Copier,0
+22469,High,24,1482.81,678.63,Atlantic,Office Supplies,Euro Pro Shark Stick Mini Vacuum,0
+22469,High,23,6693.28,40.32,Atlantic,Furniture,Hon 5100 Series Wood Tables,0
+30243,Critical,21,4242.76,340.88,Atlantic,Technology,Canon PC-428 Personal Copier,1
+32199,High,1,3672.89,3061.82,Atlantic,Technology,Canon imageCLASS 2200 Advanced Copier,0
+33763,Not Specified,23,10791.38,234.79,Atlantic,Technology,Sharp AL-1530CS Digital Copier,0
+36677,Low,38,23255.61,734.33,Atlantic,Technology,Canon Image Class D660 Copier,0
+38310,High,4,62.45,141.76,Atlantic,Office Supplies,Hoover® Commercial Lightweight Upright Vacuum,0
+47846,High,5,66.43,9.45,Atlantic,Furniture,Dana Swing-Arm Lamps,0
+47750,Low,1,195.04,149.41,Atlantic,Office Supplies,Office Impressions Heavy Duty Welded Shelving & Multimedia Storage Drawers,0
+5153,Critical,37,4896.93,1467.82,Atlantic,Furniture,SAFCO Folding Chair Trolley,1
+25315,Low,36,7783.36,3506.24,Atlantic,Office Supplies,Holmes Harmony HEPA Air Purifier for 17 x 20 Room,1
+18432,High,15,217.66,24.91,Atlantic,Office Supplies,Holmes Odor Grabber,0
+21223,Not Specified,8,435.29,122.41,Atlantic,Furniture,"Deflect-o EconoMat Nonstudded, No Bevel Mat",0
+47108,Not Specified,7,131.55,43.74,Atlantic,Technology,Canon P1-DHIII Palm Printing Calculator,0
+51494,Critical,42,493.56,12.73,Atlantic,Technology,TI 30X Scientific Calculator,0
+11362,Low,32,3245.73,569.57,Atlantic,Furniture,"Rubbermaid ClusterMat Chairmats, Mat Size- 66"" x 60"", Lip 20"" x 11"" -90 Degree Angle",1
+13604,Not Specified,42,3609.88,1396.22,Atlantic,Furniture,Eldon ClusterMat Chair Mat with Cordless Antistatic Protection,0
+19617,Low,38,952.47,270.69,Atlantic,Technology,TI 36X Solar Scientific Calculator,1
+32869,Medium,49,2470.84,25.04,Atlantic,Furniture,"Deflect-o EconoMat Nonstudded, No Bevel Mat",0
+35300,Medium,35,1445.6,126.03,Atlantic,Furniture,"Deflect-o EconoMat Studded, No Bevel Mat for Low Pile Carpeting",0
+42918,High,46,410.43,54.58,Atlantic,Technology,"Sharp EL501VB Scientific Calculator, Battery Operated, 10-Digit Display, Hard Case",0
+47846,High,25,2674.18,631.99,Atlantic,Furniture,"Rubbermaid ClusterMat Chairmats, Mat Size- 66"" x 60"", Lip 20"" x 11"" -90 Degree Angle",1
+47846,High,50,5513.82,1581.93,Atlantic,Furniture,"Tenex 46"" x 60"" Computer Anti-Static Chairmat, Rectangular Shaped",1
+50338,Not Specified,36,551.44,28.7,Atlantic,Technology,Sharp EL500L Fraction Calculator,0
+14406,Medium,37,5610.84,2366.51,Atlantic,Technology,Canon MP41DH Printing Calculator,1
+58368,High,5,325.43,76.11,Atlantic,Office Supplies,Fellowes Bankers Box™ Staxonsteel® Drawer File/Stacking System,0
+59395,Critical,20,963.3,367.12,Atlantic,Office Supplies,Xerox 1885,0
+11269,Low,39,2083.0525,354.96,Atlantic,Technology,i1000,1
+13927,Low,26,188.05,21.41,Atlantic,Office Supplies,Xerox 1985,0
+15463,Low,48,293.3,193.48,Atlantic,Office Supplies,Xerox 1920,0
+22656,Not Specified,10,309.3,77.89,Atlantic,Technology,Belkin ErgoBoard™ Keyboard,0
+24038,High,15,896.1805,82.04,Atlantic,Technology,8860,0
+24067,High,46,2640.6865,751.38,Atlantic,Technology,252,1
+24965,Low,6,2528.49,580.15,Atlantic,Office Supplies,GBC DocuBind 200 Manual Binding Machine,1
+29382,High,34,684.66,35.09,Atlantic,Furniture,12-1/2 Diameter Round Wall Clock,0
+36293,Medium,25,165.36,94.79,Atlantic,Office Supplies,Xerox 220,0
+40480,Critical,19,7608.88,3049.45,Atlantic,Office Supplies,GBC DocuBind 200 Manual Binding Machine,1
+48067,Low,31,3229.66,695.06,Atlantic,Technology,270c,1
+48067,Low,24,4010.9375,630.7,Atlantic,Technology,T28 WORLD,1
+49029,High,49,8223.07,2549.4,Atlantic,Technology,CF 888,1
+44451,Critical,4,103.9,19.26,Atlantic,Furniture,"Seth Thomas 12"" Clock w/ Goldtone Case",0
+45059,Not Specified,39,3401.8,508.87,Atlantic,Office Supplies,Fellowes Stor/Drawer® Steel Plus™ Storage Drawers,0
+45731,Critical,19,146.63,30.06,Atlantic,Office Supplies,Xerox 1894,0
+47108,Not Specified,26,258.11,9.95,Atlantic,Office Supplies,Xerox 1896,0
+47108,Not Specified,9,1288.515,382.57,Atlantic,Technology,2180,0
+50208,Medium,4,38.76,12.13,Atlantic,Office Supplies,Avery Hole Reinforcements,0
+51525,Critical,18,360.24,36.24,Atlantic,Technology,Belkin 105-Key Black Keyboard,0
+52933,Low,44,210.46,50.04,Atlantic,Office Supplies,Avery Non-Stick Binders,0
+53894,Critical,29,5159.3725,1252.48,Atlantic,Technology,5125,1
+56610,Medium,20,857.95,51.85,Atlantic,Technology,"Fellowes Mobile Numeric Keypad, Graphite",0
+3393,High,7,127.74,5.57,Atlantic,Technology,Logitech Access Keyboard,0
+7015,Not Specified,42,7143.927,2374.73,Atlantic,Technology,T65,1
+9925,Critical,43,1751.68,771.83,Atlantic,Office Supplies,"Avery Trapezoid Extra Heavy Duty 4"" Binders",1
+20455,Critical,7,381.1995,233.56,Atlantic,Technology,V 3600 Series,0
+58055,Critical,26,208.6,56.45,Atlantic,Furniture,"Eldon® Expressions™ Wood Desk Accessories, Oak",0
+59202,Medium,7,83.81,21.92,Atlantic,Office Supplies,Avery 485,0
+59585,High,45,712.04,110.93,Atlantic,Technology,"AT&T Black Trimline Phone, Model 210",0
+645,High,42,557.85,89.45,Atlantic,Office Supplies,GBC Binding covers,0
+13120,Low,46,590.43,82.59,Atlantic,Office Supplies,GBC Binding covers,0
+13120,Low,8,216.33,17.37,Atlantic,Office Supplies,GBC Standard Therm-A-Bind Covers,0
+15618,Medium,9,50.93,34.98,Atlantic,Office Supplies,Xerox 1928,0
+15618,Medium,44,792.8,26.27,Atlantic,Office Supplies,Xerox 1939,0
+15618,Medium,14,782.4505,11.4,Atlantic,Technology,StarTAC 7760,0
+16419,Not Specified,43,241.19,103.65,Atlantic,Office Supplies,Xerox 1978,0
+30499,High,16,92.06,5.66,Atlantic,Office Supplies,Wausau Papers Astrobrights® Colored Envelopes,0
+34978,High,49,165.51,269.91,Atlantic,Office Supplies,Self-Adhesive Ring Binder Labels,0
+35558,Critical,2,34.88,22.12,Atlantic,Furniture,9-3/4 Diameter Round Wall Clock,0
+41570,Not Specified,24,2289.92,1037.55,Atlantic,Office Supplies,Xerox 1941,1
+46119,Critical,23,93.05,15.27,Atlantic,Office Supplies,Durable Pressboard Binders,0
+47520,Not Specified,36,277.88,64.41,Atlantic,Office Supplies,GBC VeloBinder Strips,0
+47520,Not Specified,47,925.3,257.31,Atlantic,Office Supplies,Xerox Blank Computer Paper,1
+49088,Critical,31,1295.54,214.23,Atlantic,Office Supplies,Xerox 1893,1
+49634,Not Specified,39,403.73,44.13,Atlantic,Office Supplies,Belkin 6 Outlet Metallic Surge Strip,0
+53025,Critical,32,195.57,132.93,Atlantic,Office Supplies,Xerox 1920,0
+54304,High,11,558.62,118.32,Atlantic,Office Supplies,Belkin Premiere Surge Master II 8-outlet surge protector,0
+56321,Critical,24,135.88,75.39,Atlantic,Office Supplies,Wilson Jones “Snap” Scratch Pad Binder Tool for Ring Binders,0
+57671,Not Specified,6,22.78,3.96,Atlantic,Office Supplies,Avery 510,0
+58978,Low,13,75.89,31.01,Atlantic,Office Supplies,Xerox 193,0
+5092,Low,25,978.77,220.91,Atlantic,Office Supplies,Xerox 1892,0
+8257,Low,18,881.32,373.67,Atlantic,Office Supplies,Xerox 1910,0
+9285,Critical,3,124.81,11.94,Atlantic,Office Supplies,"Avery Trapezoid Ring Binder, 3"" Capacity, Black, 1040 sheets",0
+20642,High,32,135.2,59.4,Atlantic,Office Supplies,Avery 506,0
+58150,Critical,24,60.36,119.62,Atlantic,Office Supplies,Peel & Stick Add-On Corner Pockets,0
+58340,Medium,36,1936.3,278.12,Atlantic,Office Supplies,Eureka The Boss® Cordless Rechargeable Stick Vac,1
+58368,High,4,14.23,4.43,Atlantic,Furniture,Eldon® Wave Desk Accessories,0
+58368,High,39,272.07,206.46,Atlantic,Office Supplies,Xerox 1905,0
+59047,Not Specified,26,113.85,93.93,Atlantic,Furniture,Eldon Image Series Black Desk Accessories,0
+59234,Low,32,5686.25,2109.21,Atlantic,Office Supplies,Kensington 7 Outlet MasterPiece Power Center,1
+59651,Critical,36,283.21,196.06,Atlantic,Office Supplies,"Fellowes Twister Kit, Gray/Clear, 3/pkg",0
+1187,Medium,14,222.91,20.21,Atlantic,Technology,Logitech Access Keyboard,0
+4007,High,18,1038.4,112.36,Atlantic,Office Supplies,"Conquest™ 14 Commercial Heavy-Duty Upright Vacuum, Collection System, Accessory Kit",0
+4416,Low,46,7441.29,2665.4,Atlantic,Office Supplies,GBC DocuBind P100 Manual Binding Machine,1
+4454,Low,17,55.45,21.42,Atlantic,Office Supplies,Avery 497,0
+5446,Low,42,433.68,44.1,Atlantic,Office Supplies,"Manila Recycled Extra-Heavyweight Clasp Envelopes, 6"" x 9""",0
+8994,Low,36,1423.35,580.32,Atlantic,Technology,Keytronic Designer 104- Key Black Keyboard,0
+9574,Medium,40,434.62,68.98,Atlantic,Office Supplies,Ibico Covers for Plastic or Wire Binding Elements,0
+11362,Low,25,2407.693,424.14,Atlantic,Technology,LX 677,1
+12773,Low,6,17.0,4.61,Atlantic,Office Supplies,Acco Suede Grain Vinyl Round Ring Binder,0
+12773,Low,15,67.41,49.6,Atlantic,Furniture,Eldon Image Series Black Desk Accessories,0
+12773,Low,19,130.67,77.18,Atlantic,Office Supplies,Xerox 213,0
+12934,Not Specified,45,440.39,186.64,Atlantic,Office Supplies,"Staples #10 Laser & Inkjet Envelopes, 4 1/8"" x 9 1/2"", 100/Box",0
+13604,Not Specified,38,3152.75,1166.4,Atlantic,Technology,"Micro Innovations Micro Digital Wireless Keyboard and Mouse, Gray",1
+15044,Low,42,1681.6,167.37,Atlantic,Technology,Zoom V.92 V.44 PCI Internal Controllerless FaxModem,1
+18273,Low,18,925.03,3.68,Atlantic,Technology,Zoom V.92 USB External Faxmodem,0
+19042,Critical,8,327.61,54.9,Atlantic,Office Supplies,"Wilson Jones Ledger-Size, Piano-Hinge Binder, 2"", Blue",0
+19073,Not Specified,16,178.4,20.08,Atlantic,Furniture,"Eldon Expressions Punched Metal & Wood Desk Accessories, Pewter & Cherry",0
+19617,Low,3,171.9635,296.37,Atlantic,Technology,V 3600 Series,0
+21378,Medium,34,937.04,391.6,Atlantic,Office Supplies,Lock-Up Easel 'Spel-Binder',1
+21378,Medium,17,1616.64,26.94,Atlantic,Technology,U.S. Robotics 56K Internet Call Modem,0
+24067,High,19,120.56,79.35,Atlantic,Office Supplies,Xerox 1920,0
+24965,Low,42,1146.11,330.63,Atlantic,Furniture,"Deflect-o SuperTray™ Unbreakable Stackable Tray, Letter, Black",1
+25376,Critical,12,76.61,31.83,Atlantic,Furniture,"Eldon® 200 Class™ Desk Accessories, Burgundy",0
+28836,High,50,8221.2935,2342.21,Atlantic,Technology,688,1
+28836,High,7,1158.26,170.08,Atlantic,Office Supplies,Ibico EB-19 Dual Function Manual Binding System,0
+28995,High,9,298.52,73.19,Atlantic,Office Supplies,"IBM Multi-Purpose Copy Paper, 8 1/2 x 11"", Case",0
+28995,High,34,667.35,80.92,Atlantic,Office Supplies,Southworth 25% Cotton Premium Laser Paper and Envelopes,0
+29121,Medium,31,3206.965,575.33,Atlantic,Technology,Timeport L7089,1
+30243,Critical,44,2435.32,650.56,Atlantic,Office Supplies,"Fellowes Smart Surge Ten-Outlet Protector, Platinum",1
+32199,High,40,196.5,99.76,Atlantic,Office Supplies,"Pressboard Covers with Storage Hooks, 9 1/2"" x 11"", Light Blue",0
+32835,Medium,15,572.4325,19.44,Atlantic,Technology,KF 788,0
+32869,Medium,39,5250.6625,930.99,Atlantic,Technology,2180,1
+35300,Medium,10,28.81,7.15,Atlantic,Office Supplies,*Staples* Packaging Labels,0
+37888,Critical,31,639.19,274.9,Atlantic,Office Supplies,Avery Legal 4-Ring Binder,0
+40327,Medium,42,152.55,20.27,Atlantic,Office Supplies,Colored Envelopes,0
+40327,Medium,36,152.96,123.87,Atlantic,Office Supplies,Xerox 1953,0
+40800,Not Specified,18,101.34,26.11,Atlantic,Office Supplies,Staples Standard Envelopes,0
+40871,Not Specified,32,294.04,5.53,Atlantic,Office Supplies,GBC Standard Plastic Binding Systems Combs,0
+41991,Low,35,543.22,68.44,Atlantic,Furniture,DAX Clear Channel Poster Frame,0
+42754,Critical,31,341.71,32.19,Atlantic,Office Supplies,GBC Imprintable Covers,0
+42918,High,46,648.26,30.48,Atlantic,Office Supplies,"GBC Laser Imprintable Binding System Covers, Desert Sand",0
+44387,Low,20,173.09,6.71,Atlantic,Office Supplies,Southworth 25% Cotton Antique Laid Paper & Envelopes,0
+45601,High,47,945.03,267.64,Atlantic,Office Supplies,Xerox 1936,1
+46756,Medium,3,33.64,22.45,Atlantic,Office Supplies,"Array® Parchment Paper, Assorted Colors",0
+47714,Medium,30,176.15,125.36,Atlantic,Office Supplies,Avery Durable Poly Binders,0
+47846,High,37,241.14,120.08,Atlantic,Office Supplies,HP Office Paper (20Lb. and 87 Bright),0
+48199,Not Specified,47,672.46,279.74,Atlantic,Office Supplies,"#10-4 1/8"" x 9 1/2"" Premium Diagonal Seam Envelopes",1
+45155,Low,44,181.61,150.26,Atlantic,Office Supplies,ACCOHIDE® Binder by Acco,0
+48452,High,19,1781.11,51.44,Atlantic,Technology,U.S. Robotics 56K Internet Call Modem,0
+48452,High,44,185.32,192.56,Atlantic,Furniture,"Eldon® Image Series Desk Accessories, Burgundy",0
+48452,High,15,73.41,44.79,Atlantic,Office Supplies,"Pressboard Covers with Storage Hooks, 9 1/2"" x 11"", Light Blue",0
+49223,Medium,24,238.25,83.55,Atlantic,Office Supplies,Staples File Caddy,0
+58407,High,29,1669.88,548.92,Atlantic,Office Supplies,Xerox 194,1
+58884,Low,29,87.68,23.14,Atlantic,Office Supplies,Avery 474,0
+58913,Medium,23,144.55,60.17,Atlantic,Office Supplies,"Eureka Recycled Copy Paper 8 1/2"" x 11"", Ream",0
+1699,Critical,40,430.88,39.0,Atlantic,Office Supplies,#10 Self-Seal White Envelopes,0
+3361,Not Specified,49,213.71,208.02,Atlantic,Office Supplies,Xerox 1927,0
+5511,Critical,32,1829.387,482.45,Atlantic,Technology,StarTAC Series,1
+8007,Low,5,820.5645,800.25,Atlantic,Technology,StarTAC 8000,0
+9923,High,27,63.71,96.03,Atlantic,Furniture,Eldon® Wave Desk Accessories,0
+9925,Critical,17,86.47,9.35,Atlantic,Office Supplies,"Wilson Jones 1"" Hanging DublLock® Ring Binders",0
+12228,Not Specified,30,5015.051,1090.43,Atlantic,Technology,2160i,1
+12355,Not Specified,45,168.66,167.06,Atlantic,Office Supplies,"Hoover Replacement Belts For Soft Guard™ & Commercial Ltweight Upright Vacs, 2/Pk",0
+12389,Medium,34,2560.59,670.96,Atlantic,Technology,Logitech Cordless Navigator Duo,1
+12389,Medium,16,189.04,74.77,Atlantic,Office Supplies,"SimpliFile™ Personal File, Black Granite, 15w x 6-15/16d x 11-1/4h",0
+15878,High,36,275.06,237.87,Atlantic,Office Supplies,"Array® Parchment Paper, Assorted Colors",0
+16967,Low,5,397.55,152.47,Atlantic,Technology,"Micro Innovations Micro Digital Wireless Keyboard and Mouse, Gray",0
+16967,Low,34,676.26,181.98,Atlantic,Office Supplies,Xerox Blank Computer Paper,0
+18432,High,42,451.32,1.16,Atlantic,Furniture,"Eldon Expressions Punched Metal & Wood Desk Accessories, Pewter & Cherry",0
+22053,Critical,32,563.08,112.97,Atlantic,Office Supplies,Poly Designer Cover & Back,0
+25347,Low,28,967.27,309.31,Atlantic,Office Supplies,Xerox 1906,1
+26304,Medium,43,7452.137,2028.36,Atlantic,Technology,3285,1

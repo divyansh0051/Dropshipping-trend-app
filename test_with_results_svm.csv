@@ -1,0 +1,731 @@
+Order_ID,Order_Priority,Order_Quantity,Sales,Ship_Mode,Profit,Customer_Name,Region,Customer_Segment,Product_Category,Product_Sub-Category,Product_Name,Product_Container,result,Result
+643,3,21,2781.82,Ship_Mode,695.26,Monica Federle,Nunavut,Corporate,Office Supplies,Storage & Organization,"SAFCO Commercial Wire Shelving, Black",Large Box,0,Yes
+8995,3,35,3389.93,Ship_Mode,737.94,Beth Paige,Northwest Territories,Consumer,Furniture,Office Furnishings,Luxo Professional Combination Clamp-On Lamps,Large Box,1,Yes
+9127,0,7,2039.56,Ship_Mode,329.49,Bryan Davis,Northwest Territories,Corporate,Office Supplies,Storage & Organization,"Tennsco Snap-Together Open Shelving Units, Starter Sets and Add-On Units",Large Box,0,No
+26272,1,6,905.94,Ship_Mode,4.19,Carlos Daly,Northwest Territories,Home Office,Furniture,Chairs & Chairmats,Hon Olson Stacker Stools,Large Box,0,No
+36646,2,24,1168.15,Ship_Mode,743.96,Muhammed MacIntyre,Northwest Territories,Small Business,Office Supplies,Storage & Organization,Tennsco Industrial Shelving,Large Box,0,No
+41696,0,45,237.28,Ship_Mode,2088.68,Bryan Mills,Northwest Territories,Small Business,Office Supplies,Appliances,Hoover Portapower™ Portable Vacuum,Large Box,0,No
+43267,0,17,1368.14,Ship_Mode,171.26,Fred Wasserman,Northwest Territories,Home Office,Office Supplies,Appliances,Honeywell Enviracaire® Portable Air Cleaner for up to 8 x 10 Room,Large Box,0,No
+29319,1,21,4429.69,Ship_Mode,983.55,Filia McAdams,Atlantic,Small Business,Technology,Copiers and Fax,Canon PC-428 Personal Copier,Large Box,1,Yes
+5988,0,40,19109.61,Ship_Mode,379.29,Sanjit Chand,West,Home Office,Technology,Copiers and Fax,Sharp AL-1530CS Digital Copier,Large Box,0,No
+51073,0,17,2475.08,Ship_Mode,958.8,Luke Weiss,West,Corporate,Furniture,Office Furnishings,"3M Polarizing Task Lamp with Clamp Arm, Light Gray",Large Box,1,Yes
+29185,3,48,446.53,Ship_Mode,261.45,Rob Dowd,West,Corporate,Furniture,Office Furnishings,Westinghouse Clip-On Gooseneck Lamps,Large Box,0,No
+32582,0,27,2780.88,Ship_Mode,595.38,Tony Chapman,West,Consumer,Furniture,Office Furnishings,Deflect-o DuraMat Antistatic Studded Beveled Mat for Medium Pile Carpeting,Large Box,1,Yes
+39332,0,4,198.72,Ship_Mode,34.43,Khloe Miller,West,Consumer,Furniture,Office Furnishings,Dana Halogen Swing-Arm Architect Lamp,Large Box,0,No
+49088,0,15,4012.58,Ship_Mode,425.14,Kristina Nunn,Atlantic,Consumer,Office Supplies,Storage & Organization,"Tennsco Snap-Together Open Shelving Units, Starter Sets and Add-On Units",Large Box,0,Yes
+29318,0,21,2954.14,Ship_Mode,522.94,Bobby Odegard,Ontario,Corporate,Office Supplies,Storage & Organization,"SAFCO Commercial Wire Shelving, Black",Large Box,0,Yes
+50533,0,32,1974.66,Ship_Mode,929.68,Adam Bellavance,Ontario,Small Business,Office Supplies,Storage & Organization,Space Solutions Commercial Steel Shelving,Large Box,0,No
+21383,1,31,16066.85,Ship_Mode,7416.43,Rick Reed,Northwest Territories,Consumer,Technology,Office Machines,Polycom ViaVideo™ Desktop Video Communications Unit,Large Box,1,No
+48197,0,32,1282.49,Ship_Mode,154.74,Anthony O'Donnell,West,Consumer,Furniture,Office Furnishings,Dana Halogen Swing-Arm Architect Lamp,Large Box,0,No
+25031,3,24,4636.62,Ship_Mode,318.45,Sally Knutson,West,Consumer,Furniture,Tables,Hon 2111 Invitation™ Series Corner Table,Large Box,0,Yes
+38758,0,7,497.2,Ship_Mode,219.61,Justin Hirsh,West,Consumer,Office Supplies,Appliances,Euro Pro Shark Stick Mini Vacuum,Large Box,0,No
+41895,0,8,27663.92,Ship_Mode,391.92,Tony Chapman,West,Consumer,Technology,Copiers and Fax,Canon imageCLASS 2200 Advanced Copier,Large Box,0,No
+53894,0,37,2756.17,Ship_Mode,1561.72,Cathy Armstrong,Atlantic,Consumer,Furniture,Tables,"Lesro Sheffield Collection Coffee Table, End Table, Center Table, Corner Table",Large Box,0,Yes
+11969,0,16,1684.96,Ship_Mode,553.06,Ivan Liston,Atlantic,Consumer,Office Supplies,Storage & Organization,"Carina Mini System Audio Rack, Model AR050B",Large Box,0,No
+22368,2,34,2788.04,Ship_Mode,849.18,Sarah Jordon,Atlantic,Consumer,Office Supplies,Storage & Organization,"Carina 42""Hx23 3/4""W Media Storage Unit",Large Box,0,Yes
+4612,2,9,89.55,Ship_Mode,375.64,Jim Radford,Nunavut,Corporate,Office Supplies,Appliances,Hoover Portapower™ Portable Vacuum,Large Box,0,No
+7110,1,22,6396.2,Ship_Mode,1902.24,Grant Carroll,Nunavut,Corporate,Furniture,Chairs & Chairmats,SAFCO Arco Folding Chair,Large Box,1,Yes
+9927,3,44,10087.6,Ship_Mode,3387.35,Grant Carroll,Northwest Territories,Corporate,Furniture,Chairs & Chairmats,"Lifetime Advantage™ Folding Chairs, 4/Carton",Large Box,1,Yes
+11456,1,15,1519.9,Ship_Mode,399.37,Doug Bickford,Northwest Territories,Corporate,Furniture,Office Furnishings,Deflect-o DuraMat Antistatic Studded Beveled Mat for Medium Pile Carpeting,Large Box,1,No
+24743,1,26,3758.77,Ship_Mode,753.61,Sylvia Foulston,Northwest Territories,Corporate,Furniture,Chairs & Chairmats,Hon Olson Stacker Stools,Large Box,1,Yes
+30658,2,35,17387.65,Ship_Mode,6907.61,Charles McCrossin,Northwest Territories,Corporate,Technology,Copiers and Fax,Sharp AL-1530CS Digital Copier,Large Box,1,No
+30658,2,44,6040.22,Ship_Mode,942.5,Charles McCrossin,Northwest Territories,Corporate,Office Supplies,Storage & Organization,"SAFCO Commercial Wire Shelving, Black",Large Box,0,Yes
+31393,0,4,97.57,Ship_Mode,27.31,Cindy Schnelling,Northwest Territories,Corporate,Furniture,Office Furnishings,Luxo Economy Swing Arm Lamp,Large Box,0,No
+34631,0,19,12616.2,Ship_Mode,2808.22,Brendan Dodson,Northwest Territories,Corporate,Technology,Copiers and Fax,Canon PC1060 Personal Laser Copier,Large Box,1,No
+39683,3,41,8387.1,Ship_Mode,2113.95,Jeremy Lonsdale,Northwest Territories,Corporate,Furniture,Chairs & Chairmats,"Lifetime Advantage™ Folding Chairs, 4/Carton",Large Box,1,Yes
+42209,3,31,8901.78,Ship_Mode,2795.36,Alan Barnes,Northwest Territories,Corporate,Furniture,Chairs & Chairmats,SAFCO Arco Folding Chair,Large Box,1,Yes
+52964,0,44,5735.79,Ship_Mode,828.27,Jim Radford,Northwest Territories,Corporate,Furniture,Office Furnishings,"3M Polarizing Task Lamp with Clamp Arm, Light Gray",Large Box,1,Yes
+4007,3,1,305.82,Ship_Mode,232.24,Jack Lebron,Atlantic,Corporate,Office Supplies,Storage & Organization,"Tennsco Snap-Together Open Shelving Units, Starter Sets and Add-On Units",Large Box,0,No
+11362,1,9,6420.87,Ship_Mode,690.21,Hilary Holden,Atlantic,Corporate,Technology,Copiers and Fax,Canon PC1060 Personal Laser Copier,Large Box,0,Yes
+18788,0,27,566.12,Ship_Mode,19.33,Joy Smith,Atlantic,Corporate,Furniture,Office Furnishings,Telescoping Adjustable Floor Lamp,Large Box,0,No
+20033,0,5,2543.95,Ship_Mode,1011.32,Jack Lebron,Atlantic,Corporate,Technology,Copiers and Fax,Sharp AL-1530CS Digital Copier,Large Box,0,Yes
+22469,3,24,1482.81,Ship_Mode,678.63,Jack Lebron,Atlantic,Corporate,Office Supplies,Appliances,Euro Pro Shark Stick Mini Vacuum,Large Box,0,No
+22469,3,23,6693.28,Ship_Mode,40.32,Jack Lebron,Atlantic,Corporate,Furniture,Tables,Hon 5100 Series Wood Tables,Large Box,0,Yes
+30243,0,21,4242.76,Ship_Mode,340.88,Hilary Holden,Atlantic,Corporate,Technology,Copiers and Fax,Canon PC-428 Personal Copier,Large Box,1,Yes
+32199,3,1,3672.89,Ship_Mode,3061.82,Erica Bern,Atlantic,Corporate,Technology,Copiers and Fax,Canon imageCLASS 2200 Advanced Copier,Large Box,0,Yes
+33763,0,23,10791.38,Ship_Mode,234.79,Evan Minnotte,Atlantic,Corporate,Technology,Copiers and Fax,Sharp AL-1530CS Digital Copier,Large Box,0,No
+36677,1,38,23255.61,Ship_Mode,734.33,Jack Lebron,Atlantic,Corporate,Technology,Copiers and Fax,Canon Image Class D660 Copier,Large Box,0,No
+38310,3,4,62.45,Ship_Mode,141.76,Jack Lebron,Atlantic,Corporate,Office Supplies,Appliances,Hoover® Commercial Lightweight Upright Vacuum,Large Box,0,No
+47846,3,5,66.43,Ship_Mode,9.45,Hilary Holden,Atlantic,Corporate,Furniture,Office Furnishings,Dana Swing-Arm Lamps,Large Box,0,No
+50404,3,10,1961.68,Ship_Mode,367.0,Guy Armstrong,Prarie,Corporate,Furniture,Tables,"Lesro Round Back Collection Coffee Table, End Table",Large Box,0,No
+51461,0,43,858.53,Ship_Mode,97.54,Greg Guthrie,Prarie,Corporate,Furniture,Office Furnishings,Telescoping Adjustable Floor Lamp,Large Box,0,No
+54501,0,38,783.96,Ship_Mode,1195.29,Guy Armstrong,Prarie,Corporate,Office Supplies,Storage & Organization,Tennsco Commercial Shelving,Large Box,0,No
+55138,3,22,1132.54,Ship_Mode,628.38,Jim Sink,Prarie,Corporate,Office Supplies,Storage & Organization,Tennsco Industrial Shelving,Large Box,0,No
+44320,2,49,7002.08,Ship_Mode,1640.51,Sally Knutson,West,Corporate,Furniture,Tables,Laminate Occasional Tables,Large Box,0,Yes
+1925,0,7,1874.37,Ship_Mode,67.84,Brian Moss,West,Corporate,Furniture,Chairs & Chairmats,SAFCO Arco Folding Chair,Large Box,0,No
+24070,3,3,431.29,Ship_Mode,164.59,Sonia Sunley,West,Corporate,Furniture,Chairs & Chairmats,Hon Olson Stacker Stools,Large Box,0,No
+52035,3,29,20872.16,Ship_Mode,4437.91,Roy Skaria,West,Corporate,Technology,Copiers and Fax,Canon PC1060 Personal Laser Copier,Large Box,0,No
+4261,0,32,9235.97,Ship_Mode,2848.17,Lela Donovan,West,Corporate,Office Supplies,Appliances,Honeywell Enviracaire Portable HEPA Air Cleaner for 17' x 22' Room,Large Box,1,Yes
+8992,3,3,441.43,Ship_Mode,154.45,Shahid Shariari,West,Corporate,Furniture,Chairs & Chairmats,Hon Olson Stacker Stools,Large Box,0,No
+20961,0,34,6607.92,Ship_Mode,1462.72,Lela Donovan,West,Corporate,Technology,Copiers and Fax,Canon PC-428 Personal Copier,Large Box,1,Yes
+47750,1,1,195.04,Ship_Mode,149.41,Sally Knutson,Atlantic,Corporate,Office Supplies,Storage & Organization,Office Impressions Heavy Duty Welded Shelving & Multimedia Storage Drawers,Large Box,0,No
+48230,0,31,2645.8,Ship_Mode,684.78,Dana Kaydos,Prarie,Corporate,Office Supplies,Storage & Organization,"Carina 42""Hx23 3/4""W Media Storage Unit",Large Box,0,Yes
+36449,0,6,90.75,Ship_Mode,26.39,Bruce Stewart,Ontario,Corporate,Furniture,Office Furnishings,"Tensor ""Hersey Kiss"" Styled Floor Lamp",Large Box,0,No
+53152,2,9,196.41,Ship_Mode,27.91,Bill Eplett,Ontario,Corporate,Furniture,Office Furnishings,Telescoping Adjustable Floor Lamp,Large Box,0,No
+15907,3,36,3722.29,Ship_Mode,950.68,Thomas Seio,Northwest Territories,Home Office,Furniture,Office Furnishings,"Tenex 46"" x 60"" Computer Anti-Static Chairmat, Rectangular Shaped",Medium Box,1,Yes
+49952,3,12,1323.67,Ship_Mode,630.28,Beth Thompson,Northwest Territories,Corporate,Furniture,Office Furnishings,"Tenex Contemporary Contur Chairmats for Low and Medium Pile Carpet, Computer, 39"" x 49""",Medium Box,1,No
+5153,0,37,4896.93,Ship_Mode,1467.82,Helen Abelman,Atlantic,Home Office,Furniture,Chairs & Chairmats,SAFCO Folding Chair Trolley,Medium Box,1,Yes
+25315,1,36,7783.36,Ship_Mode,3506.24,Joy Smith,Atlantic,Consumer,Office Supplies,Appliances,Holmes Harmony HEPA Air Purifier for 17 x 20 Room,Medium Box,1,Yes
+31941,2,32,2564.45,Ship_Mode,650.73,Kimberly Carter,West,Small Business,Office Supplies,Appliances,Honeywell Quietcare HEPA Air Cleaner,Medium Box,1,Yes
+2848,0,35,1476.39,Ship_Mode,303.62,Emily Grady,West,Home Office,Furniture,Office Furnishings,Eldon Advantage® Chair Mats for Low to Medium Pile Carpets,Medium Box,0,No
+8801,1,32,2593.08,Ship_Mode,673.31,Thomas Brumley,West,Consumer,Furniture,Office Furnishings,Eldon Cleatmat Plus™ Chair Mats for High Pile Carpets,Medium Box,0,Yes
+18432,3,15,217.66,Ship_Mode,24.91,Art Ferguson,Atlantic,Corporate,Office Supplies,Appliances,Holmes Odor Grabber,Medium Box,0,No
+49441,2,49,1981.26,Ship_Mode,100.8,Mary O'Rourke,Prarie,Home Office,Furniture,Office Furnishings,"Deflect-o EconoMat Studded, No Bevel Mat for Low Pile Carpeting",Medium Box,1,No
+16165,0,24,1452.48,Ship_Mode,376.52,Hallie Redmond,Prarie,Small Business,Furniture,Office Furnishings,Deflect-o Glass Clear Studded Chair Mats,Medium Box,1,No
+515,0,19,394.27,Ship_Mode,30.94,Carlos Soltero,Nunavut,Consumer,Office Supplies,Appliances,Holmes HEPA Air Purifier,Medium Box,0,No
+7906,2,37,1003.06,Ship_Mode,271.78,Beth Paige,Nunavut,Consumer,Office Supplies,Appliances,3M Office Air Cleaner,Medium Box,1,No
+50754,0,9,64.0305,Ship_Mode,58.34,Becky Castell,Northwest Territories,Consumer,Technology,Telephones and Communication,Bell Sonecor JB700 Caller ID,Medium Box,0,No
+21223,0,8,435.29,Ship_Mode,122.41,Harold Engle,Atlantic,Consumer,Furniture,Office Furnishings,"Deflect-o EconoMat Nonstudded, No Bevel Mat",Medium Box,0,No
+53508,3,25,342.85,Ship_Mode,32.42,Joy Smith,Prarie,Consumer,Technology,Office Machines,Sharp EL500L Fraction Calculator,Medium Box,0,No
+15621,0,39,1105.66,Ship_Mode,136.2,Gene Hale,West,Consumer,Office Supplies,Storage & Organization,Eldon Portable Mobile Manager,Medium Box,0,No
+22980,0,17,224.09,Ship_Mode,27.92,Rob Haberlin,West,Consumer,Office Supplies,Storage & Organization,Eldon Simplefile® Box Office®,Medium Box,0,No
+59584,2,7,1120.27,Ship_Mode,16.81,Joy Smith,West,Consumer,Technology,Office Machines,Canon MP41DH Printing Calculator,Medium Box,0,No
+47108,0,7,131.55,Ship_Mode,43.74,Justin Hirsh,Atlantic,Consumer,Technology,Office Machines,Canon P1-DHIII Palm Printing Calculator,Medium Box,0,No
+51494,0,42,493.56,Ship_Mode,12.73,Justin Hirsh,Atlantic,Consumer,Technology,Office Machines,TI 30X Scientific Calculator,Medium Box,0,No
+6116,2,6,9620.82,Ship_Mode,1759.58,Barry Weirich,Nunavut,Corporate,Office Supplies,"Scissors, Rulers and Trimmers",High Speed Automatic Electric Letter Opener,Medium Box,0,Yes
+12289,1,25,3019.41,Ship_Mode,1269.05,Brendan Dodson,Northwest Territories,Corporate,Technology,Office Machines,Canon BP1200DH 12-Digit Bubble Jet Printing Calculator,Medium Box,1,Yes
+12419,0,12,22079.47,Ship_Mode,5322.14,Sylvia Foulston,Northwest Territories,Corporate,Technology,Office Machines,Polycom ViewStation™ Adapter H323 Videoconferencing Unit,Medium Box,1,No
+18144,0,8,234.28,Ship_Mode,65.42,Dorothy Wardle,Northwest Territories,Corporate,Office Supplies,Storage & Organization,Eldon Portable Mobile Manager,Medium Box,0,No
+19686,2,2,42.31,Ship_Mode,53.08,Alan Barnes,Northwest Territories,Corporate,Technology,Office Machines,Canon P1-DHIII Palm Printing Calculator,Medium Box,0,No
+22469,3,44,275.91,Ship_Mode,162.37,Jack Lebron,Northwest Territories,Corporate,Technology,Telephones and Communication,Bell Sonecor JB700 Caller ID,Medium Box,0,No
+27392,1,37,5753.85,Ship_Mode,2509.52,Frank Price,Northwest Territories,Corporate,Technology,Office Machines,Canon MP41DH Printing Calculator,Medium Box,1,Yes
+27553,2,16,2631.107,Ship_Mode,297.11,Jim Radford,Northwest Territories,Corporate,Technology,Telephones and Communication,VTech VT20-2481 2.4GHz Two-Line Phone System w/Answering Machine,Medium Box,1,Yes
+28135,0,37,1601.24,Ship_Mode,520.69,Jeremy Lonsdale,Northwest Territories,Corporate,Office Supplies,Appliances,Bionaire Personal Warm Mist Humidifier/Vaporizer,Medium Box,1,No
+32229,3,8,1219.19,Ship_Mode,44.37,Carlos Daly,Northwest Territories,Corporate,Technology,Office Machines,Canon MP41DH Printing Calculator,Medium Box,0,No
+37860,2,1,104.85,Ship_Mode,98.31,Mike Pelletier,Northwest Territories,Corporate,Furniture,Office Furnishings,Eldon Cleatmat® Chair Mats for Medium Pile Carpets,Medium Box,0,No
+39364,3,29,2754.93,Ship_Mode,1.33,Jamie Kunitz,Northwest Territories,Corporate,Furniture,Office Furnishings,"Deflect-o RollaMat Studded, Beveled Mat for Medium Pile Carpeting",Medium Box,0,Yes
+43236,0,20,205.33,Ship_Mode,10.68,Jamie Kunitz,Northwest Territories,Corporate,Furniture,Office Furnishings,DAX Solid Wood Frames,Medium Box,0,No
+54274,0,20,1583.06,Ship_Mode,328.0,Don Jones,Northwest Territories,Corporate,Office Supplies,Appliances,Honeywell Quietcare HEPA Air Cleaner,Medium Box,1,No
+57344,3,47,1060.0605,Ship_Mode,71.03,Sylvia Foulston,Northwest Territories,Corporate,Technology,Telephones and Communication,SouthWestern Bell FA970 Digital Answering Machine with Time/Day Stamp,Medium Box,0,No
+11362,1,32,3245.73,Ship_Mode,569.57,Hilary Holden,Atlantic,Corporate,Furniture,Office Furnishings,"Rubbermaid ClusterMat Chairmats, Mat Size- 66"" x 60"", Lip 20"" x 11"" -90 Degree Angle",Medium Box,1,Yes
+13604,0,42,3609.88,Ship_Mode,1396.22,Erica Bern,Atlantic,Corporate,Furniture,Office Furnishings,Eldon ClusterMat Chair Mat with Cordless Antistatic Protection,Medium Box,0,Yes
+19617,1,38,952.47,Ship_Mode,270.69,Jack Lebron,Atlantic,Corporate,Technology,Office Machines,TI 36X Solar Scientific Calculator,Medium Box,1,No
+32869,2,49,2470.84,Ship_Mode,25.04,Christopher Schild,Atlantic,Corporate,Furniture,Office Furnishings,"Deflect-o EconoMat Nonstudded, No Bevel Mat",Medium Box,0,No
+35300,2,35,1445.6,Ship_Mode,126.03,Dan Reichenbach,Atlantic,Corporate,Furniture,Office Furnishings,"Deflect-o EconoMat Studded, No Bevel Mat for Low Pile Carpeting",Medium Box,0,No
+42918,3,46,410.43,Ship_Mode,54.58,Logan Haushalter,Atlantic,Corporate,Technology,Office Machines,"Sharp EL501VB Scientific Calculator, Battery Operated, 10-Digit Display, Hard Case",Medium Box,0,No
+47846,3,25,2674.18,Ship_Mode,631.99,Hilary Holden,Atlantic,Corporate,Furniture,Office Furnishings,"Rubbermaid ClusterMat Chairmats, Mat Size- 66"" x 60"", Lip 20"" x 11"" -90 Degree Angle",Medium Box,1,Yes
+47846,3,50,5513.82,Ship_Mode,1581.93,Hilary Holden,Atlantic,Corporate,Furniture,Office Furnishings,"Tenex 46"" x 60"" Computer Anti-Static Chairmat, Rectangular Shaped",Medium Box,1,Yes
+54501,0,16,225.46,Ship_Mode,33.03,Guy Armstrong,Prarie,Corporate,Technology,Office Machines,Sharp EL500L Fraction Calculator,Medium Box,0,No
+11782,1,27,1541.781,Ship_Mode,14.35,Marina Lichtenstein,West,Corporate,Technology,Telephones and Communication,"Panasonic All Digital Answering System with Caller ID*, KX-TM150B",Medium Box,0,No
+24576,0,29,531.063,Ship_Mode,24.56,Luke Weiss,West,Corporate,Technology,Telephones and Communication,1726 Digital Answering Machine,Medium Box,0,No
+37281,2,25,453.2455,Ship_Mode,3.31,Roy Skaria,West,Corporate,Technology,Telephones and Communication,1726 Digital Answering Machine,Medium Box,0,No
+49761,0,45,1090.6,Ship_Mode,300.91,Lisa DeCherney,West,Corporate,Technology,Office Machines,TI 36X Solar Scientific Calculator,Medium Box,1,No
+19044,1,32,4800.44,Ship_Mode,1912.92,Rob Dowd,West,Corporate,Technology,Office Machines,Canon MP41DH Printing Calculator,Medium Box,1,Yes
+38690,1,28,697.5,Ship_Mode,169.89,Shahid Shariari,West,Corporate,Technology,Office Machines,TI 36X Solar Scientific Calculator,Medium Box,0,No
+50338,0,36,551.44,Ship_Mode,28.7,Liz Price,Atlantic,Corporate,Technology,Office Machines,Sharp EL500L Fraction Calculator,Medium Box,0,No
+14406,2,37,5610.84,Ship_Mode,2366.51,Charles Sheldon,Atlantic,Corporate,Technology,Office Machines,Canon MP41DH Printing Calculator,Medium Box,1,Yes
+27396,0,14,138.31,Ship_Mode,31.16,Sean Wendt,West,Corporate,Furniture,Office Furnishings,DAX Solid Wood Frames,Medium Box,0,No
+41059,2,45,12571.63,Ship_Mode,5455.96,Lycoris Saunders,Ontario,Corporate,Technology,Office Machines,Polycom VoiceStation 100,Medium Box,1,No
+47174,0,42,642.1,Ship_Mode,41.56,Maria Bertelson,Ontario,Corporate,Technology,Office Machines,Sharp EL500L Fraction Calculator,Medium Box,0,No
+57153,0,9,106.05,Ship_Mode,14.52,Meg O'Connel,Ontario,Corporate,Office Supplies,Appliances,"Holmes Replacement Filter for HEPA Air Cleaner, Medium Room",Medium Box,0,No
+59878,3,6,112.4,Ship_Mode,46.75,Ivan Gibson,Ontario,Corporate,Technology,Office Machines,Canon P1-DHIII Palm Printing Calculator,Medium Box,0,No
+1218,0,3,46.46,Ship_Mode,25.13,Craig Carroll,Ontario,Corporate,Office Supplies,Appliances,Holmes Odor Grabber,Medium Box,0,No
+13410,0,29,701.94,Ship_Mode,158.91,Bobby Odegard,Ontario,Corporate,Technology,Office Machines,TI 36X Solar Scientific Calculator,Medium Box,0,No
+15808,0,3,58.14,Ship_Mode,96.25,Bill Donatelli,Ontario,Corporate,Technology,Telephones and Communication,1726 Digital Answering Machine,Medium Box,0,No
+56101,0,1,21.45,Ship_Mode,7.22,Bill Donatelli,Ontario,Corporate,Office Supplies,Appliances,Holmes Odor Grabber,Medium Box,0,No
+1412,0,13,59.03,Ship_Mode,26.92,Carlos Soltero,Nunavut,Consumer,Office Supplies,Labels,Avery 52,Small Box,0,No
+4676,3,3,49.59,Ship_Mode,8.38,Annie Cyprus,Nunavut,Home Office,Office Supplies,Paper,Xerox 1881,Small Box,0,No
+6182,1,18,130.32,Ship_Mode,67.28,Grant Carroll,Nunavut,Corporate,Office Supplies,Paper,Xerox 213,Small Box,0,No
+6916,1,40,436.17,Ship_Mode,141.27,Andrew Gjertsen,Nunavut,Consumer,Office Supplies,Storage & Organization,Crate-A-Files™,Small Box,0,No
+8419,0,19,368.04,Ship_Mode,70.39,Nicole Hansen,Nunavut,Small Business,Office Supplies,Paper,Xerox 1936,Small Box,0,No
+8995,3,5,24.16,Ship_Mode,8.05,Beth Paige,Nunavut,Consumer,Office Supplies,Binders and Binder Accessories,Staples® General Use 3-Ring Binders,Small Box,0,No
+8995,3,41,270.84,Ship_Mode,78.02,Beth Paige,Northwest Territories,Consumer,Office Supplies,Paper,Xerox 1904,Small Box,0,No
+9509,0,5,101.21,Ship_Mode,2.13,Joy Bell,Northwest Territories,Home Office,Office Supplies,Paper,Xerox 1887,Small Box,0,No
+9927,3,34,1608.08,Ship_Mode,82.16,Grant Carroll,Northwest Territories,Corporate,Technology,Computer Peripherals,Microsoft Natural Multimedia Keyboard,Small Box,0,No
+13795,0,23,275.16,Ship_Mode,43.35,Muhammed MacIntyre,Northwest Territories,Small Business,Office Supplies,Paper,Xerox 188,Small Box,0,No
+16706,3,49,6175.777,Ship_Mode,1881.58,Beth Thompson,Northwest Territories,Corporate,Technology,Telephones and Communication,T39m,Small Box,1,Yes
+19138,1,30,387.0,Ship_Mode,31.45,Carlos Daly,Northwest Territories,Home Office,Office Supplies,Storage & Organization,Recycled Eldon Regeneration Jumbo File,Small Box,0,No
+22501,3,2,30.83,Ship_Mode,7.27,Alan Barnes,Northwest Territories,Corporate,Office Supplies,Envelopes,"#10- 4 1/8"" x 9 1/2"" Security-Tint Envelopes",Small Box,0,No
+25318,0,22,440.92,Ship_Mode,65.18,Julia West,Northwest Territories,Small Business,Furniture,Office Furnishings,12-1/2 Diameter Round Wall Clock,Small Box,0,No
+25634,0,26,626.07,Ship_Mode,185.32,Mike Pelletier,Northwest Territories,Corporate,Office Supplies,Envelopes,"Recycled Interoffice Envelopes with String and Button Closure, 10 x 13",Small Box,0,No
+26370,0,20,660.27,Ship_Mode,63.83,Fred Wasserman,Northwest Territories,Home Office,Office Supplies,Storage & Organization,Home/Office Personal File Carts,Small Box,0,No
+31492,0,34,971.95,Ship_Mode,21.1,Nicole Hansen,Northwest Territories,Small Business,Office Supplies,Storage & Organization,Acco Perma® 2700 Stacking Storage Drawers,Small Box,0,No
+31684,0,28,456.91,Ship_Mode,328.18,Susan Vittorini,Northwest Territories,Corporate,Office Supplies,Storage & Organization,"Tenex File Box, Personal Filing Tote with Lid, Black",Small Box,0,No
+32193,1,4,40.72,Ship_Mode,10.25,Chad Cunningham,Northwest Territories,Small Business,Office Supplies,Paper,HP Office Paper (20Lb. and 87 Bright),Small Box,0,No
+33703,0,4,63.52,Ship_Mode,8.47,Carl Ludwig,Northwest Territories,Corporate,Office Supplies,Storage & Organization,Portable Personal File Box,Small Box,0,No
+33894,0,13,438.93,Ship_Mode,119.02,Doug Bickford,Northwest Territories,Corporate,Technology,Computer Peripherals,PC Concepts 116 Key Quantum 3000 Keyboard,Small Box,0,No
+37541,2,10,550.61,Ship_Mode,98.32,Claudia Miner,Northwest Territories,Small Business,Office Supplies,Paper,Xerox 1882,Small Box,0,No
+42561,1,15,1062.959,Ship_Mode,298.48,Beth Paige,Northwest Territories,Consumer,Technology,Telephones and Communication,Accessory12,Small Box,0,No
+43781,0,21,917.39,Ship_Mode,393.41,Claudia Miner,Northwest Territories,Small Business,Office Supplies,Binders and Binder Accessories,"Avery Trapezoid Ring Binder, 3"" Capacity, Black, 1040 sheets",Small Box,0,No
+44839,0,27,899.97,Ship_Mode,246.3,Julia West,Northwest Territories,Consumer,Furniture,Office Furnishings,"Linden® 12"" Wall Clock With Oak Frame",Small Box,0,No
+52193,0,1,17.89,Ship_Mode,10.51,Mike Pelletier,Northwest Territories,Corporate,Office Supplies,Labels,Avery 492,Small Box,0,No
+52929,3,43,701.46,Ship_Mode,90.14,Muhammed MacIntyre,Northwest Territories,Small Business,Technology,Office Machines,"AT&T Black Trimline Phone, Model 210",Small Box,0,No
+55715,0,28,168.57,Ship_Mode,16.65,Eugene Barchas,Northwest Territories,Corporate,Office Supplies,Binders and Binder Accessories,"Wilson Jones 1"" Hanging DublLock® Ring Binders",Small Box,0,No
+57509,1,39,199.39,Ship_Mode,101.13,Neola Schneider,Northwest Territories,Home Office,Office Supplies,Labels,Avery 493,Small Box,0,No
+58368,3,5,325.43,Ship_Mode,76.11,Doug Bickford,Atlantic,Corporate,Office Supplies,Storage & Organization,Fellowes Bankers Box™ Staxonsteel® Drawer File/Stacking System,Small Box,0,No
+59395,0,20,963.3,Ship_Mode,367.12,Cari Schnelling,Atlantic,Small Business,Office Supplies,Paper,Xerox 1885,Small Box,0,No
+11269,1,39,2083.0525,Ship_Mode,354.96,Harold Engle,Atlantic,Home Office,Technology,Telephones and Communication,i1000,Small Box,1,No
+13927,1,26,188.05,Ship_Mode,21.41,Dan Reichenbach,Atlantic,Corporate,Office Supplies,Paper,Xerox 1985,Small Box,0,No
+15463,1,48,293.3,Ship_Mode,193.48,Evan Minnotte,Atlantic,Corporate,Office Supplies,Paper,Xerox 1920,Small Box,0,No
+22656,0,10,309.3,Ship_Mode,77.89,Evan Minnotte,Atlantic,Corporate,Technology,Computer Peripherals,Belkin ErgoBoard™ Keyboard,Small Box,0,No
+24038,3,15,896.1805,Ship_Mode,82.04,Jack Lebron,Atlantic,Corporate,Technology,Telephones and Communication,8860,Small Box,0,No
+24067,3,46,2640.6865,Ship_Mode,751.38,Frank Atkinson,Atlantic,Corporate,Technology,Telephones and Communication,252,Small Box,1,Yes
+24965,1,6,2528.49,Ship_Mode,580.15,Jack Lebron,Atlantic,Corporate,Office Supplies,Binders and Binder Accessories,GBC DocuBind 200 Manual Binding Machine,Small Box,1,Yes
+29382,3,34,684.66,Ship_Mode,35.09,Greg Guthrie,Atlantic,Small Business,Furniture,Office Furnishings,12-1/2 Diameter Round Wall Clock,Small Box,0,No
+36293,2,25,165.36,Ship_Mode,94.79,Carlos Soltero,Atlantic,Small Business,Office Supplies,Paper,Xerox 220,Small Box,0,No
+40480,0,19,7608.88,Ship_Mode,3049.45,Harold Engle,Atlantic,Home Office,Office Supplies,Binders and Binder Accessories,GBC DocuBind 200 Manual Binding Machine,Small Box,1,Yes
+48067,1,31,3229.66,Ship_Mode,695.06,Jennifer Braxton,Atlantic,Small Business,Technology,Telephones and Communication,270c,Small Box,1,Yes
+48067,1,24,4010.9375,Ship_Mode,630.7,Jennifer Braxton,Atlantic,Small Business,Technology,Telephones and Communication,T28 WORLD,Small Box,1,Yes
+49029,3,49,8223.07,Ship_Mode,2549.4,Jim Sink,Atlantic,Corporate,Technology,Telephones and Communication,CF 888,Small Box,1,Yes
+49216,3,29,374.67,Ship_Mode,30.63,Noah Childs,Prarie,Home Office,Office Supplies,Paper,Staples Premium Bright 1-Part Blank Computer Paper,Small Box,0,No
+52482,0,21,848.2,Ship_Mode,163.78,Greg Guthrie,Prarie,Corporate,Office Supplies,Appliances,Belkin 8 Outlet Surge Protector,Small Box,0,No
+5318,3,29,5010.7415,Ship_Mode,1196.37,Matt Collins,West,Consumer,Technology,Telephones and Communication,2160i,Small Box,1,Yes
+9123,0,27,384.9,Ship_Mode,108.28,Matt Collins,West,Consumer,Office Supplies,Storage & Organization,Project Tote Personal File,Small Box,0,No
+11553,2,28,1350.34,Ship_Mode,517.17,Justin Knight,West,Corporate,Office Supplies,Storage & Organization,"Gould Plastics 9-Pocket Panel Bin, 18-3/8w x 5-1/4d x 20-1/2h, Black",Small Box,0,No
+20448,0,23,104.82,Ship_Mode,6.84,Luke Weiss,West,Corporate,Office Supplies,Envelopes,Colored Envelopes,Small Box,0,No
+28802,3,36,336.25,Ship_Mode,25.95,Sanjit Chand,West,Home Office,Office Supplies,Paper,Southworth 25% Cotton Antique Laid Paper & Envelopes,Small Box,0,No
+37315,1,31,4726.595,Ship_Mode,1176.48,Luke Weiss,West,Corporate,Technology,Telephones and Communication,5165,Small Box,1,Yes
+38565,0,20,234.09,Ship_Mode,11.69,Justin Knight,West,Corporate,Furniture,Office Furnishings,"Eldon Expressions Punched Metal & Wood Desk Accessories, Pewter & Cherry",Small Box,0,No
+53863,3,46,7807.45,Ship_Mode,1660.15,Christina DeMoss,West,Home Office,Office Supplies,Storage & Organization,Fellowes Super Stor/Drawer® Files,Small Box,1,Yes
+57959,2,48,1269.79,Ship_Mode,65.33,Sally Knutson,West,Consumer,Technology,Computer Peripherals,"Micro Innovations Micro 3000 Keyboard, Black",Small Box,0,No
+928,1,21,1222.68,Ship_Mode,300.97,Anthony O'Donnell,West,Consumer,Office Supplies,Appliances,Belkin 8 Outlet SurgeMaster II Gold Surge Protector,Small Box,0,No
+928,1,26,390.2,Ship_Mode,45.0,Anthony O'Donnell,West,Consumer,Furniture,Office Furnishings,DAX Clear Channel Poster Frame,Small Box,0,No
+5504,3,6,49.55,Ship_Mode,20.33,Anna Andreadi,West,Small Business,Office Supplies,Paper,HP Office Recycled Paper (20Lb. and 87 Bright),Small Box,0,No
+14852,2,9,3800.4,Ship_Mode,1234.57,Angele Hood,West,Consumer,Office Supplies,Binders and Binder Accessories,GBC DocuBind 200 Manual Binding Machine,Small Box,1,Yes
+26978,2,47,695.99,Ship_Mode,157.44,Seth Vernon,West,Home Office,Office Supplies,Storage & Organization,Eldon Jumbo ProFile™ Portable File Boxes Graphite/Black,Small Box,0,No
+32871,3,42,939.77,Ship_Mode,9.72,Jim Karlsson,West,Small Business,Technology,Computer Peripherals,Microsoft Internet Keyboard,Small Box,0,No
+39301,2,16,2232.66,Ship_Mode,521.09,Kelly Williams,West,Corporate,Technology,Computer Peripherals,Adesso Programmable 142-Key Keyboard,Small Box,0,No
+50310,2,42,1811.3,Ship_Mode,520.41,Sarah Foster,West,Corporate,Office Supplies,Appliances,Belkin F9M820V08 8 Outlet Surge,Small Box,1,No
+52737,0,14,125.54,Ship_Mode,15.74,Alex Avila,West,Home Office,Office Supplies,Binders and Binder Accessories,GBC VeloBinder Strips,Small Box,0,No
+54560,0,45,2404.599,Ship_Mode,496.89,Barbara Fisher,West,Small Business,Technology,Telephones and Communication,MicroTAC 650,Small Box,1,No
+55777,0,1,65.7475,Ship_Mode,252.48,Roy Skaria,West,Corporate,Technology,Telephones and Communication,StarTAC 7760,Small Box,0,No
+56001,1,17,118.36,Ship_Mode,60.65,Alex Avila,West,Home Office,Office Supplies,Paper,Xerox 210,Small Box,0,No
+2720,0,36,2051.016,Ship_Mode,483.97,Christopher Martinez,West,Small Business,Technology,Telephones and Communication,StarTAC 7760,Small Box,1,No
+4642,0,21,309.62,Ship_Mode,80.2,Shahid Shariari,West,Corporate,Office Supplies,Storage & Organization,Project Tote Personal File,Small Box,0,No
+8801,1,25,2529.396,Ship_Mode,371.21,Thomas Brumley,West,Consumer,Technology,Telephones and Communication,270c,Small Box,1,Yes
+11332,1,23,1223.3795,Ship_Mode,83.57,Liz Price,West,Corporate,Technology,Telephones and Communication,i500plus,Small Box,0,No
+17702,3,9,264.63,Ship_Mode,66.78,Mark Cousins,West,Home Office,Technology,Computer Peripherals,Belkin MediaBoard 104- Keyboard,Small Box,0,No
+17831,0,38,260.41,Ship_Mode,45.75,Ricardo Emerson,West,Corporate,Office Supplies,Paper,Xerox 1947,Small Box,0,No
+20389,3,30,201.35,Ship_Mode,107.37,Liz Price,West,Corporate,Office Supplies,Paper,Xerox 1920,Small Box,0,No
+22657,3,36,9544.18,Ship_Mode,3392.88,Ralph Kennedy,West,Corporate,Technology,Computer Peripherals,Hayes Optima 56K V.90 Internal Voice Modem,Small Box,1,Yes
+25635,0,14,633.08,Ship_Mode,145.48,Sally Knutson,West,Corporate,Office Supplies,Appliances,Belkin F9M820V08 8 Outlet Surge,Small Box,0,No
+29185,3,5,217.85,Ship_Mode,25.31,Rob Dowd,West,Corporate,Office Supplies,Paper,Xerox 1893,Small Box,0,No
+29985,0,22,196.75,Ship_Mode,0.13,Khloe Miller,West,Corporate,Furniture,Office Furnishings,Staples Plastic Wall Frames,Small Box,0,No
+31872,1,34,2833.19,Ship_Mode,1409.87,Vicky Freymann,West,Home Office,Office Supplies,Envelopes,Ames Color-File® Green Diamond Border X-ray Mailers,Small Box,1,Yes
+32611,2,18,986.24,Ship_Mode,68.9,Neil Knudson,West,Corporate,Technology,Computer Peripherals,Nu-Form 106-Key Ergonomic Keyboard w/ Touchpad,Small Box,0,No
+36803,0,2,19.02,Ship_Mode,10.73,Ralph Kennedy,West,Corporate,Furniture,Office Furnishings,Eldon® Wave Desk Accessories,Small Box,0,No
+36805,2,28,1546.3965,Ship_Mode,226.72,Shahid Shariari,West,Corporate,Technology,Telephones and Communication,g520,Small Box,1,No
+44451,0,4,103.9,Ship_Mode,19.26,Khloe Miller,Atlantic,Home Office,Furniture,Office Furnishings,"Seth Thomas 12"" Clock w/ Goldtone Case",Small Box,0,No
+45059,0,39,3401.8,Ship_Mode,508.87,Tony Chapman,Atlantic,Consumer,Office Supplies,Storage & Organization,Fellowes Stor/Drawer® Steel Plus™ Storage Drawers,Small Box,0,Yes
+45731,0,19,146.63,Ship_Mode,30.06,Gene Hale,Atlantic,Consumer,Office Supplies,Paper,Xerox 1894,Small Box,0,No
+47108,0,26,258.11,Ship_Mode,9.95,Justin Hirsh,Atlantic,Consumer,Office Supplies,Paper,Xerox 1896,Small Box,0,No
+47108,0,9,1288.515,Ship_Mode,382.57,Justin Hirsh,Atlantic,Consumer,Technology,Telephones and Communication,2180,Small Box,0,No
+50208,2,4,38.76,Ship_Mode,12.13,Sarah Bern,Atlantic,Corporate,Office Supplies,Binders and Binder Accessories,Avery Hole Reinforcements,Small Box,0,No
+51525,0,18,360.24,Ship_Mode,36.24,Patrick O'Brill,Atlantic,Home Office,Technology,Computer Peripherals,Belkin 105-Key Black Keyboard,Small Box,0,No
+52933,1,44,210.46,Ship_Mode,50.04,Liz Price,Atlantic,Consumer,Office Supplies,Binders and Binder Accessories,Avery Non-Stick Binders,Small Box,0,No
+53894,0,29,5159.3725,Ship_Mode,1252.48,Cathy Armstrong,Atlantic,Consumer,Technology,Telephones and Communication,5125,Small Box,1,Yes
+56610,2,20,857.95,Ship_Mode,51.85,Justin Hirsh,Atlantic,Consumer,Technology,Computer Peripherals,"Fellowes Mobile Numeric Keypad, Graphite",Small Box,0,No
+3393,3,7,127.74,Ship_Mode,5.57,Steve Carroll,Atlantic,Consumer,Technology,Computer Peripherals,Logitech Access Keyboard,Small Box,0,No
+7015,0,42,7143.927,Ship_Mode,2374.73,Matt Abelman,Atlantic,Home Office,Technology,Telephones and Communication,T65,Small Box,1,Yes
+9925,0,43,1751.68,Ship_Mode,771.83,Chad Sievert,Atlantic,Corporate,Office Supplies,Binders and Binder Accessories,"Avery Trapezoid Extra Heavy Duty 4"" Binders",Small Box,1,No
+20455,0,7,381.1995,Ship_Mode,233.56,Dana Kaydos,Atlantic,Corporate,Technology,Telephones and Communication,V 3600 Series,Small Box,0,No
+38625,0,28,2752.0,Ship_Mode,336.47,Chad Sievert,West,Corporate,Technology,Computer Peripherals,US Robotics 56K V.92 External Faxmodem,Small Box,1,Yes
+41217,3,23,1314.64,Ship_Mode,575.38,Nathan Cano,West,Consumer,Office Supplies,Paper,"Eaton Premium Continuous-Feed Paper, 25% Cotton, Letter Size, White, 1000 Shts/Box",Small Box,1,No
+41927,0,46,2332.23,Ship_Mode,1085.93,Matt Abelman,West,Home Office,Office Supplies,Paper,Xerox 1885,Small Box,1,No
+48230,0,39,1140.26,Ship_Mode,387.2,Dana Kaydos,Prarie,Corporate,Furniture,Office Furnishings,"Deflect-o SuperTray™ Unbreakable Stackable Tray, Letter, Black",Small Box,1,No
+53600,2,8,55.59,Ship_Mode,17.95,Roland Black,Prarie,Small Business,Office Supplies,Binders and Binder Accessories,Wilson Jones Impact Binders,Small Box,0,No
+54150,0,12,2011.6355,Ship_Mode,53.69,Bart Watters,Prarie,Corporate,Technology,Telephones and Communication,CF 888,Small Box,0,No
+2147,0,15,605.1,Ship_Mode,92.81,Hallie Redmond,Prarie,Home Office,Office Supplies,Appliances,Belkin 8 Outlet Surge Protector,Small Box,0,No
+14503,0,14,438.47,Ship_Mode,157.89,Bruce Stewart,Prarie,Corporate,Office Supplies,Binders and Binder Accessories,Surelock™ Post Binders,Small Box,0,No
+16165,0,4,136.68,Ship_Mode,125.16,Hallie Redmond,Prarie,Small Business,Technology,Computer Peripherals,Fellowes 17-key keypad for PS/2 interface,Small Box,0,No
+16165,0,19,3555.29,Ship_Mode,183.28,Hallie Redmond,Prarie,Small Business,Office Supplies,Storage & Organization,Fellowes Staxonsteel® Drawer Files,Small Box,1,Yes
+24386,3,15,76.94,Ship_Mode,29.67,Bruce Stewart,Prarie,Corporate,Office Supplies,Labels,Avery 491,Small Box,0,No
+26016,3,44,1642.642,Ship_Mode,314.84,Ken Lonsdale,Prarie,Consumer,Technology,Telephones and Communication,KF 788,Small Box,1,No
+28130,1,23,404.24,Ship_Mode,76.99,Guy Thornton,Ontario,Corporate,Office Supplies,Binders and Binder Accessories,"GBC Pre-Punched Binding Paper, Plastic, White, 8-1/2"" x 11""",Small Box,0,No
+28130,1,32,1381.88,Ship_Mode,598.2,Guy Thornton,Ontario,Corporate,Furniture,Office Furnishings,"Howard Miller 13"" Diameter Goldtone Round Wall Clock",Small Box,1,No
+28290,1,43,1307.35,Ship_Mode,154.24,Maria Bertelson,Ontario,Home Office,Technology,Computer Peripherals,"Fellowes Internet Keyboard, Platinum",Small Box,0,No
+28290,1,3,523.58,Ship_Mode,179.36,Maria Bertelson,Ontario,Home Office,Office Supplies,Storage & Organization,Fellowes Super Stor/Drawer® Files,Small Box,0,No
+31238,2,21,7512.03,Ship_Mode,2017.64,Joseph Airdo,Ontario,Corporate,Office Supplies,Appliances,Hoover WindTunnel™ Plus Canister Vacuum,Small Box,1,Yes
+41059,2,26,363.16,Ship_Mode,3.92,Lycoris Saunders,Ontario,Corporate,Office Supplies,Binders and Binder Accessories,"GBC Laser Imprintable Binding System Covers, Desert Sand",Small Box,0,No
+43424,0,34,772.56,Ship_Mode,143.87,Maria Bertelson,Ontario,Home Office,Office Supplies,Appliances,Belkin F5C206VTEL 6 Outlet Surge,Small Box,0,No
+46243,1,31,614.35,Ship_Mode,78.89,Maria Bertelson,Ontario,Corporate,Office Supplies,Paper,Computer Printout Paper with Letter-Trim Perforations,Small Box,0,No
+51361,1,14,76.06,Ship_Mode,35.99,Meg O'Connel,Ontario,Corporate,Office Supplies,Paper,Xerox 199,Small Box,0,No
+51780,1,42,372.69,Ship_Mode,177.03,Rob Beeghly,Ontario,Consumer,Office Supplies,Binders and Binder Accessories,"Fellowes Twister Kit, Gray/Clear, 3/pkg",Small Box,0,No
+59909,1,46,411.56,Ship_Mode,188.02,Christina Vanderzanden,Ontario,Small Business,Office Supplies,Storage & Organization,Staples File Caddy,Small Box,0,No
+15808,0,42,906.64,Ship_Mode,148.93,Bill Donatelli,Ontario,Corporate,Office Supplies,Binders and Binder Accessories,"Avery Flip-Chart Easel Binder, Black",Small Box,0,No
+21091,3,32,270.73,Ship_Mode,54.57,Bill Donatelli,Ontario,Corporate,Office Supplies,Binders and Binder Accessories,GBC Instant Index™ System for Binding Systems,Small Box,0,No
+28420,1,2,45.64,Ship_Mode,0.11,Bill Donatelli,Ontario,Corporate,Office Supplies,Envelopes,Park Ridge™ Embossed Executive Business Envelopes,Small Box,0,No
+33255,0,19,108.21,Ship_Mode,50.02,Russell Applegate,Ontario,Home Office,Office Supplies,Paper,Xerox 4200 Series MultiUse Premium Copy Paper (20Lb. and 84 Bright),Small Box,0,No
+35584,2,15,150.33,Ship_Mode,98.23,Joel Jenkins,Ontario,Corporate,Office Supplies,Storage & Organization,Filing/Storage Totes and Swivel Casters,Small Box,0,No
+35908,0,45,529.28,Ship_Mode,30.27,Brad Eason,Ontario,Small Business,Office Supplies,Storage & Organization,Portable Personal File Box,Small Box,0,No
+293,3,27,244.57,Ship_Mode,46.71,Barry French,Nunavut,Consumer,Office Supplies,Binders and Binder Accessories,"Cardinal Slant-D® Ring Binder, Heavy Gauge Vinyl",Small Box,0,No
+1792,1,28,370.48,Ship_Mode,5.45,Carlos Soltero,Nunavut,Consumer,Office Supplies,Storage & Organization,"Tenex Personal Project File with Scoop Front Design, Black",Small Box,0,No
+6980,0,18,136.29,Ship_Mode,77.28,Ralph Knight,Nunavut,Consumer,Office Supplies,Binders and Binder Accessories,"Angle-D Binders with Locking Rings, Label Holders",Small Box,0,No
+8995,3,42,266.36,Ship_Mode,191.28,Beth Paige,Northwest Territories,Consumer,Office Supplies,Paper,Xerox 217,Small Box,0,No
+10945,2,14,1170.025,Ship_Mode,4.22,Ralph Knight,Northwest Territories,Consumer,Technology,Telephones and Communication,600 Series Flip,Small Box,0,No
+11911,0,25,397.84,Ship_Mode,14.75,Edward Hooks,Northwest Territories,Consumer,Office Supplies,Binders and Binder Accessories,"GBC Twin Loop™ Wire Binding Elements, 9/16"" Spine, Black",Small Box,0,No
+14726,1,15,310.87,Ship_Mode,21.48,Ralph Knight,Northwest Territories,Consumer,Technology,Computer Peripherals,"Fellowes Basic 104-Key Keyboard, Platinum",Small Box,0,No
+16932,0,25,144.84,Ship_Mode,120.99,Carlos Soltero,Northwest Territories,Consumer,Office Supplies,Paper,Xerox 1924,Small Box,0,No
+21889,1,21,1049.79,Ship_Mode,135.79,Becky Castell,Northwest Territories,Consumer,Furniture,Office Furnishings,"Howard Miller 13-3/4"" Diameter Brushed Chrome Round Wall Clock",Small Box,0,No
+21889,1,16,817.18,Ship_Mode,103.38,Becky Castell,Northwest Territories,Consumer,Office Supplies,Storage & Organization,Recycled Steel Personal File for Standard File Folders,Small Box,0,No
+22532,0,13,121.66,Ship_Mode,11.8,Carlos Soltero,Northwest Territories,Consumer,Office Supplies,Binders and Binder Accessories,GBC Standard Plastic Binding Systems Combs,Small Box,0,No
+27109,0,48,538.22,Ship_Mode,154.66,Barry French,Northwest Territories,Consumer,Technology,Computer Peripherals,Micro Innovations 104 Keyboard,Small Box,0,No
+28675,0,15,822.8425,Ship_Mode,4.39,Ralph Knight,Northwest Territories,Consumer,Technology,Telephones and Communication,252,Small Box,0,No
+29287,3,50,281.39,Ship_Mode,106.4,Edward Hooks,Northwest Territories,Consumer,Office Supplies,Binders and Binder Accessories,Binder Posts,Small Box,0,No
+38884,3,47,256.0,Ship_Mode,119.84,Edward Hooks,Northwest Territories,Consumer,Office Supplies,Paper,Xerox 4200 Series MultiUse Premium Copy Paper (20Lb. and 84 Bright),Small Box,0,No
+40160,0,23,1404.22,Ship_Mode,202.87,Julia West,Northwest Territories,Consumer,Furniture,Office Furnishings,"Howard Miller 16"" Diameter Gallery Wall Clock",Small Box,0,No
+45217,0,40,6789.9275,Ship_Mode,1864.66,Ralph Knight,Northwest Territories,Consumer,Technology,Telephones and Communication,2160i,Small Box,1,Yes
+55363,3,14,2232.06,Ship_Mode,542.16,Ralph Arnett,Northwest Territories,Consumer,Office Supplies,Storage & Organization,"Dual Level, Single-Width Filing Carts",Small Box,1,No
+57127,1,13,735.54,Ship_Mode,171.82,Ralph Knight,Northwest Territories,Consumer,Office Supplies,Paper,Xerox 194,Small Box,0,No
+58055,0,26,208.6,Ship_Mode,56.45,Julia West,Atlantic,Consumer,Furniture,Office Furnishings,"Eldon® Expressions™ Wood Desk Accessories, Oak",Small Box,0,No
+59202,2,7,83.81,Ship_Mode,21.92,Andrew Gjertsen,Atlantic,Consumer,Office Supplies,Labels,Avery 485,Small Box,0,No
+59585,3,45,712.04,Ship_Mode,110.93,Edward Hooks,Atlantic,Consumer,Technology,Office Machines,"AT&T Black Trimline Phone, Model 210",Small Box,0,No
+645,3,42,557.85,Ship_Mode,89.45,Harold Engle,Atlantic,Consumer,Office Supplies,Binders and Binder Accessories,GBC Binding covers,Small Box,0,No
+13120,1,46,590.43,Ship_Mode,82.59,Joy Smith,Atlantic,Consumer,Office Supplies,Binders and Binder Accessories,GBC Binding covers,Small Box,0,No
+13120,1,8,216.33,Ship_Mode,17.37,Joy Smith,Atlantic,Consumer,Office Supplies,Binders and Binder Accessories,GBC Standard Therm-A-Bind Covers,Small Box,0,No
+15618,2,9,50.93,Ship_Mode,34.98,Joy Smith,Atlantic,Consumer,Office Supplies,Paper,Xerox 1928,Small Box,0,No
+15618,2,44,792.8,Ship_Mode,26.27,Joy Smith,Atlantic,Consumer,Office Supplies,Paper,Xerox 1939,Small Box,0,No
+15618,2,14,782.4505,Ship_Mode,11.4,Joy Smith,Atlantic,Consumer,Technology,Telephones and Communication,StarTAC 7760,Small Box,0,No
+16419,0,43,241.19,Ship_Mode,103.65,Joy Smith,Atlantic,Consumer,Office Supplies,Paper,Xerox 1978,Small Box,0,No
+30499,3,16,92.06,Ship_Mode,5.66,Carlos Soltero,Atlantic,Consumer,Office Supplies,Envelopes,Wausau Papers Astrobrights® Colored Envelopes,Small Box,0,No
+34978,3,49,165.51,Ship_Mode,269.91,Carlos Soltero,Atlantic,Consumer,Office Supplies,Binders and Binder Accessories,Self-Adhesive Ring Binder Labels,Small Box,0,No
+35558,0,2,34.88,Ship_Mode,22.12,Carlos Soltero,Atlantic,Consumer,Furniture,Office Furnishings,9-3/4 Diameter Round Wall Clock,Small Box,0,No
+41570,0,24,2289.92,Ship_Mode,1037.55,Harold Engle,Atlantic,Consumer,Office Supplies,Paper,Xerox 1941,Small Box,1,No
+46119,0,23,93.05,Ship_Mode,15.27,Carlos Soltero,Atlantic,Consumer,Office Supplies,Binders and Binder Accessories,Durable Pressboard Binders,Small Box,0,No
+52130,1,13,63.33,Ship_Mode,39.96,Carlos Soltero,Prarie,Consumer,Office Supplies,Binders and Binder Accessories,ACCOHIDE® Binder by Acco,Small Box,0,No
+52130,1,36,1436.55,Ship_Mode,4.01,Carlos Soltero,Prarie,Consumer,Furniture,Office Furnishings,Eldon Executive Woodline II Cherry Finish Desk Accessories,Small Box,0,No
+53508,3,13,1072.22,Ship_Mode,149.64,Joy Smith,Prarie,Consumer,Technology,Computer Peripherals,Logitech Cordless Navigator Duo,Small Box,0,No
+450,0,35,543.72,Ship_Mode,211.13,Matt Collins,West,Consumer,Office Supplies,Storage & Organization,Hanging Personal Folder File,Small Box,0,No
+1028,3,11,2021.147,Ship_Mode,60.39,Matt Collins,West,Consumer,Technology,Telephones and Communication,3285,Small Box,0,No
+2883,1,34,2154.34,Ship_Mode,177.66,Rob Haberlin,West,Consumer,Office Supplies,Storage & Organization,Fellowes Bankers Box™ Staxonsteel® Drawer File/Stacking System,Small Box,1,No
+5318,3,8,1042.25,Ship_Mode,195.16,Matt Collins,West,Consumer,Office Supplies,Appliances,Kensington 7 Outlet MasterPiece® HOMEOFFICE Power Control Center,Small Box,0,No
+6115,2,25,409.08,Ship_Mode,78.86,Matt Collins,West,Consumer,Furniture,Office Furnishings,"Seth Thomas 13 1/2"" Wall Clock",Small Box,0,No
+9792,1,14,84.09,Ship_Mode,73.14,Sally Knutson,West,Consumer,Office Supplies,Binders and Binder Accessories,3M Organizer Strips,Small Box,0,No
+14275,1,20,42.22,Ship_Mode,7.73,Gene Hale,West,Consumer,Office Supplies,Binders and Binder Accessories,Economy Binders,Small Box,0,No
+14535,0,22,245.96,Ship_Mode,33.82,Gene Hale,West,Consumer,Office Supplies,Storage & Organization,X-Rack™ File for Hanging Folders,Small Box,0,No
+17926,0,37,608.33,Ship_Mode,70.04,Sally Knutson,West,Consumer,Office Supplies,Storage & Organization,Eldon Jumbo ProFile™ Portable File Boxes Graphite/Black,Small Box,0,No
+49634,0,45,132.31,Ship_Mode,10.91,Sally Knutson,West,Consumer,Office Supplies,Binders and Binder Accessories,Avery Durable Binders,Small Box,0,No
+53825,1,36,1646.05,Ship_Mode,649.8,Joy Smith,West,Consumer,Office Supplies,Paper,Xerox 1885,Small Box,1,No
+21509,3,13,47.93,Ship_Mode,15.82,Dennis Bolton,West,Consumer,Office Supplies,Labels,Avery 487,Small Box,0,No
+52326,1,41,152.28,Ship_Mode,154.81,Dennis Bolton,West,Consumer,Office Supplies,Binders and Binder Accessories,"Acco Pressboard Covers with Storage Hooks, 14 7/8"" x 11"", Dark Blue",Small Box,0,No
+54947,0,42,1498.46,Ship_Mode,565.37,Peter Buhler,West,Consumer,Furniture,Office Furnishings,Hand-Finished Solid Wood Document Frame,Small Box,1,No
+4257,2,45,253.89,Ship_Mode,83.66,Liz Price,West,Consumer,Office Supplies,Envelopes,Staples Brown Kraft Recycled Clasp Envelopes,Small Box,0,No
+5698,2,15,297.05,Ship_Mode,16.89,Kristina Nunn,West,Consumer,Office Supplies,Appliances,Kensington 6 Outlet Guardian Standard Surge Protector,Small Box,0,No
+5698,2,7,108.26,Ship_Mode,25.51,Kristina Nunn,West,Consumer,Office Supplies,Envelopes,"#10 White Business Envelopes,4 1/8 x 9 1/2",Small Box,0,No
+11301,2,29,1194.96,Ship_Mode,107.45,Tony Chapman,West,Consumer,Technology,Computer Peripherals,Microsoft Natural Keyboard Elite,Small Box,0,No
+16161,2,49,2692.6895,Ship_Mode,768.32,Kristina Nunn,West,Consumer,Technology,Telephones and Communication,6162i,Small Box,1,Yes
+20038,1,42,173.44,Ship_Mode,172.4,Sally Knutson,West,Consumer,Furniture,Office Furnishings,Eldon Image Series Black Desk Accessories,Small Box,0,No
+20422,3,5,15.38,Ship_Mode,1.61,Gene Hale,West,Consumer,Office Supplies,Labels,Avery 498,Small Box,0,No
+24450,0,37,443.35,Ship_Mode,21.73,Kristina Nunn,West,Consumer,Office Supplies,Appliances,Staples 6 Outlet Surge,Small Box,0,No
+24450,0,4,30.85,Ship_Mode,12.88,Kristina Nunn,West,Consumer,Office Supplies,Paper,Xerox 1903,Small Box,0,No
+25031,3,20,100.11,Ship_Mode,41.7,Sally Knutson,West,Consumer,Office Supplies,Paper,Staples Copy Paper (20Lb. and 84 Bright),Small Box,0,No
+25830,1,5,25.34,Ship_Mode,21.29,Justin Hirsh,West,Consumer,Office Supplies,Appliances,Eureka Disposable Bags for Sanitaire® Vibra Groomer I® Upright Vac,Small Box,0,No
+25830,1,11,178.57,Ship_Mode,37.39,Justin Hirsh,West,Consumer,Office Supplies,Binders and Binder Accessories,Recycled Premium Regency Composition Covers,Small Box,0,No
+30147,0,37,740.14,Ship_Mode,29.73,Cathy Armstrong,West,Consumer,Furniture,Office Furnishings,12-1/2 Diameter Round Wall Clock,Small Box,0,No
+30310,2,21,2024.0285,Ship_Mode,4.9,Thomas Brumley,West,Consumer,Technology,Telephones and Communication,StarTAC 6500,Small Box,0,No
+35649,2,9,43.26,Ship_Mode,3.9,Justin Hirsh,West,Consumer,Office Supplies,Binders and Binder Accessories,Tuff Stuff™ Recycled Round Ring Binders,Small Box,0,No
+35649,2,25,174.03,Ship_Mode,42.37,Justin Hirsh,West,Consumer,Office Supplies,Paper,Xerox 1994,Small Box,0,No
+41412,0,47,263.81,Ship_Mode,237.54,Shahid Shariari,West,Consumer,Office Supplies,Binders and Binder Accessories,3M Organizer Strips,Small Box,0,No
+42339,0,31,206.54,Ship_Mode,178.82,Cathy Armstrong,West,Consumer,Office Supplies,Paper,Xerox 1993,Small Box,0,No
+43111,3,27,4722.83,Ship_Mode,1749.78,Sally Knutson,West,Consumer,Office Supplies,Binders and Binder Accessories,GBC DocuBind P100 Manual Binding Machine,Small Box,1,Yes
+47520,0,36,277.88,Ship_Mode,64.41,Liz Price,Atlantic,Consumer,Office Supplies,Binders and Binder Accessories,GBC VeloBinder Strips,Small Box,0,No
+47520,0,47,925.3,Ship_Mode,257.31,Liz Price,Atlantic,Consumer,Office Supplies,Paper,Xerox Blank Computer Paper,Small Box,1,No
+49088,0,31,1295.54,Ship_Mode,214.23,Kristina Nunn,Atlantic,Consumer,Office Supplies,Paper,Xerox 1893,Small Box,1,No
+49634,0,39,403.73,Ship_Mode,44.13,Sally Knutson,Atlantic,Consumer,Office Supplies,Appliances,Belkin 6 Outlet Metallic Surge Strip,Small Box,0,No
+53025,0,32,195.57,Ship_Mode,132.93,Justin Hirsh,Atlantic,Consumer,Office Supplies,Paper,Xerox 1920,Small Box,0,No
+54304,3,11,558.62,Ship_Mode,118.32,Justin Hirsh,Atlantic,Consumer,Office Supplies,Appliances,Belkin Premiere Surge Master II 8-outlet surge protector,Small Box,0,No
+56321,0,24,135.88,Ship_Mode,75.39,Shahid Shariari,Atlantic,Consumer,Office Supplies,Binders and Binder Accessories,Wilson Jones “Snap” Scratch Pad Binder Tool for Ring Binders,Small Box,0,No
+57671,0,6,22.78,Ship_Mode,3.96,Liz Price,Atlantic,Consumer,Office Supplies,Labels,Avery 510,Small Box,0,No
+58978,1,13,75.89,Ship_Mode,31.01,Kristina Nunn,Atlantic,Consumer,Office Supplies,Paper,Xerox 193,Small Box,0,No
+5092,1,25,978.77,Ship_Mode,220.91,John Castell,Atlantic,Consumer,Office Supplies,Paper,Xerox 1892,Small Box,0,No
+8257,1,18,881.32,Ship_Mode,373.67,David Philippe,Atlantic,Consumer,Office Supplies,Paper,Xerox 1910,Small Box,0,No
+9285,0,3,124.81,Ship_Mode,11.94,David Philippe,Atlantic,Consumer,Office Supplies,Binders and Binder Accessories,"Avery Trapezoid Ring Binder, 3"" Capacity, Black, 1040 sheets",Small Box,0,No
+20642,3,32,135.2,Ship_Mode,59.4,Darren Koutras,Atlantic,Consumer,Office Supplies,Labels,Avery 506,Small Box,0,No
+30467,0,5,2019.65,Ship_Mode,289.88,John Castell,West,Consumer,Office Supplies,Binders and Binder Accessories,GBC DocuBind 200 Manual Binding Machine,Small Box,0,No
+33893,0,6,232.21,Ship_Mode,14.03,Sarah Jordon,West,Consumer,Office Supplies,Envelopes,Jet-Pak Recycled Peel 'N' Seal Padded Mailers,Small Box,0,No
+38656,1,13,64.46,Ship_Mode,25.16,John Castell,West,Consumer,Office Supplies,Labels,Avery 478,Small Box,0,No
+44610,3,31,127.9,Ship_Mode,54.21,Hunter Lopez,West,Consumer,Office Supplies,Labels,Avery 506,Small Box,0,No
+53667,2,33,112.36,Ship_Mode,159.74,Steve Carroll,Prarie,Consumer,Office Supplies,Binders and Binder Accessories,Cardinal Poly Pocket Divider Pockets for Ring Binders,Small Box,0,No
+53667,2,16,481.049,Ship_Mode,46.51,Steve Carroll,Prarie,Consumer,Technology,Telephones and Communication,Accessory35,Small Box,0,No
+55429,3,43,260.59,Ship_Mode,157.76,Nathan Cano,Prarie,Consumer,Office Supplies,Paper,Xerox 214,Small Box,0,No
+3463,0,43,264.75,Ship_Mode,212.51,Julia Dunbar,Prarie,Consumer,Office Supplies,Paper,Xerox 212,Small Box,0,No
+5538,0,43,1281.28,Ship_Mode,415.85,Julia Dunbar,Prarie,Consumer,Office Supplies,Binders and Binder Accessories,Binding Machine Supplies,Small Box,1,No
+5538,0,4,430.848,Ship_Mode,492.77,Julia Dunbar,Prarie,Consumer,Technology,Telephones and Communication,8290,Small Box,0,No
+9155,0,17,518.8,Ship_Mode,54.63,Ken Lonsdale,Prarie,Consumer,Office Supplies,Binders and Binder Accessories,GBC Linen Binding Covers,Small Box,0,No
+12292,0,32,824.24,Ship_Mode,127.23,Ken Lonsdale,Prarie,Consumer,Technology,Computer Peripherals,"Micro Innovations Micro 3000 Keyboard, Black",Small Box,0,No
+23713,0,38,3701.5205,Ship_Mode,894.06,Katrina Bavinger,Prarie,Consumer,Technology,Telephones and Communication,8890,Small Box,1,Yes
+26016,3,2,154.94,Ship_Mode,358.43,Ken Lonsdale,Prarie,Consumer,Technology,Computer Peripherals,Micro Innovations Media Access Pro Keyboard,Small Box,0,No
+32452,2,3,8.6,Ship_Mode,2.03,Joseph Airdo,Ontario,Consumer,Office Supplies,Labels,Avery 507,Small Box,0,No
+33378,3,25,945.36,Ship_Mode,219.85,Joseph Airdo,Ontario,Consumer,Office Supplies,Envelopes,"Blue String-Tie & Button Interoffice Envelopes, 10 x 13",Small Box,0,No
+38240,3,4,41.53,Ship_Mode,15.53,Ken Lonsdale,Ontario,Consumer,Office Supplies,Binders and Binder Accessories,Avery Printable Repositionable Plastic Tabs,Small Box,0,No
+38917,1,11,618.1965,Ship_Mode,132.53,Joseph Airdo,Ontario,Consumer,Technology,Telephones and Communication,6120,Small Box,0,No
+50336,0,9,58.98,Ship_Mode,17.79,Joseph Airdo,Ontario,Consumer,Office Supplies,Binders and Binder Accessories,Avery Binding System Hidden Tab™ Executive Style Index Sets,Small Box,0,No
+52071,0,14,136.85,Ship_Mode,4.43,Annie Thurman,Ontario,Consumer,Office Supplies,Binders and Binder Accessories,GBC Standard Plastic Binding Systems Combs,Small Box,0,No
+52071,0,1,12.74,Ship_Mode,11.39,Annie Thurman,Ontario,Consumer,Furniture,Office Furnishings,Staples Plastic Wall Frames,Small Box,0,No
+26759,0,30,251.11,Ship_Mode,10.04,Bobby Odegard,Ontario,Consumer,Office Supplies,Binders and Binder Accessories,XtraLife® ClearVue™ Slant-D® Ring Binders by Cardinal,Small Box,0,No
+483,3,30,4965.7595,Ship_Mode,1198.97,Clay Rozendal,Nunavut,Corporate,Technology,Telephones and Communication,R380,Small Box,1,Yes
+613,3,12,93.54,Ship_Mode,54.04,Carl Jackson,Nunavut,Corporate,Office Supplies,Binders and Binder Accessories,"Angle-D Binders with Locking Rings, Label Holders",Small Box,0,No
+613,3,22,905.08,Ship_Mode,127.7,Carl Jackson,Nunavut,Corporate,Office Supplies,Storage & Organization,"SAFCO Mobile Desk Side File, Wire Frame",Small Box,0,No
+1344,1,15,834.904,Ship_Mode,11.68,Jim Radford,Nunavut,Corporate,Technology,Telephones and Communication,g520,Small Box,0,No
+1344,1,18,2480.9205,Ship_Mode,313.58,Jim Radford,Nunavut,Corporate,Technology,Telephones and Communication,LX 788,Small Box,1,Yes
+1539,1,33,511.83,Ship_Mode,172.88,Carl Ludwig,Nunavut,Corporate,Office Supplies,Binders and Binder Accessories,"GBC Pre-Punched Binding Paper, Plastic, White, 8-1/2"" x 11""",Small Box,0,No
+2532,3,39,282.07,Ship_Mode,140.01,Alan Barnes,Nunavut,Corporate,Office Supplies,Labels,Self-Adhesive Address Labels for Typewriters by Universal,Small Box,0,No
+2791,3,47,191.67,Ship_Mode,236.27,Eugene Barchas,Nunavut,Corporate,Office Supplies,Binders and Binder Accessories,Avery Binder Labels,Small Box,0,No
+2791,3,18,507.64,Ship_Mode,118.94,Eugene Barchas,Nunavut,Corporate,Office Supplies,Paper,"IBM Multi-Purpose Copy Paper, 8 1/2 x 11"", Case",Small Box,0,No
+3908,2,8,820.284,Ship_Mode,180.2,Dorothy Wardle,Nunavut,Corporate,Technology,Telephones and Communication,6160,Small Box,0,No
+4132,0,5,14.76,Ship_Mode,1.32,Aaron Bergman,Nunavut,Corporate,Office Supplies,Labels,Avery 49,Small Box,0,No
+5569,0,12,118.97,Ship_Mode,0.06,Frank Price,Nunavut,Corporate,Furniture,Office Furnishings,"Eldon Expressions™ Desk Accessory, Wood Pencil Holder, Oak",Small Box,0,No
+5894,3,7,384.33,Ship_Mode,87.68,Ann Chong,Nunavut,Corporate,Office Supplies,Binders and Binder Accessories,Avery Arch Ring Binders,Small Box,0,No
+5894,3,3,239.03,Ship_Mode,68.22,Ann Chong,Nunavut,Corporate,Office Supplies,Appliances,APC 7 Outlet Network SurgeArrest Surge Protector,Small Box,0,No
+6182,1,40,255.48,Ship_Mode,116.79,Grant Carroll,Nunavut,Corporate,Office Supplies,Paper,Xerox 1966,Small Box,0,No
+6982,0,41,844.09,Ship_Mode,52.56,Dorothy Wardle,Nunavut,Corporate,Furniture,Office Furnishings,12-1/2 Diameter Round Wall Clock,Small Box,0,No
+7430,2,50,751.77,Ship_Mode,353.2,Barry Weirich,Nunavut,Corporate,Office Supplies,Envelopes,"#10 White Business Envelopes,4 1/8 x 9 1/2",Small Box,1,No
+9126,2,47,2799.7,Ship_Mode,884.08,Sylvia Foulston,Northwest Territories,Corporate,Office Supplies,Appliances,"Acco Smartsocket™ Table Surge Protector, 6 Color-Coded Adapter Outlets",Small Box,1,Yes
+9763,2,44,176.26,Ship_Mode,75.13,Alan Barnes,Northwest Territories,Corporate,Office Supplies,Labels,Avery 506,Small Box,0,No
+10437,0,50,820.52,Ship_Mode,191.22,Don Jones,Northwest Territories,Corporate,Office Supplies,Binders and Binder Accessories,"GBC Pre-Punched Binding Paper, Plastic, White, 8-1/2"" x 11""",Small Box,0,No
+10535,1,25,854.88,Ship_Mode,44.14,Doug Bickford,Northwest Territories,Corporate,Furniture,Office Furnishings,"Linden® 12"" Wall Clock With Oak Frame",Small Box,0,No
+11202,2,8,339.81,Ship_Mode,79.59,Barry Weirich,Northwest Territories,Corporate,Office Supplies,Binders and Binder Accessories,Satellite Sectional Post Binders,Small Box,0,No
+11941,0,4,73.07,Ship_Mode,41.01,Jamie Kunitz,Northwest Territories,Corporate,Office Supplies,Storage & Organization,Hanging Personal Folder File,Small Box,0,No
+12352,2,5,36.86,Ship_Mode,32.82,Hunter Glantz,Northwest Territories,Corporate,Office Supplies,Binders and Binder Accessories,Fellowes Black Plastic Comb Bindings,Small Box,0,No
+12544,1,34,74.3,Ship_Mode,129.01,Jim Radford,Northwest Territories,Corporate,Furniture,Office Furnishings,Eldon® Wave Desk Accessories,Small Box,0,No
+13346,1,44,268.34,Ship_Mode,240.83,Doug Bickford,Northwest Territories,Corporate,Office Supplies,Paper,Xerox 224,Small Box,0,No
+16193,0,8,300.2,Ship_Mode,6.41,Frank Price,Northwest Territories,Corporate,Office Supplies,Storage & Organization,"Multi-Use Personal File Cart and Caster Set, Three Stacking Bins",Small Box,0,No
+16423,2,19,128.21,Ship_Mode,55.13,Bryan Davis,Northwest Territories,Corporate,Office Supplies,Paper,Xerox 20,Small Box,0,No
+16451,0,9,252.79,Ship_Mode,58.23,Don Jones,Northwest Territories,Corporate,Office Supplies,Binders and Binder Accessories,Surelock™ Post Binders,Small Box,0,No
+18144,0,48,207.08,Ship_Mode,131.82,Dorothy Wardle,Northwest Territories,Corporate,Office Supplies,Paper,Xerox 1971,Small Box,0,No
+18308,0,30,114.12,Ship_Mode,15.73,Ann Chong,Northwest Territories,Corporate,Office Supplies,Binders and Binder Accessories,Durable Pressboard Binders,Small Box,0,No
+18308,0,15,436.05,Ship_Mode,92.58,Ann Chong,Northwest Territories,Corporate,Technology,Computer Peripherals,Fellowes 17-key keypad for PS/2 interface,Small Box,0,No
+18308,0,49,5247.4835,Ship_Mode,1465.87,Ann Chong,Northwest Territories,Corporate,Technology,Telephones and Communication,StarTAC ST7762,Small Box,1,Yes
+19078,0,21,256.12,Ship_Mode,18.19,Brendan Dodson,Northwest Territories,Corporate,Office Supplies,Appliances,Staples 6 Outlet Surge,Small Box,0,No
+19686,2,11,152.67,Ship_Mode,12.76,Alan Barnes,Northwest Territories,Corporate,Office Supplies,Binders and Binder Accessories,GBC Binding covers,Small Box,0,No
+22151,3,49,465.83,Ship_Mode,79.72,Beth Thompson,Northwest Territories,Corporate,Furniture,Office Furnishings,"Eldon Expressions™ Desk Accessory, Wood Pencil Holder, Oak",Small Box,0,No
+23264,0,16,108.42,Ship_Mode,50.82,Clay Rozendal,Northwest Territories,Corporate,Office Supplies,Paper,Xerox 1930,Small Box,0,No
+23264,0,27,78.47,Ship_Mode,17.99,Clay Rozendal,Northwest Territories,Corporate,Office Supplies,Labels,Avery 474,Small Box,0,No
+24128,3,43,6583.913,Ship_Mode,1459.79,Eugene Barchas,Northwest Territories,Corporate,Technology,Telephones and Communication,CF 888,Small Box,1,Yes
+25634,0,29,593.32,Ship_Mode,28.99,Mike Pelletier,Northwest Territories,Corporate,Technology,Computer Peripherals,"Fellowes Basic 104-Key Keyboard, Platinum",Small Box,0,No
+25767,3,15,593.73,Ship_Mode,108.01,Ann Chong,Northwest Territories,Corporate,Office Supplies,Paper,Xerox 1892,Small Box,0,No
+26499,2,11,32.4,Ship_Mode,8.78,Sylvia Foulston,Northwest Territories,Corporate,Office Supplies,Labels,Avery 507,Small Box,0,No
+26531,2,26,4688.9485,Ship_Mode,1215.44,Michelle Lonsdale,Northwest Territories,Corporate,Technology,Telephones and Communication,i470,Small Box,1,Yes
+26567,0,8,50.7,Ship_Mode,44.07,Sylvia Foulston,Northwest Territories,Corporate,Office Supplies,Binders and Binder Accessories,3M Organizer Strips,Small Box,0,No
+26567,0,48,6109.817,Ship_Mode,1374.95,Sylvia Foulston,Northwest Territories,Corporate,Technology,Telephones and Communication,300 Series Non-Flip,Small Box,1,Yes
+27778,0,1,232.67,Ship_Mode,105.14,Roy Skaria,Northwest Territories,Corporate,Office Supplies,Binders and Binder Accessories,GBC DocuBind TL200 Manual Binding Machine,Small Box,0,No
+27909,0,1,62.26,Ship_Mode,23.24,Monica Federle,Northwest Territories,Corporate,Office Supplies,Paper,Xerox 1940,Small Box,0,No
+28003,0,31,157.79,Ship_Mode,95.92,Charles McCrossin,Northwest Territories,Corporate,Office Supplies,Paper,Xerox 1897,Small Box,0,No
+28165,0,2,24.96,Ship_Mode,12.8,Grant Carroll,Northwest Territories,Corporate,Office Supplies,Binders and Binder Accessories,Heavy-Duty E-Z-D® Binders,Small Box,0,No
+28289,3,31,166.76,Ship_Mode,46.03,Carl Ludwig,Northwest Territories,Corporate,Office Supplies,Paper,Hammermill CopyPlus Copy Paper (20Lb. and 84 Bright),Small Box,0,No
+28486,3,2,811.13,Ship_Mode,517.47,Carlos Daly,Northwest Territories,Corporate,Office Supplies,Storage & Organization,Deluxe Rollaway Locking File with Drawer,Small Box,0,No
+28870,3,35,3310.9455,Ship_Mode,822.4,Cindy Schnelling,Northwest Territories,Corporate,Technology,Telephones and Communication,6160,Small Box,1,Yes
+30947,1,17,691.59,Ship_Mode,261.24,Charles McCrossin,Northwest Territories,Corporate,Office Supplies,Binders and Binder Accessories,"Avery Trapezoid Extra Heavy Duty 4"" Binders",Small Box,0,No
+30947,1,45,345.2,Ship_Mode,183.53,Charles McCrossin,Northwest Territories,Corporate,Office Supplies,Labels,Self-Adhesive Address Labels for Typewriters by Universal,Small Box,0,No
+31270,2,5,165.04,Ship_Mode,112.44,Michelle Lonsdale,Northwest Territories,Corporate,Technology,Computer Peripherals,"Fellowes Internet Keyboard, Platinum",Small Box,0,No
+31364,0,2,789.01,Ship_Mode,539.59,Beth Thompson,Northwest Territories,Corporate,Office Supplies,Storage & Organization,Deluxe Rollaway Locking File with Drawer,Small Box,0,No
+31618,0,14,403.17,Ship_Mode,147.45,Roy Skaria,Northwest Territories,Corporate,Office Supplies,Binders and Binder Accessories,Lock-Up Easel 'Spel-Binder',Small Box,0,No
+31781,2,46,249.02,Ship_Mode,282.61,Sylvia Foulston,Northwest Territories,Corporate,Office Supplies,Binders and Binder Accessories,Fellowes Black Plastic Comb Bindings,Small Box,0,No
+32743,0,19,3548.67,Ship_Mode,1280.19,Grant Carroll,Northwest Territories,Corporate,Office Supplies,Appliances,Kensington 7 Outlet MasterPiece Power Center,Small Box,1,Yes
+33186,1,24,1350.531,Ship_Mode,221.18,Don Jones,Northwest Territories,Corporate,Technology,Telephones and Communication,8860,Small Box,0,No
+33444,2,8,127.8,Ship_Mode,30.48,Alan Barnes,Northwest Territories,Corporate,Office Supplies,Storage & Organization,Pizazz® Global Quick File™,Small Box,0,No
+33703,0,25,802.19,Ship_Mode,56.26,Carl Ludwig,Northwest Territories,Corporate,Office Supplies,Storage & Organization,Acco Perma® 2700 Stacking Storage Drawers,Small Box,0,No
+34177,3,13,34.42,Ship_Mode,9.47,Toby Braunhardt,Northwest Territories,Corporate,Office Supplies,Labels,Avery 494,Small Box,0,No
+34177,3,26,172.76,Ship_Mode,73.18,Toby Braunhardt,Northwest Territories,Corporate,Office Supplies,Labels,Self-Adhesive Address Labels for Typewriters by Universal,Small Box,0,No
+34631,0,5,22.06,Ship_Mode,22.28,Brendan Dodson,Northwest Territories,Corporate,Office Supplies,Binders and Binder Accessories,Cardinal Poly Pocket Divider Pockets for Ring Binders,Small Box,0,No
+36134,1,6,826.9735,Ship_Mode,413.33,Grant Carroll,Northwest Territories,Corporate,Technology,Telephones and Communication,R280,Small Box,0,No
+36644,3,24,2298.32,Ship_Mode,218.72,Dorothy Wardle,Northwest Territories,Corporate,Technology,Computer Peripherals,U.S. Robotics 56K Internet Call Modem,Small Box,1,No
+37634,2,32,368.18,Ship_Mode,36.78,Brendan Dodson,Northwest Territories,Corporate,Office Supplies,Storage & Organization,Portable Personal File Box,Small Box,0,No
+39364,3,15,19417.55,Ship_Mode,8417.57,Jamie Kunitz,Northwest Territories,Corporate,Office Supplies,Binders and Binder Accessories,Fellowes PB500 Electric Punch Plastic Comb Binding Machine with Manual Bind,Small Box,1,No
+39683,3,31,615.58,Ship_Mode,168.0,Jeremy Lonsdale,Northwest Territories,Corporate,Office Supplies,Binders and Binder Accessories,Poly Designer Cover & Back,Small Box,0,No
+40067,1,38,2157.3085,Ship_Mode,519.25,Alan Barnes,Northwest Territories,Corporate,Technology,Telephones and Communication,3390,Small Box,1,No
+40132,1,16,347.47,Ship_Mode,86.2,Hunter Glantz,Northwest Territories,Corporate,Office Supplies,Binders and Binder Accessories,"Avery Flip-Chart Easel Binder, Black",Small Box,0,No
+41153,2,29,862.2,Ship_Mode,45.1,Alan Barnes,Northwest Territories,Corporate,Technology,Computer Peripherals,Fellowes 17-key keypad for PS/2 interface,Small Box,0,No
+41409,0,1,18.92,Ship_Mode,18.25,Beth Thompson,Northwest Territories,Corporate,Office Supplies,Binders and Binder Accessories,Ibico Covers for Plastic or Wire Binding Elements,Small Box,0,No
+42209,3,5,324.55,Ship_Mode,12.82,Alan Barnes,Northwest Territories,Corporate,Office Supplies,Appliances,Fellowes Command Center 5-outlet power strip,Small Box,0,No
+43109,0,19,281.84,Ship_Mode,21.85,Dorothy Wardle,Northwest Territories,Corporate,Office Supplies,Binders and Binder Accessories,"GBC Prepunched Paper, 19-Hole, for Binding Systems, 24-lb",Small Box,0,No
+43109,0,25,509.52,Ship_Mode,145.78,Dorothy Wardle,Northwest Territories,Corporate,Technology,Computer Peripherals,Microsoft Internet Keyboard,Small Box,0,No
+43329,2,42,2475.83,Ship_Mode,752.37,Doug Bickford,Northwest Territories,Corporate,Office Supplies,Appliances,Belkin 8 Outlet SurgeMaster II Gold Surge Protector,Small Box,1,Yes
+43364,3,21,524.2,Ship_Mode,158.98,Susan Vittorini,Northwest Territories,Corporate,Office Supplies,Envelopes,"Recycled Interoffice Envelopes with String and Button Closure, 10 x 13",Small Box,0,No
+44071,0,19,110.67,Ship_Mode,43.75,Frank Price,Northwest Territories,Corporate,Office Supplies,Binders and Binder Accessories,"DXL™ Angle-View Binders with Locking Rings, Black",Small Box,0,No
+44071,0,20,1163.123,Ship_Mode,83.84,Frank Price,Northwest Territories,Corporate,Technology,Telephones and Communication,8260,Small Box,0,No
+44519,3,48,224.58,Ship_Mode,144.76,Dorothy Wardle,Northwest Territories,Corporate,Office Supplies,Binders and Binder Accessories,Newell® 3-Hole Punched Plastic Slotted Magazine Holders for Binders,Small Box,0,No
+44519,3,34,365.77,Ship_Mode,155.69,Dorothy Wardle,Northwest Territories,Corporate,Office Supplies,Envelopes,Laser & Ink Jet Business Envelopes,Small Box,0,No
+46980,0,34,216.3,Ship_Mode,103.16,Monica Federle,Northwest Territories,Corporate,Office Supplies,Labels,Avery 51,Small Box,0,No
+47462,3,43,154.18,Ship_Mode,166.92,Susan Vittorini,Northwest Territories,Corporate,Office Supplies,Binders and Binder Accessories,Avery Poly Binder Pockets,Small Box,0,No
+47873,0,8,52.39,Ship_Mode,17.38,Doug Bickford,Northwest Territories,Corporate,Furniture,Office Furnishings,Eldon Wave Desk Accessories,Small Box,0,No
+48839,0,1,97.13,Ship_Mode,37.06,Carlos Daly,Northwest Territories,Corporate,Office Supplies,Labels,"Dot Matrix Printer Tape Reel Labels, White, 5000/Box",Small Box,0,No
+50278,3,2,51.21,Ship_Mode,27.53,Beth Thompson,Northwest Territories,Corporate,Office Supplies,Binders and Binder Accessories,Premium Transparent Presentation Covers by GBC,Small Box,0,No
+50565,3,43,683.46,Ship_Mode,138.82,Sylvia Foulston,Northwest Territories,Corporate,Office Supplies,Envelopes,Brown Kraft Recycled Envelopes,Small Box,0,No
+50914,0,49,8551.544,Ship_Mode,2763.13,Carlos Daly,Northwest Territories,Corporate,Technology,Telephones and Communication,A1228,Small Box,1,Yes
+51938,1,5,503.3275,Ship_Mode,488.31,Jim Radford,Northwest Territories,Corporate,Technology,Telephones and Communication,8290,Small Box,0,No
+53156,0,47,186.93,Ship_Mode,56.44,Bryan Davis,Northwest Territories,Corporate,Office Supplies,Labels,Avery 491,Small Box,0,No
+53990,0,44,4263.9315,Ship_Mode,1411.03,Carlos Daly,Northwest Territories,Corporate,Technology,Telephones and Communication,T18,Small Box,1,Yes
+55366,0,7,387.17,Ship_Mode,204.65,Doug Bickford,Northwest Territories,Corporate,Technology,Computer Peripherals,"Fellowes Smart Design 104-Key Enhanced Keyboard, PS/2 Adapter, Platinum",Small Box,0,No
+58150,0,24,60.36,Ship_Mode,119.62,Susan Vittorini,Atlantic,Corporate,Office Supplies,Binders and Binder Accessories,Peel & Stick Add-On Corner Pockets,Small Box,0,No
+58340,2,36,1936.3,Ship_Mode,278.12,Sylvia Foulston,Atlantic,Corporate,Office Supplies,Appliances,Eureka The Boss® Cordless Rechargeable Stick Vac,Small Box,1,No
+58368,3,4,14.23,Ship_Mode,4.43,Doug Bickford,Atlantic,Corporate,Furniture,Office Furnishings,Eldon® Wave Desk Accessories,Small Box,0,No
+58368,3,39,272.07,Ship_Mode,206.46,Doug Bickford,Atlantic,Corporate,Office Supplies,Paper,Xerox 1905,Small Box,0,No
+59047,0,26,113.85,Ship_Mode,93.93,Beth Thompson,Atlantic,Corporate,Furniture,Office Furnishings,Eldon Image Series Black Desk Accessories,Small Box,0,No
+59234,1,32,5686.25,Ship_Mode,2109.21,Michelle Lonsdale,Atlantic,Corporate,Office Supplies,Appliances,Kensington 7 Outlet MasterPiece Power Center,Small Box,1,Yes
+59651,0,36,283.21,Ship_Mode,196.06,Brendan Dodson,Atlantic,Corporate,Office Supplies,Binders and Binder Accessories,"Fellowes Twister Kit, Gray/Clear, 3/pkg",Small Box,0,No
+1187,2,14,222.91,Ship_Mode,20.21,Guy Armstrong,Atlantic,Corporate,Technology,Computer Peripherals,Logitech Access Keyboard,Small Box,0,No
+4007,3,18,1038.4,Ship_Mode,112.36,Jack Lebron,Atlantic,Corporate,Office Supplies,Appliances,"Conquest™ 14 Commercial Heavy-Duty Upright Vacuum, Collection System, Accessory Kit",Small Box,0,No
+4416,1,46,7441.29,Ship_Mode,2665.4,Erica Bern,Atlantic,Corporate,Office Supplies,Binders and Binder Accessories,GBC DocuBind P100 Manual Binding Machine,Small Box,1,Yes
+4454,1,17,55.45,Ship_Mode,21.42,Erica Bern,Atlantic,Corporate,Office Supplies,Labels,Avery 497,Small Box,0,No
+5446,1,42,433.68,Ship_Mode,44.1,Guy Armstrong,Atlantic,Corporate,Office Supplies,Envelopes,"Manila Recycled Extra-Heavyweight Clasp Envelopes, 6"" x 9""",Small Box,0,No
+8994,1,36,1423.35,Ship_Mode,580.32,Christopher Schild,Atlantic,Corporate,Technology,Computer Peripherals,Keytronic Designer 104- Key Black Keyboard,Small Box,0,No
+9574,2,40,434.62,Ship_Mode,68.98,Joy Smith,Atlantic,Corporate,Office Supplies,Binders and Binder Accessories,Ibico Covers for Plastic or Wire Binding Elements,Small Box,0,No
+11362,1,25,2407.693,Ship_Mode,424.14,Hilary Holden,Atlantic,Corporate,Technology,Telephones and Communication,LX 677,Small Box,1,No
+12773,1,6,17.0,Ship_Mode,4.61,Greg Guthrie,Atlantic,Corporate,Office Supplies,Binders and Binder Accessories,Acco Suede Grain Vinyl Round Ring Binder,Small Box,0,No
+12773,1,15,67.41,Ship_Mode,49.6,Greg Guthrie,Atlantic,Corporate,Furniture,Office Furnishings,Eldon Image Series Black Desk Accessories,Small Box,0,No
+12773,1,19,130.67,Ship_Mode,77.18,Greg Guthrie,Atlantic,Corporate,Office Supplies,Paper,Xerox 213,Small Box,0,No
+12934,0,45,440.39,Ship_Mode,186.64,Guy Armstrong,Atlantic,Corporate,Office Supplies,Envelopes,"Staples #10 Laser & Inkjet Envelopes, 4 1/8"" x 9 1/2"", 100/Box",Small Box,0,No
+13604,0,38,3152.75,Ship_Mode,1166.4,Erica Bern,Atlantic,Corporate,Technology,Computer Peripherals,"Micro Innovations Micro Digital Wireless Keyboard and Mouse, Gray",Small Box,1,Yes
+15044,1,42,1681.6,Ship_Mode,167.37,Erica Bern,Atlantic,Corporate,Technology,Computer Peripherals,Zoom V.92 V.44 PCI Internal Controllerless FaxModem,Small Box,1,No
+18273,1,18,925.03,Ship_Mode,3.68,Jack Lebron,Atlantic,Corporate,Technology,Computer Peripherals,Zoom V.92 USB External Faxmodem,Small Box,0,No
+19042,0,8,327.61,Ship_Mode,54.9,Evan Minnotte,Atlantic,Corporate,Office Supplies,Binders and Binder Accessories,"Wilson Jones Ledger-Size, Piano-Hinge Binder, 2"", Blue",Small Box,0,No
+19073,0,16,178.4,Ship_Mode,20.08,Chuck Magee,Atlantic,Corporate,Furniture,Office Furnishings,"Eldon Expressions Punched Metal & Wood Desk Accessories, Pewter & Cherry",Small Box,0,No
+19617,1,3,171.9635,Ship_Mode,296.37,Jack Lebron,Atlantic,Corporate,Technology,Telephones and Communication,V 3600 Series,Small Box,0,No
+21378,2,34,937.04,Ship_Mode,391.6,Jack Lebron,Atlantic,Corporate,Office Supplies,Binders and Binder Accessories,Lock-Up Easel 'Spel-Binder',Small Box,1,No
+21378,2,17,1616.64,Ship_Mode,26.94,Jack Lebron,Atlantic,Corporate,Technology,Computer Peripherals,U.S. Robotics 56K Internet Call Modem,Small Box,0,No
+24067,3,19,120.56,Ship_Mode,79.35,Frank Atkinson,Atlantic,Corporate,Office Supplies,Paper,Xerox 1920,Small Box,0,No
+24965,1,42,1146.11,Ship_Mode,330.63,Jack Lebron,Atlantic,Corporate,Furniture,Office Furnishings,"Deflect-o SuperTray™ Unbreakable Stackable Tray, Letter, Black",Small Box,1,No
+25376,0,12,76.61,Ship_Mode,31.83,Greg Guthrie,Atlantic,Corporate,Furniture,Office Furnishings,"Eldon® 200 Class™ Desk Accessories, Burgundy",Small Box,0,No
+28836,3,50,8221.2935,Ship_Mode,2342.21,Erica Bern,Atlantic,Corporate,Technology,Telephones and Communication,688,Small Box,1,Yes
+28836,3,7,1158.26,Ship_Mode,170.08,Erica Bern,Atlantic,Corporate,Office Supplies,Binders and Binder Accessories,Ibico EB-19 Dual Function Manual Binding System,Small Box,0,No
+28995,3,9,298.52,Ship_Mode,73.19,Hilary Holden,Atlantic,Corporate,Office Supplies,Paper,"IBM Multi-Purpose Copy Paper, 8 1/2 x 11"", Case",Small Box,0,No
+28995,3,34,667.35,Ship_Mode,80.92,Hilary Holden,Atlantic,Corporate,Office Supplies,Paper,Southworth 25% Cotton Premium Laser Paper and Envelopes,Small Box,0,No
+29121,2,31,3206.965,Ship_Mode,575.33,Jack Lebron,Atlantic,Corporate,Technology,Telephones and Communication,Timeport L7089,Small Box,1,Yes
+30243,0,44,2435.32,Ship_Mode,650.56,Hilary Holden,Atlantic,Corporate,Office Supplies,Appliances,"Fellowes Smart Surge Ten-Outlet Protector, Platinum",Small Box,1,Yes
+32199,3,40,196.5,Ship_Mode,99.76,Erica Bern,Atlantic,Corporate,Office Supplies,Binders and Binder Accessories,"Pressboard Covers with Storage Hooks, 9 1/2"" x 11"", Light Blue",Small Box,0,No
+32835,2,15,572.4325,Ship_Mode,19.44,Joy Smith,Atlantic,Corporate,Technology,Telephones and Communication,KF 788,Small Box,0,No
+32869,2,39,5250.6625,Ship_Mode,930.99,Christopher Schild,Atlantic,Corporate,Technology,Telephones and Communication,2180,Small Box,1,Yes
+35300,2,10,28.81,Ship_Mode,7.15,Dan Reichenbach,Atlantic,Corporate,Office Supplies,Labels,*Staples* Packaging Labels,Small Box,0,No
+37888,0,31,639.19,Ship_Mode,274.9,Hilary Holden,Atlantic,Corporate,Office Supplies,Binders and Binder Accessories,Avery Legal 4-Ring Binder,Small Box,0,No
+40327,2,42,152.55,Ship_Mode,20.27,Erica Bern,Atlantic,Corporate,Office Supplies,Envelopes,Colored Envelopes,Small Box,0,No
+40327,2,36,152.96,Ship_Mode,123.87,Erica Bern,Atlantic,Corporate,Office Supplies,Paper,Xerox 1953,Small Box,0,No
+40800,0,18,101.34,Ship_Mode,26.11,Jim Sink,Atlantic,Corporate,Office Supplies,Envelopes,Staples Standard Envelopes,Small Box,0,No
+40871,0,32,294.04,Ship_Mode,5.53,Joy Smith,Atlantic,Corporate,Office Supplies,Binders and Binder Accessories,GBC Standard Plastic Binding Systems Combs,Small Box,0,No
+41991,1,35,543.22,Ship_Mode,68.44,Philip Brown,Atlantic,Corporate,Furniture,Office Furnishings,DAX Clear Channel Poster Frame,Small Box,0,No
+42754,0,31,341.71,Ship_Mode,32.19,Paul Gonzalez,Atlantic,Corporate,Office Supplies,Binders and Binder Accessories,GBC Imprintable Covers,Small Box,0,No
+42918,3,46,648.26,Ship_Mode,30.48,Logan Haushalter,Atlantic,Corporate,Office Supplies,Binders and Binder Accessories,"GBC Laser Imprintable Binding System Covers, Desert Sand",Small Box,0,No
+44387,1,20,173.09,Ship_Mode,6.71,Erica Bern,Atlantic,Corporate,Office Supplies,Paper,Southworth 25% Cotton Antique Laid Paper & Envelopes,Small Box,0,No
+45601,3,47,945.03,Ship_Mode,267.64,Dan Reichenbach,Atlantic,Corporate,Office Supplies,Paper,Xerox 1936,Small Box,1,No
+46756,2,3,33.64,Ship_Mode,22.45,Chuck Magee,Atlantic,Corporate,Office Supplies,Paper,"Array® Parchment Paper, Assorted Colors",Small Box,0,No
+47714,2,30,176.15,Ship_Mode,125.36,Philip Brown,Atlantic,Corporate,Office Supplies,Binders and Binder Accessories,Avery Durable Poly Binders,Small Box,0,No
+47846,3,37,241.14,Ship_Mode,120.08,Hilary Holden,Atlantic,Corporate,Office Supplies,Paper,HP Office Paper (20Lb. and 87 Bright),Small Box,0,No
+48199,0,47,672.46,Ship_Mode,279.74,Erica Bern,Atlantic,Corporate,Office Supplies,Envelopes,"#10-4 1/8"" x 9 1/2"" Premium Diagonal Seam Envelopes",Small Box,1,No
+50404,3,18,3780.43,Ship_Mode,905.57,Guy Armstrong,Prarie,Corporate,Office Supplies,Storage & Organization,"24 Capacity Maxi Data Binder Racks, Pearl",Small Box,1,Yes
+50784,3,20,638.72,Ship_Mode,130.88,Chuck Magee,Prarie,Corporate,Technology,Computer Peripherals,PC Concepts 116 Key Quantum 3000 Keyboard,Small Box,0,No
+51558,0,34,245.4,Ship_Mode,87.27,Greg Guthrie,Prarie,Corporate,Office Supplies,Paper,Xerox 1898,Small Box,0,No
+53410,0,44,642.8,Ship_Mode,253.11,Christopher Schild,Prarie,Corporate,Office Supplies,Appliances,"Holmes Replacement Filter for HEPA Air Cleaner, Large Room",Small Box,0,No
+53477,3,28,4479.16,Ship_Mode,610.9,Joy Smith,Prarie,Corporate,Office Supplies,Storage & Organization,Fellowes Super Stor/Drawer® Files,Small Box,1,Yes
+53703,0,14,1966.26,Ship_Mode,34.79,Guy Armstrong,Prarie,Corporate,Office Supplies,Storage & Organization,"Fellowes Strictly Business® Drawer File, Letter/Legal Size",Small Box,0,No
+54115,1,24,114.17,Ship_Mode,80.05,Brian Moss,Prarie,Corporate,Office Supplies,Appliances,"Eureka Sanitaire ® Multi-Pro Heavy-Duty Upright, Disposable Bags",Small Box,0,No
+54115,1,39,197.11,Ship_Mode,89.42,Brian Moss,Prarie,Corporate,Office Supplies,Binders and Binder Accessories,Cardinal Holdit Business Card Pockets,Small Box,0,No
+54501,0,36,2039.082,Ship_Mode,481.7,Guy Armstrong,Prarie,Corporate,Technology,Telephones and Communication,T193,Small Box,1,No
+54753,2,36,4711.244,Ship_Mode,1380.32,Christopher Schild,Prarie,Corporate,Technology,Telephones and Communication,T39m,Small Box,1,Yes
+57159,0,42,460.2,Ship_Mode,214.39,Hilary Holden,Prarie,Corporate,Office Supplies,Paper,Hammermill Color Copier Paper (28Lb. and 96 Bright),Small Box,0,No
+57507,0,10,155.45,Ship_Mode,19.68,Logan Haushalter,Prarie,Corporate,Office Supplies,Binders and Binder Accessories,"GBC Prepunched Paper, 19-Hole, for Binding Systems, 24-lb",Small Box,0,No
+58788,1,31,983.78,Ship_Mode,43.72,Christopher Schild,Prarie,Corporate,Technology,Computer Peripherals,Belkin ErgoBoard™ Keyboard,Small Box,0,No
+59750,1,34,223.59,Ship_Mode,66.05,Jim Sink,West,Corporate,Office Supplies,Paper,Xerox 1994,Small Box,0,No
+35,0,14,1892.848,Ship_Mode,48.99,Julie Creighton,West,Corporate,Technology,Telephones and Communication,CF 688,Small Box,0,No
+2279,2,39,845.9,Ship_Mode,52.53,Rob Haberlin,West,Corporate,Office Supplies,Storage & Organization,Acco Perma® 3000 Stacking Storage Drawers,Small Box,0,No
+2530,2,9,23.46,Ship_Mode,4.58,Rob Haberlin,West,Corporate,Office Supplies,Labels,Avery 479,Small Box,0,No
+10692,1,48,8101.9875,Ship_Mode,2369.84,Rob Haberlin,West,Corporate,Technology,Telephones and Communication,2160i,Small Box,1,Yes
+10692,1,8,1313.811,Ship_Mode,457.16,Rob Haberlin,West,Corporate,Technology,Telephones and Communication,A1228,Small Box,0,No
+11782,1,46,247.21,Ship_Mode,63.72,Marina Lichtenstein,West,Corporate,Office Supplies,Paper,Hammermill CopyPlus Copy Paper (20Lb. and 84 Bright),Small Box,0,No
+12199,1,2,19.0,Ship_Mode,10.73,Justin Knight,West,Corporate,Office Supplies,Binders and Binder Accessories,Wilson Jones® Four-Pocket Poly Binders,Small Box,0,No
+12199,1,50,8289.51,Ship_Mode,3051.62,Justin Knight,West,Corporate,Office Supplies,Storage & Organization,"Dual Level, Single-Width Filing Carts",Small Box,1,Yes
+18471,0,29,185.61,Ship_Mode,47.12,Justin Knight,West,Corporate,Office Supplies,Paper,Xerox 1983,Small Box,0,No
+21892,3,6,34.88,Ship_Mode,18.34,Justin Knight,West,Corporate,Office Supplies,Binders and Binder Accessories,"Pressboard Covers with Storage Hooks, 9 1/2"" x 11"", Light Blue",Small Box,0,No
+23907,0,7,384.2,Ship_Mode,164.46,Julie Creighton,West,Corporate,Technology,Telephones and Communication,6190,Small Box,0,No
+24132,1,4,31.01,Ship_Mode,4.49,Justin Knight,West,Corporate,Office Supplies,Binders and Binder Accessories,Wilson Jones DublLock® D-Ring Binders,Small Box,0,No
+24132,1,46,331.83,Ship_Mode,101.25,Justin Knight,West,Corporate,Office Supplies,Binders and Binder Accessories,"Wilson Jones Hanging View Binder, White, 1""",Small Box,0,No
+24132,1,22,446.46,Ship_Mode,1.88,Justin Knight,West,Corporate,Technology,Computer Peripherals,"Fellowes Basic 104-Key Keyboard, Platinum",Small Box,0,No
+24132,1,31,1252.89,Ship_Mode,339.75,Justin Knight,West,Corporate,Office Supplies,Binders and Binder Accessories,Ibico Recycled Linen-Style Covers,Small Box,1,No
+24132,1,12,47.79,Ship_Mode,57.75,Justin Knight,West,Corporate,Office Supplies,Binders and Binder Accessories,Self-Adhesive Ring Binder Labels,Small Box,0,No
+24132,1,3,63.84,Ship_Mode,47.97,Justin Knight,West,Corporate,Office Supplies,Storage & Organization,"Tenex File Box, Personal Filing Tote with Lid, Black",Small Box,0,No
+24576,0,10,152.84,Ship_Mode,38.02,Luke Weiss,West,Corporate,Furniture,Office Furnishings,DAX Clear Channel Poster Frame,Small Box,0,No
+28068,1,23,631.99,Ship_Mode,43.96,Julie Creighton,West,Corporate,Technology,Computer Peripherals,Belkin MediaBoard 104- Keyboard,Small Box,0,No
+34816,0,29,1158.45,Ship_Mode,267.16,Sally Knutson,West,Corporate,Office Supplies,Appliances,Fellowes 8 Outlet Superior Workstation Surge Protector,Small Box,1,No
+34816,0,43,2568.71,Ship_Mode,590.77,Sally Knutson,West,Corporate,Office Supplies,Envelopes,"Tyvek Interoffice Envelopes, 9 1/2"" x 12 1/2"", 100/Box",Small Box,1,Yes
+37315,1,43,170.81,Ship_Mode,133.68,Luke Weiss,West,Corporate,Office Supplies,Paper,Xerox 1971,Small Box,0,No
+37925,2,31,1784.048,Ship_Mode,394.45,Luke Weiss,West,Corporate,Technology,Telephones and Communication,StarTAC 7760,Small Box,1,No
+38021,2,46,1482.01,Ship_Mode,709.33,Rob Haberlin,West,Corporate,Office Supplies,Binders and Binder Accessories,"Premier Elliptical Ring Binder, Black",Small Box,1,No
+38336,0,14,91.75,Ship_Mode,2.82,Julie Creighton,West,Corporate,Office Supplies,Binders and Binder Accessories,Wilson Jones DublLock® D-Ring Binders,Small Box,0,No
+38336,0,31,346.57,Ship_Mode,116.45,Julie Creighton,West,Corporate,Technology,Computer Peripherals,Micro Innovations 104 Keyboard,Small Box,0,No
+39783,0,19,82.43,Ship_Mode,94.76,Sally Knutson,West,Corporate,Office Supplies,Appliances,Eureka Disposable Bags for Sanitaire® Vibra Groomer I® Upright Vac,Small Box,0,No
+39783,0,31,295.97,Ship_Mode,5.02,Sally Knutson,West,Corporate,Office Supplies,Binders and Binder Accessories,GBC Standard Plastic Binding Systems Combs,Small Box,0,No
+39783,0,29,94.5,Ship_Mode,39.9,Sally Knutson,West,Corporate,Office Supplies,Labels,Avery 520,Small Box,0,No
+44256,1,17,114.28,Ship_Mode,38.72,Sally Knutson,West,Corporate,Office Supplies,Paper,Xerox 226,Small Box,0,No
+47367,2,7,27.99,Ship_Mode,0.17,Rob Haberlin,West,Corporate,Office Supplies,Binders and Binder Accessories,Durable Pressboard Binders,Small Box,0,No
+47367,2,6,21.07,Ship_Mode,2.28,Rob Haberlin,West,Corporate,Office Supplies,Labels,Avery 52,Small Box,0,No
+47750,1,37,102.46,Ship_Mode,36.64,Sally Knutson,West,Corporate,Office Supplies,Labels,Avery 492,Small Box,0,No
+48388,3,3,21.64,Ship_Mode,13.33,Marina Lichtenstein,West,Corporate,Office Supplies,Binders and Binder Accessories,Binder Posts,Small Box,0,No
+51879,0,26,1382.31,Ship_Mode,372.26,Monica Federle,West,Corporate,Furniture,Office Furnishings,"Howard Miller 11-1/2"" Diameter Ridgewood Wall Clock",Small Box,1,No
+51879,0,46,991.36,Ship_Mode,212.06,Monica Federle,West,Corporate,Office Supplies,Paper,Southworth 25% Cotton Premium Laser Paper and Envelopes,Small Box,1,No
+53572,2,17,184.09,Ship_Mode,4.79,Marina Lichtenstein,West,Corporate,Office Supplies,Envelopes,#10 Self-Seal White Envelopes,Small Box,0,No
+54119,2,4,127.56,Ship_Mode,41.75,Monica Federle,West,Corporate,Office Supplies,Storage & Organization,Acco Perma® 2700 Stacking Storage Drawers,Small Box,0,No
+9892,2,50,1406.64,Ship_Mode,424.36,Kelly Williams,West,Corporate,Office Supplies,Envelopes,"Tyvek ® Top-Opening Peel & Seel Envelopes, Plain White",Small Box,1,No
+10048,0,46,3197.45,Ship_Mode,97.16,Sonia Sunley,West,Corporate,Technology,Computer Peripherals,Keytronic 105-Key Spanish Keyboard,Small Box,1,Yes
+10432,1,13,2323.36,Ship_Mode,220.39,Sonia Sunley,West,Corporate,Technology,Computer Peripherals,Motorola SB4200 Cable Modem,Small Box,0,No
+13158,0,26,187.16,Ship_Mode,29.33,Kelly Williams,West,Corporate,Office Supplies,Binders and Binder Accessories,Wilson Jones DublLock® D-Ring Binders,Small Box,0,No
+14375,2,7,44.05,Ship_Mode,21.77,Rick Duston,West,Corporate,Office Supplies,Paper,Xerox 1978,Small Box,0,No
+16230,1,2,13.3,Ship_Mode,7.86,Sonia Sunley,West,Corporate,Office Supplies,Labels,Self-Adhesive Address Labels for Typewriters by Universal,Small Box,0,No
+16230,1,15,687.52,Ship_Mode,223.76,Sonia Sunley,West,Corporate,Office Supplies,Paper,Xerox 1891,Small Box,0,No
+16230,1,40,4538.66,Ship_Mode,506.86,Sonia Sunley,West,Corporate,Office Supplies,Storage & Organization,Fellowes Recycled Storage Drawers,Small Box,1,Yes
+21856,0,47,168.55,Ship_Mode,71.77,Sonia Sunley,West,Corporate,Office Supplies,Labels,Avery 487,Small Box,0,No
+22119,1,20,939.39,Ship_Mode,122.77,Stewart Carmichael,West,Corporate,Office Supplies,Appliances,"Eureka Hand Vacuum, Bagless",Small Box,0,No
+22534,2,3,279.33,Ship_Mode,44.18,Kelly Williams,West,Corporate,Office Supplies,Envelopes,Airmail Envelopes,Small Box,0,No
+24070,3,36,170.42,Ship_Mode,98.31,Sonia Sunley,West,Corporate,Office Supplies,Binders and Binder Accessories,"Pressboard Covers with Storage Hooks, 9 1/2"" x 11"", Light Blue",Small Box,0,No
+27174,0,17,477.5045,Ship_Mode,245.56,Alex Avila,West,Corporate,Technology,Telephones and Communication,Accessory27,Small Box,0,No
+33600,1,42,187.28,Ship_Mode,94.36,Sonia Sunley,West,Corporate,Office Supplies,Paper,Xerox 1962,Small Box,0,No
+35364,0,16,72.08,Ship_Mode,54.75,Lisa DeCherney,West,Corporate,Office Supplies,Paper,Xerox 199,Small Box,0,No
+35364,0,8,1265.293,Ship_Mode,554.44,Lisa DeCherney,West,Corporate,Technology,Telephones and Communication,T28 WORLD,Small Box,0,No
+38272,0,39,71.04,Ship_Mode,20.65,Sarah Foster,West,Corporate,Office Supplies,Binders and Binder Accessories,Staples® General Use 3-Ring Binders,Small Box,0,No
+45763,3,25,67.45,Ship_Mode,24.28,Lisa DeCherney,West,Corporate,Office Supplies,Labels,Avery 494,Small Box,0,No
+50310,2,22,482.37,Ship_Mode,34.03,Sarah Foster,West,Corporate,Technology,Computer Peripherals,"Fellowes Basic 104-Key Keyboard, Platinum",Small Box,0,No
+51648,1,45,2354.8,Ship_Mode,332.97,Roy Skaria,West,Corporate,Technology,Computer Peripherals,Zoom V.92 USB External Faxmodem,Small Box,1,No
+53216,3,36,228.01,Ship_Mode,185.54,Roy Skaria,West,Corporate,Office Supplies,Paper,Xerox 227,Small Box,0,No
+55777,0,6,323.53,Ship_Mode,136.32,Roy Skaria,West,Corporate,Furniture,Office Furnishings,"Howard Miller 13-3/4"" Diameter Brushed Chrome Round Wall Clock",Small Box,0,No
+56640,3,2,29.31,Ship_Mode,12.78,Anthony O'Donnell,West,Corporate,Office Supplies,Paper,Personal Creations™ Ink Jet Cards and Labels,Small Box,0,No
+56640,3,11,80.26,Ship_Mode,22.55,Anthony O'Donnell,West,Corporate,Office Supplies,Paper,Xerox 1923,Small Box,0,No
+322,0,20,2634.8555,Ship_Mode,257.76,Giulietta Weimer,West,Corporate,Technology,Telephones and Communication,I888 World Phone,Small Box,1,Yes
+322,0,46,281.0,Ship_Mode,291.59,Giulietta Weimer,West,Corporate,Office Supplies,Paper,Xerox 1997,Small Box,0,No
+1221,0,1,14.68,Ship_Mode,13.78,Lela Donovan,West,Corporate,Office Supplies,Binders and Binder Accessories,Avery Printable Repositionable Plastic Tabs,Small Box,0,No
+1221,0,11,10145.14,Ship_Mode,3724.57,Lela Donovan,West,Corporate,Office Supplies,Binders and Binder Accessories,GBC DocuBind TL300 Electric Binding System,Small Box,1,Yes
+1221,0,16,68.45,Ship_Mode,57.88,Lela Donovan,West,Corporate,Office Supplies,Binders and Binder Accessories,Storex DuraTech Recycled Plastic Frosted Binders,Small Box,0,No
+1445,2,3,1326.09,Ship_Mode,20.55,Shahid Shariari,West,Corporate,Office Supplies,Binders and Binder Accessories,GBC DocuBind 200 Manual Binding Machine,Small Box,0,No
+4067,3,16,118.38,Ship_Mode,42.46,Shahid Shariari,West,Corporate,Office Supplies,Binders and Binder Accessories,"Wilson Jones Hanging View Binder, White, 1""",Small Box,0,No
+4261,0,33,195.98,Ship_Mode,71.47,Lela Donovan,West,Corporate,Office Supplies,Paper,Xerox 1947,Small Box,0,No
+4261,0,48,274.38,Ship_Mode,94.82,Lela Donovan,West,Corporate,Office Supplies,Paper,Xerox 1950,Small Box,0,No
+4864,1,16,4901.99,Ship_Mode,1724.68,Ralph Kennedy,West,Corporate,Office Supplies,Binders and Binder Accessories,GBC ProClick™ 150 Presentation Binding System,Small Box,1,Yes
+4996,2,30,4305.79,Ship_Mode,1020.32,Rob Dowd,West,Corporate,Office Supplies,Storage & Organization,Letter Size Cart,Small Box,1,Yes
+6144,0,24,67.35,Ship_Mode,22.63,Ralph Kennedy,West,Corporate,Office Supplies,Labels,Avery 492,Small Box,0,No
+7169,2,22,446.72,Ship_Mode,39.0,Lela Donovan,West,Corporate,Furniture,Office Furnishings,"Career Cubicle Clock, 8 1/4"", Black",Small Box,0,No
+7169,2,30,1580.6005,Ship_Mode,303.53,Lela Donovan,West,Corporate,Technology,Telephones and Communication,V8162,Small Box,1,No
+7427,0,47,16002.29,Ship_Mode,4604.79,Ricardo Emerson,West,Corporate,Office Supplies,Appliances,Hoover WindTunnel™ Plus Canister Vacuum,Small Box,1,No
+7427,0,9,182.26,Ship_Mode,60.61,Ricardo Emerson,West,Corporate,Office Supplies,Binders and Binder Accessories,Flexible Leather- Look Classic Collection Ring Binder,Small Box,0,No
+8992,3,14,2145.6975,Ship_Mode,176.79,Shahid Shariari,West,Corporate,Technology,Telephones and Communication,688,Small Box,0,No
+8992,3,18,1341.963,Ship_Mode,180.78,Shahid Shariari,West,Corporate,Technology,Telephones and Communication,6340,Small Box,0,No
+10306,1,20,310.31,Ship_Mode,51.5,Lela Donovan,West,Corporate,Furniture,Office Furnishings,DAX Clear Channel Poster Frame,Small Box,0,No
+10470,0,35,246.98,Ship_Mode,94.78,Khloe Miller,West,Corporate,Furniture,Office Furnishings,"Eldon® Expressions™ Wood Desk Accessories, Oak",Small Box,0,No
+11392,1,28,128.69,Ship_Mode,28.29,Sarah Bern,West,Corporate,Office Supplies,Binders and Binder Accessories,Presstex Flexible Ring Binders,Small Box,0,No
+14240,3,24,68.88,Ship_Mode,1.31,Ralph Kennedy,West,Corporate,Office Supplies,Binders and Binder Accessories,Acco Suede Grain Vinyl Round Ring Binder,Small Box,0,No
+14471,0,42,286.73,Ship_Mode,141.51,Ralph Kennedy,West,Corporate,Office Supplies,Paper,Xerox 220,Small Box,0,No
+17344,0,40,2405.4575,Ship_Mode,571.54,Rob Dowd,West,Corporate,Technology,Telephones and Communication,5190,Small Box,1,Yes
+17507,2,27,399.76,Ship_Mode,48.13,Lela Donovan,West,Corporate,Office Supplies,Appliances,Acco 6 Outlet Guardian Premium Surge Suppressor,Small Box,0,No
+18179,0,24,73.37,Ship_Mode,16.1,Liz Price,West,Corporate,Office Supplies,Labels,Avery 481,Small Box,0,No
+19044,1,29,271.33,Ship_Mode,191.09,Rob Dowd,West,Corporate,Office Supplies,Storage & Organization,Filing/Storage Totes and Swivel Casters,Small Box,0,No
+20676,1,22,43.97,Ship_Mode,9.05,Shahid Shariari,West,Corporate,Office Supplies,Binders and Binder Accessories,Staples® General Use 3-Ring Binders,Small Box,0,No
+20960,1,19,195.96,Ship_Mode,104.82,Giulietta Weimer,West,Corporate,Technology,Computer Peripherals,Micro Innovations 104 Keyboard,Small Box,0,No
+21350,2,30,278.94,Ship_Mode,143.7,Ralph Kennedy,West,Corporate,Office Supplies,Paper,Southworth 25% Cotton Linen-Finish Paper & Envelopes,Small Box,0,No
+23207,0,11,336.91,Ship_Mode,42.5,Ralph Kennedy,West,Corporate,Office Supplies,Paper,Xerox 1979,Small Box,0,No
+26368,2,25,1809.0125,Ship_Mode,795.05,Shahid Shariari,West,Corporate,Technology,Telephones and Communication,Accessory12,Small Box,1,No
+28225,0,9,206.04,Ship_Mode,49.81,Khloe Miller,West,Corporate,Furniture,Office Furnishings,"Career Cubicle Clock, 8 1/4"", Black",Small Box,0,No
+28898,1,44,246.0,Ship_Mode,207.36,Mark Cousins,West,Corporate,Office Supplies,Paper,Xerox 196,Small Box,0,No
+29185,3,8,468.49,Ship_Mode,6.37,Rob Dowd,West,Corporate,Office Supplies,Appliances,"Conquest™ 14 Commercial Heavy-Duty Upright Vacuum, Collection System, Accessory Kit",Small Box,0,No
+29986,0,40,1477.39,Ship_Mode,641.4,Rob Dowd,West,Corporate,Office Supplies,Binders and Binder Accessories,Vinyl Sectional Post Binders,Small Box,1,No
+30149,2,8,16.47,Ship_Mode,6.82,Mark Cousins,West,Corporate,Office Supplies,Binders and Binder Accessories,Round Ring Binders,Small Box,0,No
+30149,2,50,690.97,Ship_Mode,16.94,Mark Cousins,West,Corporate,Furniture,Office Furnishings,9-3/4 Diameter Round Wall Clock,Small Box,0,No
+32611,2,16,33.76,Ship_Mode,7.15,Neil Knudson,West,Corporate,Office Supplies,Binders and Binder Accessories,Economy Binders,Small Box,0,No
+32611,2,15,81.66,Ship_Mode,31.99,Neil Knudson,West,Corporate,Office Supplies,Paper,Xerox 1989,Small Box,0,No
+32901,0,13,49.74,Ship_Mode,17.7,Neil Knudson,West,Corporate,Office Supplies,Labels,Avery 496,Small Box,0,No
+33732,0,33,332.95,Ship_Mode,28.16,Heather Jas,West,Corporate,Furniture,Office Furnishings,"Eldon Expressions™ Desk Accessory, Wood Pencil Holder, Oak",Small Box,0,No
+34852,1,26,53.93,Ship_Mode,10.95,Rob Dowd,West,Corporate,Office Supplies,Binders and Binder Accessories,Round Ring Binders,Small Box,0,No
+36480,2,44,1190.8,Ship_Mode,502.49,Lela Donovan,West,Corporate,Office Supplies,Binders and Binder Accessories,Lock-Up Easel 'Spel-Binder',Small Box,1,No
+36803,0,42,121.65,Ship_Mode,30.76,Ralph Kennedy,West,Corporate,Office Supplies,Labels,Avery 514,Small Box,0,No
+36803,0,2,103.105,Ship_Mode,316.32,Ralph Kennedy,West,Corporate,Technology,Telephones and Communication,V8160,Small Box,0,No
+36805,2,7,263.8,Ship_Mode,165.33,Shahid Shariari,West,Corporate,Furniture,Office Furnishings,Hand-Finished Solid Wood Document Frame,Small Box,0,No
+37729,0,48,447.89,Ship_Mode,26.78,Giulietta Weimer,West,Corporate,Office Supplies,Binders and Binder Accessories,Avery Printable Repositionable Plastic Tabs,Small Box,0,No
+40164,0,8,184.07,Ship_Mode,75.63,Chuck Clark,West,Corporate,Furniture,Office Furnishings,"Seth Thomas 12"" Clock w/ Goldtone Case",Small Box,0,No
+40608,0,29,573.97,Ship_Mode,55.82,Bill Eplett,West,Corporate,Office Supplies,Paper,Xerox 1939,Small Box,0,No
+40608,0,39,223.79,Ship_Mode,89.88,Bill Eplett,West,Corporate,Office Supplies,Paper,Xerox 4200 Series MultiUse Premium Copy Paper (20Lb. and 84 Bright),Small Box,0,No
+40801,0,20,129.16,Ship_Mode,56.15,Sarah Bern,West,Corporate,Office Supplies,Paper,Xerox 1894,Small Box,0,No
+40965,2,29,843.55,Ship_Mode,168.76,Mark Cousins,West,Corporate,Office Supplies,Paper,Xerox 1979,Small Box,0,No
+42112,0,16,2744.361,Ship_Mode,201.03,Bill Eplett,West,Corporate,Technology,Telephones and Communication,T28 WORLD,Small Box,1,Yes
+42342,0,25,318.14,Ship_Mode,49.67,Bill Eplett,West,Corporate,Office Supplies,Paper,Xerox 1907,Small Box,0,No
+45155,1,44,181.61,Ship_Mode,150.26,Ralph Kennedy,Atlantic,Corporate,Office Supplies,Binders and Binder Accessories,ACCOHIDE® Binder by Acco,Small Box,0,No
+48452,3,19,1781.11,Ship_Mode,51.44,Giulietta Weimer,Atlantic,Corporate,Technology,Computer Peripherals,U.S. Robotics 56K Internet Call Modem,Small Box,0,No
+48452,3,44,185.32,Ship_Mode,192.56,Giulietta Weimer,Atlantic,Corporate,Furniture,Office Furnishings,"Eldon® Image Series Desk Accessories, Burgundy",Small Box,0,No
+48452,3,15,73.41,Ship_Mode,44.79,Giulietta Weimer,Atlantic,Corporate,Office Supplies,Binders and Binder Accessories,"Pressboard Covers with Storage Hooks, 9 1/2"" x 11"", Light Blue",Small Box,0,No
+49223,2,24,238.25,Ship_Mode,83.55,Chuck Clark,Atlantic,Corporate,Office Supplies,Storage & Organization,Staples File Caddy,Small Box,0,No
+58407,3,29,1669.88,Ship_Mode,548.92,John Grady,Atlantic,Corporate,Office Supplies,Paper,Xerox 194,Small Box,1,No
+58884,1,29,87.68,Ship_Mode,23.14,Chuck Clark,Atlantic,Corporate,Office Supplies,Labels,Avery 474,Small Box,0,No
+58913,2,23,144.55,Ship_Mode,60.17,Sarah Bern,Atlantic,Corporate,Office Supplies,Paper,"Eureka Recycled Copy Paper 8 1/2"" x 11"", Ream",Small Box,0,No
+1699,0,40,430.88,Ship_Mode,39.0,Art Ferguson,Atlantic,Corporate,Office Supplies,Envelopes,#10 Self-Seal White Envelopes,Small Box,0,No
+3361,0,49,213.71,Ship_Mode,208.02,Michael Granlund,Atlantic,Corporate,Office Supplies,Paper,Xerox 1927,Small Box,0,No
+5511,0,32,1829.387,Ship_Mode,482.45,Art Ferguson,Atlantic,Corporate,Technology,Telephones and Communication,StarTAC Series,Small Box,1,No
+8007,1,5,820.5645,Ship_Mode,800.25,Maya Herman,Atlantic,Corporate,Technology,Telephones and Communication,StarTAC 8000,Small Box,0,No
+9923,3,27,63.71,Ship_Mode,96.03,Chad Sievert,Atlantic,Corporate,Furniture,Office Furnishings,Eldon® Wave Desk Accessories,Small Box,0,No
+9925,0,17,86.47,Ship_Mode,9.35,Chad Sievert,Atlantic,Corporate,Office Supplies,Binders and Binder Accessories,"Wilson Jones 1"" Hanging DublLock® Ring Binders",Small Box,0,No
+12228,0,30,5015.051,Ship_Mode,1090.43,Brad Norvell,Atlantic,Corporate,Technology,Telephones and Communication,2160i,Small Box,1,Yes
+12355,0,45,168.66,Ship_Mode,167.06,Ken Heidel,Atlantic,Corporate,Office Supplies,Appliances,"Hoover Replacement Belts For Soft Guard™ & Commercial Ltweight Upright Vacs, 2/Pk",Small Box,0,No
+12389,2,34,2560.59,Ship_Mode,670.96,Michael Granlund,Atlantic,Corporate,Technology,Computer Peripherals,Logitech Cordless Navigator Duo,Small Box,1,Yes
+12389,2,16,189.04,Ship_Mode,74.77,Michael Granlund,Atlantic,Corporate,Office Supplies,Storage & Organization,"SimpliFile™ Personal File, Black Granite, 15w x 6-15/16d x 11-1/4h",Small Box,0,No
+15878,3,36,275.06,Ship_Mode,237.87,Mike Kennedy,Atlantic,Corporate,Office Supplies,Paper,"Array® Parchment Paper, Assorted Colors",Small Box,0,No
+16967,1,5,397.55,Ship_Mode,152.47,Brad Norvell,Atlantic,Corporate,Technology,Computer Peripherals,"Micro Innovations Micro Digital Wireless Keyboard and Mouse, Gray",Small Box,0,No
+16967,1,34,676.26,Ship_Mode,181.98,Brad Norvell,Atlantic,Corporate,Office Supplies,Paper,Xerox Blank Computer Paper,Small Box,0,No
+18432,3,42,451.32,Ship_Mode,1.16,Art Ferguson,Atlantic,Corporate,Furniture,Office Furnishings,"Eldon Expressions Punched Metal & Wood Desk Accessories, Pewter & Cherry",Small Box,0,No
+22053,0,32,563.08,Ship_Mode,112.97,Sean Wendt,Atlantic,Corporate,Office Supplies,Binders and Binder Accessories,Poly Designer Cover & Back,Small Box,0,No
+25347,1,28,967.27,Ship_Mode,309.31,Theone Pippenger,Atlantic,Corporate,Office Supplies,Paper,Xerox 1906,Small Box,1,No
+26304,2,43,7452.137,Ship_Mode,2028.36,Art Ferguson,Atlantic,Corporate,Technology,Telephones and Communication,3285,Small Box,1,Yes
+31297,1,39,679.95,Ship_Mode,93.3,Mike Kennedy,West,Corporate,Office Supplies,Pens & Art Supplies,Model L Table or Wall-Mount Pencil Sharpener,Small Box,0,No
+31297,1,44,1579.56,Ship_Mode,699.64,Mike Kennedy,West,Corporate,Office Supplies,Paper,Staples Colored Bar Computer Paper,Small Box,1,No
+31553,0,32,4906.85,Ship_Mode,1907.94,Sean Wendt,West,Corporate,Office Supplies,Envelopes,Multimedia Mailers,Small Box,1,Yes
+33570,0,46,265.88,Ship_Mode,90.9,Ken Heidel,West,Corporate,Office Supplies,Binders and Binder Accessories,Binder Posts,Small Box,0,No
+33570,0,19,3093.864,Ship_Mode,286.4,Ken Heidel,West,Corporate,Technology,Telephones and Communication,i470,Small Box,1,Yes
+36359,3,2,68.66,Ship_Mode,29.6,Ken Heidel,West,Corporate,Office Supplies,Paper,"IBM Multi-Purpose Copy Paper, 8 1/2 x 11"", Case",Small Box,0,No
+36901,0,30,201.09,Ship_Mode,56.22,Dana Kaydos,West,Corporate,Office Supplies,Paper,Xerox 1923,Small Box,0,No
+38625,0,12,72.82,Ship_Mode,5.03,Chad Sievert,West,Corporate,Office Supplies,Envelopes,Wausau Papers Astrobrights® Colored Envelopes,Small Box,0,No
+44450,0,24,1326.51,Ship_Mode,58.17,Sean Wendt,West,Corporate,Technology,Telephones and Communication,StarTAC Analog,Small Box,0,No
+45025,3,26,73.82,Ship_Mode,2.01,Mike Kennedy,Prarie,Corporate,Office Supplies,Binders and Binder Accessories,Avery Durable Binders,Small Box,0,No
+45248,2,38,154.85,Ship_Mode,136.55,Mark Cousins,Prarie,Corporate,Office Supplies,Appliances,"Hoover Replacement Belts For Soft Guard™ & Commercial Ltweight Upright Vacs, 2/Pk",Small Box,0,No
+45248,2,32,4941.7725,Ship_Mode,704.89,Mark Cousins,Prarie,Corporate,Technology,Telephones and Communication,T28 WORLD,Small Box,1,Yes
+45570,0,19,77.57,Ship_Mode,67.49,Bart Watters,Prarie,Corporate,Office Supplies,Binders and Binder Accessories,Avery Poly Binder Pockets,Small Box,0,No
+46885,1,32,1997.13,Ship_Mode,720.45,Mike Kennedy,Prarie,Corporate,Furniture,Office Furnishings,"Howard Miller 16"" Diameter Gallery Wall Clock",Small Box,1,No
+46948,1,10,64.13,Ship_Mode,28.97,Mike Kennedy,Prarie,Corporate,Office Supplies,Binders and Binder Accessories,Wilson Jones® Four-Pocket Poly Binders,Small Box,0,No
+47267,2,24,492.71,Ship_Mode,67.01,Theone Pippenger,Prarie,Corporate,Office Supplies,Paper,Southworth 25% Cotton Premium Laser Paper and Envelopes,Small Box,0,No
+48167,0,45,282.98,Ship_Mode,237.47,Dana Kaydos,Prarie,Corporate,Office Supplies,Paper,Xerox 224,Small Box,0,No
+48614,0,46,7965.9025,Ship_Mode,2311.96,Nathan Mautz,Prarie,Corporate,Technology,Telephones and Communication,T28 WORLD,Small Box,1,Yes
+48931,1,33,750.66,Ship_Mode,120.05,Charles Sheldon,Prarie,Corporate,Technology,Computer Peripherals,"Fellowes Basic 104-Key Keyboard, Platinum",Small Box,0,No
+48931,1,8,254.32,Ship_Mode,117.39,Charles Sheldon,Prarie,Corporate,Technology,Computer Peripherals,Logitech Internet Navigator Keyboard,Small Box,0,No
+48931,1,42,2149.37,Ship_Mode,217.87,Charles Sheldon,Prarie,Corporate,Furniture,Office Furnishings,"Howard Miller 13-3/4"" Diameter Brushed Chrome Round Wall Clock",Small Box,1,No
+49763,0,8,49.04,Ship_Mode,9.29,Brad Norvell,Prarie,Corporate,Office Supplies,Envelopes,Staples Standard Envelopes,Small Box,0,No
+51333,0,25,237.36,Ship_Mode,117.86,Theone Pippenger,Prarie,Corporate,Office Supplies,Paper,Southworth 25% Cotton Linen-Finish Paper & Envelopes,Small Box,0,No
+51365,3,35,195.23,Ship_Mode,72.46,Theone Pippenger,Prarie,Corporate,Furniture,Office Furnishings,Eldon Wave Desk Accessories,Small Box,0,No
+52225,0,33,1817.9,Ship_Mode,700.31,Dana Kaydos,Prarie,Corporate,Office Supplies,Paper,Xerox 1940,Small Box,1,No
+52487,0,17,124.06,Ship_Mode,15.74,Nathan Mautz,Prarie,Corporate,Office Supplies,Envelopes,Staples #10 Colored Envelopes,Small Box,0,No
+55749,0,42,364.8,Ship_Mode,149.45,Brad Norvell,Prarie,Corporate,Office Supplies,Envelopes,"#10- 4 1/8"" x 9 1/2"" Recycled Envelopes",Small Box,0,No
+56708,0,36,407.17,Ship_Mode,12.82,Art Ferguson,Prarie,Corporate,Office Supplies,Envelopes,"Peel & Seel® Recycled Catalog Envelopes, Brown",Small Box,0,No
+58725,0,39,335.35,Ship_Mode,134.97,Joel Jenkins,Prarie,Corporate,Office Supplies,Envelopes,"#10- 4 1/8"" x 9 1/2"" Recycled Envelopes",Small Box,0,No
+902,0,10,1925.83,Ship_Mode,359.83,Meg O'Connel,Prarie,Corporate,Office Supplies,Appliances,Kensington 7 Outlet MasterPiece Power Center with Fax/Phone Line Protection,Small Box,0,No
+2306,3,15,113.5,Ship_Mode,46.35,Liz Thompson,Prarie,Corporate,Office Supplies,Binders and Binder Accessories,"Acco Four Pocket Poly Ring Binder with Label Holder, Smoke, 1""",Small Box,0,No
+4037,3,27,188.07,Ship_Mode,101.85,Bruce Stewart,Prarie,Corporate,Office Supplies,Paper,Xerox 213,Small Box,0,No
+5863,2,40,933.21,Ship_Mode,207.18,Guy Thornton,Prarie,Corporate,Furniture,Office Furnishings,"Seth Thomas 12"" Clock w/ Goldtone Case",Small Box,0,No
+7364,3,15,260.39,Ship_Mode,48.57,Mary Zewe,Prarie,Corporate,Office Supplies,Envelopes,Brown Kraft Recycled Envelopes,Small Box,0,No
+8551,0,25,185.64,Ship_Mode,69.87,Meg O'Connel,Prarie,Corporate,Office Supplies,Binders and Binder Accessories,"Acco Four Pocket Poly Ring Binder with Label Holder, Smoke, 1""",Small Box,0,No
+8551,0,34,225.98,Ship_Mode,135.74,Meg O'Connel,Prarie,Corporate,Office Supplies,Paper,Xerox 213,Small Box,0,No
+15142,0,21,330.22,Ship_Mode,51.72,Meg O'Connel,Prarie,Corporate,Office Supplies,Binders and Binder Accessories,Recycled Premium Regency Composition Covers,Small Box,0,No
+15872,0,23,188.53,Ship_Mode,27.49,Helen Andreada,Prarie,Corporate,Office Supplies,Paper,"1/4 Fold Party Design Invitations & White Envelopes, 24 8-1/2"" X 11"" Cards, 25 Env./Pack",Small Box,0,No
+15872,0,19,718.41,Ship_Mode,23.94,Helen Andreada,Prarie,Corporate,Office Supplies,Paper,Xerox 1893,Small Box,0,No
+24386,3,41,4256.51,Ship_Mode,1653.96,Bruce Stewart,Prarie,Corporate,Technology,Computer Peripherals,Gyration Ultra Cordless Optical Suite,Small Box,1,Yes
+24386,3,12,503.08,Ship_Mode,102.74,Bruce Stewart,Prarie,Corporate,Technology,Computer Peripherals,Targus USB Numeric Keypad,Small Box,0,No
+25473,3,20,794.32,Ship_Mode,67.61,Mary Zewe,Prarie,Corporate,Office Supplies,Paper,Xerox 1893,Small Box,0,No
+26691,0,37,270.43,Ship_Mode,83.16,Liz Thompson,Ontario,Corporate,Office Supplies,Binders and Binder Accessories,GBC VeloBinder Strips,Small Box,0,No
+29927,3,19,257.97,Ship_Mode,33.18,Bruce Stewart,Ontario,Corporate,Office Supplies,Binders and Binder Accessories,GBC Binding covers,Small Box,0,No
+33250,0,40,7381.19,Ship_Mode,2998.88,Guy Thornton,Ontario,Corporate,Office Supplies,Appliances,Kensington 7 Outlet MasterPiece Power Center,Small Box,1,Yes
+37862,0,27,1603.27,Ship_Mode,452.49,Guy Thornton,Ontario,Corporate,Office Supplies,Appliances,Belkin 8 Outlet SurgeMaster II Gold Surge Protector,Small Box,1,No
+39015,2,11,74.02,Ship_Mode,28.45,Lycoris Saunders,Ontario,Corporate,Office Supplies,Paper,Xerox 1994,Small Box,0,No
+40962,0,28,1553.66,Ship_Mode,547.48,Mary Zewe,Ontario,Corporate,Office Supplies,Appliances,Belkin 5 Outlet SurgeMaster™ Power Centers,Small Box,1,No
+40962,0,30,3276.9965,Ship_Mode,653.06,Mary Zewe,Ontario,Corporate,Technology,Telephones and Communication,M70,Small Box,1,Yes
+50949,2,46,4804.0385,Ship_Mode,1077.92,Guy Thornton,Ontario,Corporate,Technology,Telephones and Communication,StarTAC 6500,Small Box,1,Yes
+53152,2,5,185.79,Ship_Mode,159.68,Bill Eplett,Ontario,Corporate,Technology,Computer Peripherals,Fellowes EZ Multi-Media Keyboard,Small Box,0,No
+53152,2,9,186.67,Ship_Mode,2.06,Bill Eplett,Ontario,Corporate,Office Supplies,Paper,Southworth 25% Cotton Premium Laser Paper and Envelopes,Small Box,0,No
+55526,3,23,445.17,Ship_Mode,38.11,Guy Thornton,Ontario,Corporate,Office Supplies,Paper,Computer Printout Paper with Letter-Trim Perforations,Small Box,0,No
+57153,0,45,698.1,Ship_Mode,336.25,Meg O'Connel,Ontario,Corporate,Office Supplies,Envelopes,"#10 White Business Envelopes,4 1/8 x 9 1/2",Small Box,1,No
+59878,3,23,249.64,Ship_Mode,91.65,Ivan Gibson,Ontario,Corporate,Office Supplies,Storage & Organization,Crate-A-Files™,Small Box,0,No
+1600,2,32,303.59,Ship_Mode,45.99,Liz MacKendrick,Ontario,Corporate,Furniture,Office Furnishings,"Eldon Expressions™ Desk Accessory, Wood Pencil Holder, Oak",Small Box,0,No
+1600,2,36,191.6,Ship_Mode,150.74,Liz MacKendrick,Ontario,Corporate,Office Supplies,Paper,Xerox 1922,Small Box,0,No
+2373,0,36,317.59,Ship_Mode,46.12,Craig Carroll,Ontario,Corporate,Office Supplies,Binders and Binder Accessories,Avery Printable Repositionable Plastic Tabs,Small Box,0,No
+3109,1,37,6477.7395,Ship_Mode,1653.97,Liz MacKendrick,Ontario,Corporate,Technology,Telephones and Communication,Talkabout T8097,Small Box,1,Yes
+12452,2,1,356.95,Ship_Mode,228.24,Bill Donatelli,Ontario,Corporate,Office Supplies,Binders and Binder Accessories,Fellowes PB300 Plastic Comb Binding Machine,Small Box,0,No
+12452,2,38,2063.42,Ship_Mode,989.95,Bill Donatelli,Ontario,Corporate,Office Supplies,Paper,Xerox 1934,Small Box,1,No
+15808,0,45,882.96,Ship_Mode,11.65,Bill Donatelli,Ontario,Corporate,Technology,Computer Peripherals,Belkin 105-Key Black Keyboard,Small Box,0,No
+29318,0,34,3375.3075,Ship_Mode,562.13,Bobby Odegard,Ontario,Corporate,Technology,Telephones and Communication,StarTAC ST7762,Small Box,1,Yes
+30016,0,15,85.56,Ship_Mode,41.58,Bill Donatelli,Ontario,Corporate,Office Supplies,Paper,Xerox 4200 Series MultiUse Premium Copy Paper (20Lb. and 84 Bright),Small Box,0,No
+30016,0,8,754.6555,Ship_Mode,212.55,Bill Donatelli,Ontario,Corporate,Technology,Telephones and Communication,T18,Small Box,0,No
+40961,2,7,23.84,Ship_Mode,5.88,Bill Donatelli,Ontario,Corporate,Office Supplies,Labels,Avery 520,Small Box,0,No
+41543,1,24,1318.8685,Ship_Mode,172.33,Bill Donatelli,Ontario,Corporate,Technology,Telephones and Communication,StarTAC 7760,Small Box,0,No
+56101,0,44,5347.13,Ship_Mode,1886.41,Bill Donatelli,Ontario,Corporate,Office Supplies,Binders and Binder Accessories,GBC Therma-A-Bind 250T Electric Binding System,Small Box,1,Yes
+1059,0,22,127.33,Ship_Mode,5.3,Sean O'Donnell,Ontario,Corporate,Office Supplies,Binders and Binder Accessories,Wilson Jones 14 Line Acrylic Coated Pressboard Data Binders,Small Box,0,No
+1059,0,24,990.1,Ship_Mode,310.22,Sean O'Donnell,Ontario,Corporate,Office Supplies,Binders and Binder Accessories,"Wilson Jones Ledger-Size, Piano-Hinge Binder, 2"", Blue",Small Box,0,No
+1826,0,5,28.32,Ship_Mode,14.35,Susan Vittorini,Ontario,Corporate,Office Supplies,Paper,Hammermill CopyPlus Copy Paper (20Lb. and 84 Bright),Small Box,0,No
+20003,2,39,796.08,Ship_Mode,30.29,Shirley Schmidt,Ontario,Corporate,Technology,Computer Peripherals,Belkin 105-Key Black Keyboard,Small Box,0,No

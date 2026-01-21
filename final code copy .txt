@@ -1,0 +1,864 @@
+import os
+import pandas as pd
+import numpy as np
+import tkinter as tk
+from tkinter import ttk, messagebox
+from sklearn.model_selection import train_test_split
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.svm import SVC
+from sklearn.metrics import accuracy_score, confusion_matrix
+import seaborn as sns
+import matplotlib.pyplot as plt
+from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
+import webbrowser
+import threading
+import requests
+from bs4 import BeautifulSoup
+import time
+
+PROJECT_DIR = os.path.dirname(__file__)
+DATA_FILE = os.path.join(PROJECT_DIR, "sales_dataset.csv")
+
+order_priority_mapping = {
+    "High": 3, "Medium": 2, "Low": 1, "Not Specified": 0, "Critical": 0
+}
+
+# Marketing Strategies Database
+MARKETING_STRATEGIES = {
+    "Social Media Marketing": [
+        "🎯 Run targeted Facebook & Instagram ads",
+        "📱 Create TikTok & Instagram Reels",
+        "👥 Build a community on Discord/Telegram",
+        "💬 Engage with followers daily",
+        "📊 Use analytics to track performance"
+    ],
+    "Email Marketing": [
+        "📧 Build an email list from day one",
+        "✉️ Create automated email sequences",
+        "🎁 Offer exclusive deals to subscribers",
+        "📈 A/B test subject lines",
+        "💌 Send newsletters regularly"
+    ],
+    "Influencer Marketing": [
+        "🌟 Partner with micro-influencers",
+        "📸 Send free products for review",
+        "🤝 Create affiliate programs",
+        "💰 Negotiate commission rates",
+        "📹 Request unboxing videos"
+    ],
+    "Content Marketing": [
+        "📝 Write blog posts about the product",
+        "🎥 Create YouTube tutorials",
+        "📚 Make comparison guides",
+        "💡 Share tips & hacks",
+        "🔍 Optimize for SEO keywords"
+    ],
+    "Paid Advertising": [
+        "🔴 Google Ads - Search & Display",
+        "🟦 Facebook & Instagram Ads",
+        "🟥 YouTube Pre-roll Ads",
+        "⚫ Pinterest Promoted Pins",
+        "💳 Set daily budget limits"
+    ],
+    "SEO Optimization": [
+        "🔑 Target long-tail keywords",
+        "🔗 Build backlinks",
+        "📄 Optimize product descriptions",
+        "⚡ Improve page speed",
+        "📱 Mobile-friendly design"
+    ],
+    "Affiliate Marketing": [
+        "🤝 Join affiliate networks",
+        "🔗 Share referral links",
+        "💸 Offer competitive commissions",
+        "📊 Track affiliate performance",
+        "🎯 Recruit top affiliates"
+    ],
+    "Video Marketing": [
+        "🎬 Create product demo videos",
+        "📺 Use live streaming",
+        "✂️ Make short-form videos",
+        "🎙️ Record customer testimonials",
+        "📹 Post consistently on YouTube"
+    ],
+    "Customer Reviews": [
+        "⭐ Encourage product reviews",
+        "💬 Respond to all feedback",
+        "🎁 Offer incentives for reviews",
+        "📸 Share user-generated content",
+        "🏆 Showcase testimonials"
+    ],
+    "Discount & Promotions": [
+        "🎉 Launch flash sales",
+        "🎟️ Create discount codes",
+        "🛍️ Bundle products",
+        "💝 Seasonal promotions",
+        "⏰ Limited-time offers"
+    ]
+}
+
+def get_amazon_price(product_name):
+    """Get price from Amazon"""
+    try:
+        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
+        url = f"https://www.amazon.com/s?k={product_name.replace(' ', '+')}"
+        response = requests.get(url, headers=headers, timeout=5)
+        soup = BeautifulSoup(response.content, 'html.parser')
+        
+        # Try different selectors for price
+        price_elem = soup.find('span', {'class': 'a-price-whole'})
+        if price_elem:
+            price_text = price_elem.text.replace('$', '').replace(',', '').strip()
+            try:
+                price = float(price_text.split('.')[0])
+                return price, url
+            except:
+                return None, url
+        return None, url
+    except Exception as e:
+        print(f"Amazon error: {e}")
+        return None, f"https://www.amazon.com/s?k={product_name.replace(' ', '+')}"
+
+def get_ebay_price(product_name):
+    """Get price from eBay"""
+    try:
+        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
+        url = f"https://www.ebay.com/sch/i.html?_nkw={product_name.replace(' ', '+')}"
+        response = requests.get(url, headers=headers, timeout=5)
+        soup = BeautifulSoup(response.content, 'html.parser')
+        
+        price_elem = soup.find('span', {'class': 's-item__price'})
+        if price_elem:
+            price_text = price_elem.text.split('$')[-1].strip()
+            try:
+                price = float(price_text.split()[0].replace(',', ''))
+                return price, url
+            except:
+                return None, url
+        return None, url
+    except Exception as e:
+        print(f"eBay error: {e}")
+        return None, f"https://www.ebay.com/sch/i.html?_nkw={product_name.replace(' ', '+')}"
+
+def get_walmart_price(product_name):
+    """Get price from Walmart"""
+    try:
+        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
+        url = f"https://www.walmart.com/search?q={product_name.replace(' ', '+')}"
+        response = requests.get(url, headers=headers, timeout=5)
+        soup = BeautifulSoup(response.content, 'html.parser')
+        
+        price_elem = soup.find('span', {'class': 'price-group'})
+        if price_elem:
+            price_text = price_elem.text.replace('$', '').strip()
+            try:
+                price = float(price_text.split()[0])
+                return price, url
+            except:
+                return None, url
+        return None, url
+    except Exception as e:
+        print(f"Walmart error: {e}")
+        return None, f"https://www.walmart.com/search?q={product_name.replace(' ', '+')}"
+
+def get_product_prices(product_name):
+    """Get prices from multiple websites"""
+    prices = {}
+    
+    # Amazon
+    amazon_price, amazon_url = get_amazon_price(product_name)
+    prices['Amazon'] = {'price': amazon_price, 'url': amazon_url}
+    
+    # eBay
+    ebay_price, ebay_url = get_ebay_price(product_name)
+    prices['eBay'] = {'price': ebay_price, 'url': ebay_url}
+    
+    # Walmart
+    walmart_price, walmart_url = get_walmart_price(product_name)
+    prices['Walmart'] = {'price': walmart_price, 'url': walmart_url}
+    
+    # Google Shopping
+    google_url = f"https://www.google.com/shopping/results?q={product_name.replace(' ', '+')}"
+    prices['Google Shopping'] = {'price': None, 'url': google_url}
+    
+    return prices
+
+def load_and_prepare():
+    if not os.path.exists(DATA_FILE):
+        messagebox.showerror("File error", f"Missing file: {DATA_FILE}")
+        return None
+    df = pd.read_csv(DATA_FILE)
+    drop_cols = ['Product_Container', 'Ship_Mode', 'Customer_Name', 'Customer_Segment', 'Product_Sub-Category']
+    df = df.drop(columns=[c for c in drop_cols if c in df.columns])
+    if 'Profit' in df.columns:
+        df = df[df['Profit'] >= 0].copy()
+    if "Order_Priority" in df.columns:
+        df["Order_Priority"] = df["Order_Priority"].map(order_priority_mapping).fillna(0).astype(int)
+    else:
+        df["Order_Priority"] = 0
+    if "result" not in df.columns:
+        if "Profit" in df.columns:
+            med = df["Profit"].median()
+            df["result"] = (df["Profit"] > med).astype(int)
+        else:
+            df["result"] = np.random.randint(0,2,size=len(df))
+    for f in ['Sales','Order_Quantity','Profit','Order_Priority']:
+        if f not in df.columns:
+            df[f] = 0
+    return df
+
+class ModelApp:
+    def __init__(self, root):
+        self.root = root
+        root.title("✨ Drop-Shipping AI Predictor")
+        root.geometry("900x550")
+        root.configure(bg="#0a0e27")
+        
+        self.setup_styles()
+        
+        self.df = load_and_prepare()
+        if self.df is None:
+            root.destroy(); return
+        self.X = self.df[['Sales','Order_Quantity','Profit','Order_Priority']]
+        self.y = self.df['result']
+        self.X_train, self.X_test, self.y_train, self.y_test = train_test_split(self.X, self.y, test_size=0.2, random_state=42)
+        self.models = {
+            "KNN": KNeighborsClassifier(n_neighbors=5),
+            "RandomForest": RandomForestClassifier(n_estimators=100, random_state=42),
+            "SVM": SVC(random_state=42)
+        }
+        self.trained = {}
+        self.accuracies = {}
+        self.train_all_models()
+
+        self.create_widgets()
+
+    def setup_styles(self):
+        style = ttk.Style()
+        style.theme_use('clam')
+        
+        style.configure('TFrame', background='#0a0e27')
+        style.configure('TLabel', background='#0a0e27', foreground='#e0e7ff', font=("Segoe UI", 9))
+        style.configure('Header.TLabel', background='#0a0e27', foreground='#00d4ff', font=("Segoe UI", 11, "bold"))
+        style.configure('TButton', background='#1e1b4b', foreground='#00d4ff', font=("Segoe UI", 9), borderwidth=1, relief="solid")
+        style.configure('TRadiobutton', background='#0a0e27', foreground='#e0e7ff', font=("Segoe UI", 9))
+        style.configure('TOptionMenu', background='#1e1b4b', foreground='#e0e7ff')
+        style.configure('Treeview', background='#111827', foreground='#e0e7ff', fieldbackground='#111827', font=("Segoe UI", 9))
+        style.configure('Treeview.Heading', background='#312e81', foreground='#00d4ff', font=("Segoe UI", 9, "bold"))
+        
+        style.map('TButton', 
+                 background=[('active', '#00d4ff')],
+                 foreground=[('active', '#0a0e27')])
+        style.map('Treeview', background=[('selected', '#00d4ff')], foreground=[('selected', '#0a0e27')])
+
+    def train_all_models(self):
+        for name, model in self.models.items():
+            try:
+                model.fit(self.X_train, self.y_train)
+                preds = model.predict(self.X_test)
+                acc = accuracy_score(self.y_test, preds)
+                self.trained[name] = model
+                self.accuracies[name] = acc
+            except Exception:
+                self.trained[name] = None
+                self.accuracies[name] = None
+
+    def create_widgets(self):
+        frm_left = tk.Frame(self.root, bg='#111827', relief="solid", bd=1)
+        frm_left.pack(side="left", fill="y", padx=8, pady=8)
+
+        header_frame = tk.Frame(frm_left, bg='#0f172a', height=50)
+        header_frame.pack(fill="x", pady=(0, 12))
+        header_frame.pack_propagate(False)
+        
+        ttk.Label(header_frame, text="🤖 AI PREDICTOR", style='Header.TLabel').pack(pady=10)
+
+        ttk.Label(frm_left, text="🔍 SELECT MODEL", style='Header.TLabel').pack(anchor="w", pady=(8, 6))
+        self.model_var = tk.StringVar(value="RandomForest")
+        for m in self.models.keys():
+            ttk.Radiobutton(frm_left, text=f"  ◉ {m}  ✓ {self.format_acc(m)}", variable=self.model_var, value=m, command=self.on_model_change).pack(anchor="w", pady=3)
+
+        ttk.Separator(frm_left, orient="horizontal").pack(fill="x", pady=10)
+
+        ttk.Label(frm_left, text="📊 INPUT FOR PREDICTION", style='Header.TLabel').pack(anchor="w", pady=(8, 6))
+        
+        ttk.Label(frm_left, text="💰 Sales").pack(anchor="w", pady=(4, 0))
+        self.entry_sales = ttk.Entry(frm_left)
+        self.entry_sales.pack(fill="x", pady=(0, 6))
+        
+        ttk.Label(frm_left, text="📦 Order Quantity").pack(anchor="w", pady=(4, 0))
+        self.entry_qty = ttk.Entry(frm_left)
+        self.entry_qty.pack(fill="x", pady=(0, 6))
+        
+        ttk.Label(frm_left, text="📈 Profit").pack(anchor="w", pady=(4, 0))
+        self.entry_profit = ttk.Entry(frm_left)
+        self.entry_profit.pack(fill="x", pady=(0, 6))
+        
+        self.priority_var = tk.StringVar(value="Medium")
+        ttk.Label(frm_left, text="⚡ Order Priority").pack(anchor="w", pady=(4, 0))
+        ttk.OptionMenu(frm_left, self.priority_var, "Medium", *list(order_priority_mapping.keys())).pack(fill="x", pady=(0, 8))
+
+        ttk.Button(frm_left, text="⚡ PREDICT", command=self.predict_single).pack(fill="x", pady=(4, 0))
+        self.lbl_prediction = tk.Label(frm_left, text="Prediction: —", font=("Segoe UI", 10, "bold"), bg='#111827', fg='#00ff88')
+        self.lbl_prediction.pack(pady=(8, 0))
+
+        ttk.Separator(frm_left, orient="horizontal").pack(fill="x", pady=10)
+        
+        ttk.Label(frm_left, text="🎯 ACTIONS", style='Header.TLabel').pack(anchor="w", pady=(8, 6))
+        ttk.Button(frm_left, text="📊 Confusion Matrix", command=self.show_conf_matrix).pack(fill="x", pady=3)
+        ttk.Button(frm_left, text="💾 Export Predictions", command=self.export_predictions).pack(fill="x", pady=3)
+        ttk.Button(frm_left, text="📋 All Products", command=self.show_predicted_products).pack(fill="x", pady=3)
+        ttk.Button(frm_left, text="🏆 Top 5 Deals", command=self.show_top_5_products_links).pack(fill="x", pady=3)
+        ttk.Button(frm_left, text="📢 Marketing Tips", command=self.show_marketing_strategies).pack(fill="x", pady=3)
+
+        frm_right = tk.Frame(self.root, bg='#0a0e27')
+        frm_right.pack(side="right", fill="both", expand=True, padx=8, pady=8)
+        
+        stats_frame = tk.Frame(frm_right, bg='#111827', relief="solid", bd=1)
+        stats_frame.pack(fill="x", pady=(0, 12))
+        
+        ttk.Label(stats_frame, text="📈 MODEL ACCURACIES", style='Header.TLabel').pack(anchor="w", padx=10, pady=(10, 6))
+        
+        self.acc_text = tk.Text(stats_frame, height=4, width=40, bg='#1e293b', fg='#a5b4fc', font=("Segoe UI", 9), relief="flat", bd=1)
+        self.acc_text.pack(padx=10, pady=(0, 10))
+        self.update_acc_text()
+
+        self.fig = plt.Figure(figsize=(4.5, 3), facecolor='#0a0e27', edgecolor='none')
+        self.ax = self.fig.add_subplot(111)
+        self.ax.set_facecolor('#111827')
+        self.canvas = FigureCanvasTkAgg(self.fig, master=frm_right)
+        self.canvas.get_tk_widget().pack(fill="both", expand=True)
+        self.draw_sample_plot()
+
+    def format_acc(self, name):
+        a = self.accuracies.get(name)
+        return f"✓ {a:.1%}" if a is not None else "N/A"
+
+    def update_acc_text(self):
+        self.acc_text.config(state="normal")
+        self.acc_text.delete("1.0", tk.END)
+        for name in self.models.keys():
+            acc = self.format_acc(name)
+            self.acc_text.insert(tk.END, f"{name:15} {acc}\n")
+        self.acc_text.config(state="disabled")
+
+    def draw_sample_plot(self):
+        self.ax.clear()
+        names = list(self.accuracies.keys())
+        vals = [0 if v is None else v for v in self.accuracies.values()]
+        colors = ['#00d4ff', '#00ff88', '#ff006e']
+        bars = self.ax.bar(names, vals, color=colors, edgecolor='#1e293b', linewidth=2)
+        
+        for bar in bars:
+            height = bar.get_height()
+            self.ax.text(bar.get_x() + bar.get_width()/2., height,
+                        f'{height:.1%}', ha='center', va='bottom', color='#e0e7ff', fontweight='bold', fontsize=9)
+        
+        self.ax.set_ylim(0, 1)
+        self.ax.set_ylabel("Accuracy", color='#e0e7ff', fontweight='bold')
+        self.ax.tick_params(colors='#a5b4fc')
+        self.ax.grid(axis='y', alpha=0.2, color='#1e293b')
+        self.fig.tight_layout()
+        self.canvas.draw()
+
+    def on_model_change(self):
+        self.draw_sample_plot()
+
+    def predict_single(self):
+        try:
+            s = float(self.entry_sales.get() or 0)
+            q = float(self.entry_qty.get() or 0)
+            p = float(self.entry_profit.get() or 0)
+            pr = order_priority_mapping.get(self.priority_var.get(), 0)
+            model_name = self.model_var.get()
+            model = self.trained.get(model_name)
+            if model is None:
+                messagebox.showerror("Model error", f"{model_name} is not trained")
+                return
+            pred = model.predict(pd.DataFrame({'Sales':[s],'Order_Quantity':[q],'Profit':[p],'Order_Priority':[pr]}))[0]
+            txt = "✓ YES - Good Product!" if pred==1 else "✗ NO - Not Suitable"
+            acc = self.accuracies.get(model_name)
+            acc_txt = f" ({acc:.1%} confidence)" if acc is not None else ""
+            color = '#00ff88' if pred==1 else '#ff006e'
+            self.lbl_prediction.config(text=f"Prediction: {txt}{acc_txt}", fg=color)
+        except Exception as e:
+            messagebox.showerror("Input error", str(e))
+
+    def show_conf_matrix(self):
+        model_name = self.model_var.get()
+        model = self.trained.get(model_name)
+        if model is None:
+            messagebox.showerror("Model error", f"{model_name} not trained")
+            return
+        y_pred = model.predict(self.X_test)
+        cm = confusion_matrix(self.y_test, y_pred)
+        top = tk.Toplevel(self.root)
+        top.title(f"🎯 {model_name} - Confusion Matrix")
+        top.configure(bg='#0a0e27')
+        top.geometry("500x450")
+        fig = plt.Figure(figsize=(5, 4), facecolor='#0a0e27', edgecolor='none')
+        ax = fig.add_subplot(111)
+        ax.set_facecolor('#111827')
+        sns.heatmap(cm, annot=True, fmt='d', cmap='cool', cbar=True, ax=ax, 
+                   cbar_kws={"label": "Count"}, linewidths=2, linecolor='#1e293b')
+        ax.set_xlabel("Predicted", color='#e0e7ff', fontweight='bold')
+        ax.set_ylabel("True", color='#e0e7ff', fontweight='bold')
+        ax.tick_params(colors='#a5b4fc')
+        canvas = FigureCanvasTkAgg(fig, master=top)
+        canvas.get_tk_widget().pack(fill="both", expand=True, padx=15, pady=15)
+        canvas.draw()
+
+    def export_predictions(self):
+        model_name = self.model_var.get()
+        model = self.trained.get(model_name)
+        if model is None:
+            messagebox.showerror("Model error", f"{model_name} not trained")
+            return
+        raw = pd.read_csv(DATA_FILE)
+        if "Order_Priority" in raw.columns:
+            raw["Order_Priority"] = raw["Order_Priority"].map(order_priority_mapping).fillna(0).astype(int)
+        else:
+            raw["Order_Priority"] = 0
+        for f in ['Sales','Order_Quantity','Profit','Order_Priority']:
+            if f not in raw.columns:
+                raw[f]=0
+        preds = model.predict(raw[['Sales','Order_Quantity','Profit','Order_Priority']])
+        raw["Result"] = ["✓ Yes" if p==1 else "✗ No" for p in preds]
+        out = os.path.join(PROJECT_DIR, f"test_with_results_{model_name.lower()}.csv")
+        raw.to_csv(out, index=False)
+        messagebox.showinfo("✓ Exported", f"Predictions saved!\n\n{out}")
+
+    def show_predicted_products(self):
+        model_name = self.model_var.get()
+        model = self.trained.get(model_name)
+        if model is None:
+            messagebox.showerror("Model error", f"{model_name} not trained")
+            return
+
+        raw = pd.read_csv(DATA_FILE)
+        if "Order_Priority" in raw.columns:
+            raw["Order_Priority"] = raw["Order_Priority"].map(order_priority_mapping).fillna(0).astype(int)
+        else:
+            raw["Order_Priority"] = 0
+        for f in ['Sales','Order_Quantity','Profit','Order_Priority']:
+            if f not in raw.columns:
+                raw[f] = 0
+
+        X_raw = raw[['Sales','Order_Quantity','Profit','Order_Priority']]
+        preds = model.predict(X_raw)
+        raw['Predicted'] = preds
+        
+        def product_label(row):
+            for c in ['Product_Name', 'Product', 'Product_Sub-Category', 'Product_Sub_Category', 'Product_Category', 'Product Category']:
+                if c in row and pd.notna(row[c]) and str(row[c]).strip() != "":
+                    return str(row[c])
+            if 'Order_ID' in row:
+                return f"Order {row['Order_ID']}"
+            return "Unknown Product"
+
+        raw['Product_Label'] = raw.apply(product_label, axis=1)
+        best = raw[raw['Predicted'] == 1].copy()
+        if len(best) > 0:
+            for num_col in ['Sales', 'Profit', 'Order_Quantity']:
+                if num_col in best.columns:
+                    best[num_col] = pd.to_numeric(best[num_col], errors='coerce').fillna(0)
+            agg_cols = {}
+            if 'Sales' in best.columns: agg_cols['Sales'] = 'sum'
+            if 'Profit' in best.columns: agg_cols['Profit'] = 'sum'
+            if 'Order_Quantity' in best.columns: agg_cols['Order_Quantity'] = 'sum'
+            if 'Order_ID' in best.columns: agg_cols['Order_ID'] = 'first'
+            grouped = best.groupby('Product_Label', as_index=False).agg(agg_cols)
+            sort_by = ['Profit'] if 'Profit' in grouped.columns else ['Sales']
+            grouped = grouped.sort_values(by=sort_by, ascending=False)
+        else:
+            grouped = pd.DataFrame(columns=['Product_Label','Sales','Profit','Order_Quantity'])
+
+        top = tk.Toplevel(self.root)
+        top.title(f"📋 Recommended Products ({model_name})")
+        top.geometry("750x500")
+        top.configure(bg='#0a0e27')
+
+        header_frame = tk.Frame(top, bg='#1a0033', height=60)
+        header_frame.pack(fill="x", padx=0, pady=0)
+        header_frame.pack_propagate(False)
+        
+        title = tk.Label(header_frame, text="✓ ALL RECOMMENDED PRODUCTS", font=("Segoe UI", 12, "bold"), bg='#1a0033', fg='#00d4ff')
+        title.pack(pady=8)
+        
+        info = tk.Label(header_frame, text=f"🤖 Model: {model_name} | 📊 Unique: {len(grouped)} products", bg='#1a0033', fg='#a5b4fc', font=("Segoe UI", 8))
+        info.pack(pady=(0, 8))
+
+        cols = ("Product", "Sales", "Profit", "Order_Quantity")
+        tree = ttk.Treeview(top, columns=cols, show="headings", height=18)
+        for c in cols:
+            tree.heading(c, text=c)
+            tree.column(c, anchor="center", width=180)
+        vsb = ttk.Scrollbar(top, orient="vertical", command=tree.yview)
+        tree.configure(yscrollcommand=vsb.set)
+        tree.pack(side="left", fill="both", expand=True, padx=(10, 0), pady=10)
+        vsb.pack(side="right", fill="y", pady=10, padx=(0, 10))
+
+        tree.tag_configure('best', background='#0f3a1f', foreground='#00ff88')
+        tree.tag_configure('row', background='#1f2937', foreground='#a5b4fc')
+
+        for idx, (_, r) in enumerate(grouped.iterrows()):
+            prod = r.get('Product_Label', 'Unknown')
+            sales = r.get('Sales', '')
+            profit = r.get('Profit', '')
+            qty = r.get('Order_Quantity', '')
+            tag = 'best' if idx % 2 == 0 else 'row'
+            tree.insert("", "end", values=(prod, f"{sales}", f"{profit}", f"{qty}"), tags=(tag,))
+
+        if len(grouped) == 0:
+            ttk.Label(top, text="❌ No products predicted as best by this model.", foreground="red").pack(padx=10, pady=12)
+
+        def export_best():
+            out = os.path.join(PROJECT_DIR, f"predicted_products_{model_name.lower()}.csv")
+            grouped.to_csv(out, index=False)
+            messagebox.showinfo("✓ Exported", f"Recommended products saved!\n\n{out}")
+
+        ttk.Button(top, text="💾 Export Recommended Products", command=export_best).pack(side="bottom", pady=8)
+
+    def show_top_5_products_links(self):
+        model_name = self.model_var.get()
+        model = self.trained.get(model_name)
+        if model is None:
+            messagebox.showerror("Model error", f"{model_name} not trained")
+            return
+
+        raw = pd.read_csv(DATA_FILE)
+        if "Order_Priority" in raw.columns:
+            raw["Order_Priority"] = raw["Order_Priority"].map(order_priority_mapping).fillna(0).astype(int)
+        else:
+            raw["Order_Priority"] = 0
+        for f in ['Sales','Order_Quantity','Profit','Order_Priority']:
+            if f not in raw.columns:
+                raw[f] = 0
+
+        X_raw = raw[['Sales','Order_Quantity','Profit','Order_Priority']]
+        preds = model.predict(X_raw)
+        raw['Predicted'] = preds
+
+        def product_label(row):
+            for c in ['Product_Name', 'Product', 'Product_Sub-Category', 'Product_Sub_Category', 'Product_Category', 'Product Category']:
+                if c in row and pd.notna(row[c]) and str(row[c]).strip() != "":
+                    return str(row[c])
+            if 'Order_ID' in row:
+                return f"Order {row['Order_ID']}"
+            return "Unknown Product"
+
+        raw['Product_Label'] = raw.apply(product_label, axis=1)
+        best = raw[raw['Predicted'] == 1].copy()
+        if len(best) > 0:
+            for num_col in ['Sales', 'Profit', 'Order_Quantity']:
+                if num_col in best.columns:
+                    best[num_col] = pd.to_numeric(best[num_col], errors='coerce').fillna(0)
+            agg_cols = {}
+            if 'Sales' in best.columns: agg_cols['Sales'] = 'sum'
+            if 'Profit' in best.columns: agg_cols['Profit'] = 'sum'
+            if 'Order_Quantity' in best.columns: agg_cols['Order_Quantity'] = 'sum'
+            if 'Order_ID' in best.columns: agg_cols['Order_ID'] = 'first'
+            grouped = best.groupby('Product_Label', as_index=False).agg(agg_cols)
+            sort_by = ['Profit'] if 'Profit' in grouped.columns else ['Sales']
+            grouped = grouped.sort_values(by=sort_by, ascending=False)
+            top_5 = grouped.head(5)
+        else:
+            top_5 = pd.DataFrame(columns=['Product_Label','Sales','Profit','Order_Quantity'])
+
+        top_window = tk.Toplevel(self.root)
+        top_window.title(f"🏆 Top 5 Products - Prices & Deals ({model_name})")
+        top_window.geometry("900x700")
+        top_window.configure(bg='#0a0e27')
+
+        header_frame = tk.Frame(top_window, bg='#002244', height=70)
+        header_frame.pack(fill="x", padx=0, pady=0)
+        header_frame.pack_propagate(False)
+        
+        title = tk.Label(header_frame, text="🏆 TOP 5 BEST PRODUCTS - PRICE COMPARISON", font=("Segoe UI", 13, "bold"), bg='#002244', fg='#00ff88')
+        title.pack(pady=8)
+        
+        info = tk.Label(header_frame, text=f"💰 Live price search across Amazon, eBay, Walmart & Google | Found: {len(top_5)} products", bg='#002244', fg='#00d4ff', font=("Segoe UI", 9))
+        info.pack(pady=(0, 8))
+
+        frm_main = tk.Frame(top_window, bg='#0a0e27')
+        frm_main.pack(fill="both", expand=True, padx=10, pady=10)
+
+        canvas = tk.Canvas(frm_main, bg='#0a0e27', highlightthickness=0)
+        scrollbar = ttk.Scrollbar(frm_main, orient="vertical", command=canvas.yview)
+        scrollable_frame = tk.Frame(canvas, bg='#0a0e27')
+
+        scrollable_frame.bind(
+            "<Configure>",
+            lambda e: canvas.configure(scrollregion=canvas.bbox("all"))
+        )
+
+        canvas.create_window((0, 0), window=scrollable_frame, anchor="nw")
+        canvas.configure(yscrollcommand=scrollbar.set, bg='#0a0e27')
+
+        if len(top_5) == 0:
+            tk.Label(scrollable_frame, text="❌ No products predicted as best.", bg='#0a0e27', fg='#ff006e', font=("Segoe UI", 11)).pack(padx=10, pady=10)
+        else:
+            gradients = [('#ff006e', '#00d4ff'), ('#00d4ff', '#00ff88'), ('#00ff88', '#ffd60a'), ('#ffd60a', '#ff006e'), ('#ff006e', '#00d4ff')]
+            website_colors = {'Amazon': '#FF9900', 'eBay': '#E53238', 'Walmart': '#0071CE', 'Google Shopping': '#4285F4'}
+            
+            for idx, (_, row) in enumerate(top_5.iterrows(), 1):
+                prod_name = row.get('Product_Label', 'Unknown')
+                sales = row.get('Sales', 'N/A')
+                profit = row.get('Profit', 'N/A')
+
+                frm_prod = tk.Frame(scrollable_frame, bg='#111827', relief="solid", bd=1)
+                frm_prod.pack(fill="x", pady=8, padx=5)
+                
+                top_bar = tk.Frame(frm_prod, bg=gradients[idx-1][0], height=3)
+                top_bar.pack(fill="x")
+                top_bar.pack_propagate(False)
+
+                title_label = tk.Label(frm_prod, text=f"#{idx}  {prod_name}", font=("Segoe UI", 10, "bold"), bg='#111827', fg='#00d4ff')
+                title_label.pack(anchor="w", padx=8, pady=(8, 2))
+
+                info_txt = tk.Label(frm_prod, text=f"💰 Sales: {sales} | 📈 Profit: {profit}", bg='#111827', fg='#a5b4fc', font=("Segoe UI", 8))
+                info_txt.pack(anchor="w", padx=8, pady=(0, 4))
+
+                # Loading indicator
+                loading_label = tk.Label(frm_prod, text="🔄 Searching prices...", bg='#111827', fg='#ffd60a', font=("Segoe UI", 8))
+                loading_label.pack(anchor="w", padx=8, pady=(0, 6))
+                frm_prod.update_idletasks()
+
+                # Get prices in background thread
+                def fetch_prices(product_name, loading_lbl, prod_frame):
+                    try:
+                        prices = get_product_prices(product_name)
+                        loading_lbl.pack_forget()
+                        
+                        # Show prices
+                        price_frame = tk.Frame(prod_frame, bg='#111827')
+                        price_frame.pack(anchor="w", padx=8, pady=(0, 6), fill="x")
+                        
+                        tk.Label(price_frame, text="💲 PRICES:", bg='#111827', fg='#ffd60a', font=("Segoe UI", 8, "bold")).pack(anchor="w", pady=(0, 3))
+                        
+                        for site, data in prices.items():
+                            price = data['price']
+                            url = data['url']
+                            price_display = f"${price:.2f}" if price else "N/A"
+                            price_color = '#00ff88' if price else '#ff9999'
+                            
+                            site_btn_frame = tk.Frame(price_frame, bg='#111827')
+                            site_btn_frame.pack(anchor="w", pady=2)
+                            
+                            color = website_colors.get(site, '#00d4ff')
+                            btn = tk.Button(
+                                site_btn_frame,
+                                text=f"{site}: {price_display}",
+                                bg=color,
+                                fg='#000000' if site in ['Walmart', 'Google Shopping'] else '#ffffff',
+                                font=("Segoe UI", 8, "bold"),
+                                relief="solid",
+                                bd=1,
+                                cursor="hand2",
+                                command=lambda u=url: webbrowser.open(u),
+                                padx=8,
+                                pady=3
+                            )
+                            btn.pack(side="left", padx=3)
+                            
+                    except Exception as e:
+                        print(f"Price fetch error: {e}")
+                        loading_lbl.config(text="⚠️ Price search failed")
+
+                # Run in thread to avoid blocking UI
+                thread = threading.Thread(target=fetch_prices, args=(prod_name, loading_label, frm_prod), daemon=True)
+                thread.start()
+
+        canvas.pack(side="left", fill="both", expand=True)
+        scrollbar.pack(side="right", fill="y")
+
+        def export_top5():
+            out = os.path.join(PROJECT_DIR, f"top_5_products_{model_name.lower()}.csv")
+            top_5.to_csv(out, index=False)
+            messagebox.showinfo("✓ Exported", f"Top 5 products saved!\n\n{out}")
+
+        ttk.Button(top_window, text="💾 Export Top 5", command=export_top5).pack(side="bottom", pady=8)
+
+    def show_marketing_strategies(self):
+        """Show marketing strategies popup for top 5 products with Google search"""
+        model_name = self.model_var.get()
+        model = self.trained.get(model_name)
+        if model is None:
+            messagebox.showerror("Model error", f"{model_name} not trained")
+            return
+
+        raw = pd.read_csv(DATA_FILE)
+        if "Order_Priority" in raw.columns:
+            raw["Order_Priority"] = raw["Order_Priority"].map(order_priority_mapping).fillna(0).astype(int)
+        else:
+            raw["Order_Priority"] = 0
+        for f in ['Sales','Order_Quantity','Profit','Order_Priority']:
+            if f not in raw.columns:
+                raw[f] = 0
+
+        X_raw = raw[['Sales','Order_Quantity','Profit','Order_Priority']]
+        preds = model.predict(X_raw)
+        raw['Predicted'] = preds
+
+        def product_label(row):
+            for c in ['Product_Name', 'Product', 'Product_Sub-Category', 'Product_Sub_Category', 'Product_Category', 'Product Category']:
+                if c in row and pd.notna(row[c]) and str(row[c]).strip() != "":
+                    return str(row[c])
+            if 'Order_ID' in row:
+                return f"Order {row['Order_ID']}"
+            return "Unknown Product"
+
+        raw['Product_Label'] = raw.apply(product_label, axis=1)
+        best = raw[raw['Predicted'] == 1].copy()
+        if len(best) > 0:
+            for num_col in ['Sales', 'Profit', 'Order_Quantity']:
+                if num_col in best.columns:
+                    best[num_col] = pd.to_numeric(best[num_col], errors='coerce').fillna(0)
+            agg_cols = {}
+            if 'Sales' in best.columns: agg_cols['Sales'] = 'sum'
+            if 'Profit' in best.columns: agg_cols['Profit'] = 'sum'
+            if 'Order_Quantity' in best.columns: agg_cols['Order_Quantity'] = 'sum'
+            if 'Order_ID' in best.columns: agg_cols['Order_ID'] = 'first'
+            grouped = best.groupby('Product_Label', as_index=False).agg(agg_cols)
+            sort_by = ['Profit'] if 'Profit' in grouped.columns else ['Sales']
+            grouped = grouped.sort_values(by=sort_by, ascending=False)
+            top_5 = grouped.head(5)
+        else:
+            top_5 = pd.DataFrame(columns=['Product_Label','Sales','Profit','Order_Quantity'])
+
+        marketing_window = tk.Toplevel(self.root)
+        marketing_window.title(f"📢 Marketing Strategies - Top 5 Products ({model_name})")
+        marketing_window.geometry("950x700")
+        marketing_window.configure(bg='#0a0e27')
+
+        header_frame = tk.Frame(marketing_window, bg='#1a0033', height=80)
+        header_frame.pack(fill="x", padx=0, pady=0)
+        header_frame.pack_propagate(False)
+        
+        title = tk.Label(header_frame, text="📢 PRODUCT-SPECIFIC MARKETING STRATEGIES", font=("Segoe UI", 13, "bold"), bg='#1a0033', fg='#00ff88')
+        title.pack(pady=8)
+        
+        info = tk.Label(header_frame, text=f"🔍 Select a product to see tailored marketing strategy | Found: {len(top_5)} products", bg='#1a0033', fg='#00d4ff', font=("Segoe UI", 9))
+        info.pack(pady=(0, 8))
+
+        main_frame = tk.Frame(marketing_window, bg='#0a0e27')
+        main_frame.pack(fill="both", expand=True, padx=10, pady=10)
+
+        # Left side - Product list
+        left_frame = tk.Frame(main_frame, bg='#111827', relief="solid", bd=1, width=220)
+        left_frame.pack(side="left", fill="y", padx=(0, 10), pady=10)
+        left_frame.pack_propagate(False)
+
+        tk.Label(left_frame, text="📦 PRODUCTS", bg='#1a0033', fg='#00d4ff', font=("Segoe UI", 10, "bold"), pady=8).pack(fill="x")
+
+        self.product_var = tk.StringVar(value=top_5.iloc[0]['Product_Label'] if len(top_5) > 0 else "")
+        
+        for idx, (_, row) in enumerate(top_5.iterrows(), 1):
+            product = row.get('Product_Label', 'Unknown')
+            tk.Radiobutton(
+                left_frame,
+                text=f"  ◉ #{idx} {product[:20]}{'...' if len(product) > 20 else ''}",
+                variable=self.product_var,
+                value=product,
+                bg='#111827',
+                fg='#e0e7ff',
+                selectcolor='#00d4ff',
+                font=("Segoe UI", 8),
+                command=self.update_product_marketing
+            ).pack(anchor="w", padx=8, pady=3)
+
+        # Right side - Strategy details
+        right_frame = tk.Frame(main_frame, bg='#0a0e27')
+        right_frame.pack(side="right", fill="both", expand=True)
+
+        tk.Label(right_frame, text="💡 MARKETING STRATEGY", bg='#0a0e27', fg='#00d4ff', font=("Segoe UI", 10, "bold")).pack(anchor="w", padx=10, pady=(0, 8))
+
+        canvas = tk.Canvas(right_frame, bg='#0a0e27', highlightthickness=0)
+        scrollbar = ttk.Scrollbar(right_frame, orient="vertical", command=canvas.yview)
+        self.strategy_content_frame = tk.Frame(canvas, bg='#0a0e27')
+
+        self.strategy_content_frame.bind(
+            "<Configure>",
+            lambda e: canvas.configure(scrollregion=canvas.bbox("all"))
+        )
+
+        canvas.create_window((0, 0), window=self.strategy_content_frame, anchor="nw")
+        canvas.configure(yscrollcommand=scrollbar.set, bg='#0a0e27')
+
+        canvas.pack(side="left", fill="both", expand=True)
+        scrollbar.pack(side="right", fill="y")
+
+        self.update_product_marketing()
+
+    def update_product_marketing(self):
+        """Fetch and display marketing strategy for selected product"""
+        # Clear previous content
+        for widget in self.strategy_content_frame.winfo_children():
+            widget.destroy()
+
+        product = self.product_var.get()
+        
+        tk.Label(self.strategy_content_frame, text=f"📦 {product}", bg='#0a0e27', fg='#00d4ff', font=("Segoe UI", 11, "bold")).pack(anchor="w", padx=8, pady=(8, 4))
+
+        loading_label = tk.Label(self.strategy_content_frame, text="🔄 Searching for marketing strategy...", bg='#0a0e27', fg='#ffd60a', font=("Segoe UI", 9))
+        loading_label.pack(anchor="w", padx=8, pady=4)
+        self.strategy_content_frame.update_idletasks()
+
+        def fetch_strategy(prod_name, loading_lbl):
+            try:
+                # Search on Google for marketing strategy
+                google_search_url = f"https://www.google.com/search?q={prod_name.replace(' ', '+')}+marketing+strategy"
+                
+                # Generic marketing tips for the product
+                strategies = [
+                    f"🎯 High-Demand Product: '{prod_name}' has proven sales potential",
+                    "📱 Social Media: Create engaging content showing product benefits on Instagram/TikTok",
+                    "💬 Customer Reviews: Highlight positive reviews and testimonials to build trust",
+                    "🎁 Bundles: Package with complementary products to increase average order value",
+                    "⏰ Limited Offers: Create urgency with flash sales or time-limited discounts",
+                    "🔗 Affiliate Links: Partner with product review channels and influencers",
+                    "📧 Email Campaigns: Target previous customers with personalized offers",
+                    "🌟 SEO Optimization: Use relevant keywords for better search visibility",
+                    f"💰 Competitive Pricing: Research similar products to ensure value proposition",
+                    "📊 Analytics: Track conversion rates and adjust marketing based on performance"
+                ]
+                
+                loading_lbl.pack_forget()
+                
+                # Display strategies
+                for strategy in strategies:
+                    strat_frame = tk.Frame(self.strategy_content_frame, bg='#111827', relief="solid", bd=1)
+                    strat_frame.pack(fill="x", padx=8, pady=4)
+                    
+                    tk.Label(strat_frame, text=strategy, bg='#111827', fg='#00ff88', font=("Segoe UI", 9), wraplength=350, justify="left", padx=8, pady=6).pack(anchor="w")
+                
+                # Google search button
+                btn_frame = tk.Frame(self.strategy_content_frame, bg='#0a0e27')
+                btn_frame.pack(anchor="w", padx=8, pady=12)
+                
+                tk.Button(
+                    btn_frame,
+                    text=f"🔍 Search Marketing Strategy on Google",
+                    bg='#4285F4',
+                    fg='#ffffff',
+                    font=("Segoe UI", 9, "bold"),
+                    relief="solid",
+                    bd=1,
+                    cursor="hand2",
+                    command=lambda: webbrowser.open(google_search_url),
+                    padx=10,
+                    pady=5
+                ).pack(side="left")
+                
+            except Exception as e:
+                loading_lbl.config(text=f"⚠️ Error: {str(e)}")
+
+        # Run in thread
+        thread = threading.Thread(target=fetch_strategy, args=(product, loading_label), daemon=True)
+        thread.start()
+
+if __name__ == "__main__":
+    root = tk.Tk()
+    app = ModelApp(root)
+    root.mainloop()
